@@ -1,0 +1,120 @@
+WHAT IS THIS?
+
+I've been running into errors with using mods. It seems that two dependencies of many mods - Json Override Framework and External Audio Framework may be broken thus causing the issue.
+Many game files are in JSON and mods change those to add new items / modify existing ones.
+Multiple mods require JSON of vanilla + different mods to be merged while Vortex handles rest of the files.
+
+So, I made several scripts to use mods and also some scripts for personal use. Read each part to use properly and resolve doubts.
+
+
+
+HOW TO RUN:
+
+1. Right Click -> Run as Administrator -> run.exe [OPTIONAL - If getting errors]
+2. Load JSON File -> scripts_config.json
+3. Choose script to use -> Set field values -> Run 
+
+# Run also saves changed field values before running script. There is OPTIONALLY a Save button to the right.
+
+OPTIONAL:
+2. Load JSON File -> Any Game JSON (Found under <Game_Folder>/ZS_vanilla\gamedata)
+3. Manually edit values as desired -> Save
+
+# Clicking Run here is meaningless
+
+
+
+SCRIPTS:
+
+1. fix_trailing_comma - 
+
+Use: Fixes trailing commas of native and mod JSON files.
+
+Reason: JSON format is necessary to run scripts. Trailing commas give errors in JSON files.
+IMPORTANT - Good Practice is to run this on all Game and Mod JSON files first and replace them before doing anything else. Else other scripts may run into errors.
+
+Fields: 
+input_folder = folder name containing files to be changed
+output_folder = folder name containing changed files
+# ../. = Do NOT change. Points to location of folder containing run.exe
+
+
+
+2. report_new_id.exe -
+Use: Tracks new ids (items added) and new idds (added items under existing trader ids)
+
+Reason: New items may break existing save. Remove or Add items as needed.
+
+Fields: 
+input_folder = folder name containing files to be changed
+change_folder = folder name containing new files that show how files are to be changed
+output_folder = folder name containing changed files
+# ../. = Do NOT change. Points to location of folder containing run.exe
+# example - input_folder = original or currently existing files, change_folder = mod_files desired to be integrated
+
+
+
+3. field_editor.exe -
+
+Use: Takes a particular field's value of all items. Adds adder to it and then multiplies by multiplier.
+ 
+
+Reason: You may use to increase stack sizes by a multiplier (ex.10). In Difficulty Settings, divide Loot Amount by the same multiplier(ex. for 10, Amount of single item = 1.0 by default, so it should become 0.10). Else loot spawn will also increase by multiplier.
+
+# In case of ongoing save file, open save file in text editor -> search and replace -> "loot_amount_single_item": 0.1
+# Save file location by default: C:\Users\<User_Name>\AppData\Local\ZERO_Sievert\<Steam_ID>\save_shared_<slot_number>.dat
+  
+Any valid numerical fields in game JSON like stack_max, value, weight, damage may be adjusted.
+
+
+Fields: 
+input_folder = folder name containing files to be changed
+output_folder = folder name containing changed files
+# ../. = Do NOT change. Points to location of folder containing run.exe
+adder: Integer value. Added first.
+multiplier: Integer value. Multiplied second.
+
+
+4. merge_json.exe -
+
+Use: Merge the original or existing JSON files with the same JSON files from mods.
+
+Reason: You may use to update items or add new items or use multiple mods together.
+Many game files are in JSON and mods change those to add new items / modify existing ones.
+Multiple mods require JSON of vanilla + different mods to be merged while Vortex handles rest of the files.
+
+
+Fields: 
+input_folder = folder name containing files to be changed
+change_folder = folder name containing new files that show how files are to be changed - edit or add items
+output_folder = folder name containing changed files
+# ../. = Do NOT change. Points to location of folder containing run.exe
+# example - input_folder = original or currently existing files, change_folder = mod_files desired to be integrated into existing files
+# If multiple mods add same file, you must merge them multiple times ex. ammo.json of vanilla with mod1 first then move the output to input and merge with mod2
+excluded_fields = array of fields that you don't want to be changed
+array_merge_strategy - array of strings - ignore or merge or replace
+new_id_strategy - ignore or merge
+# Default is merge but this means new items will be added and new game needs to be started. Ignore setting to edit existing items and play ongoing save.
+# ex. Array of strings are there in w_mod.json - weapon_id = [gun_ids this gun mod can be used with] and repair_weapon.json - caliber = [gun caliber_ids this repair kit can repair]
+
+
+
+HOW DO I SEE CHANGES?
+
+Step 0: You may use Notepad ++ 
+Step 1: Install Compare Plugin 
+Open Notepad++.
+Go to Plugins > Plugins Admin.
+Search for Compare.
+Select it and click Install. Restart Notepad++ if prompted.
+Step 2: Compare Two Files
+Open both files in Notepad++.
+Click on one file’s tab, then go to Plugins > Compare > Set as First to Compare.
+Click on the second file’s tab, then go to Plugins > Compare > Compare.
+Step 3: Review Changes
+Differences are highlighted:
+Yellow = Modified lines
+Green = Added lines
+Red = Deleted lines
+Use the navigation arrows in the toolbar to move through changes.
+

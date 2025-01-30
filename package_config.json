@@ -1,0 +1,65 @@
+{
+    "pyinstaller": {
+        "scripts_to_build": [
+            {
+                "source": "./run.py",
+                "output_executable": "./run.exe"
+            },
+            {
+                "source": "./scripts/merge_json.py",
+                "output_executable": "./scripts/merge_json.exe"
+            },
+            {
+                "source": "./scripts/report_new_id.py",
+                "output_executable": "./scripts/report_new_id.exe"
+            },
+            {
+                "source": "./scripts/fix_trailing_comma.py",
+                "output_executable": "./scripts/fix_trailing_comma.exe"
+            },
+            {
+                "source": "./scripts/field_editor.py",
+                "output_executable": "./scripts/field_editor.exe"
+            }
+        ]
+    },
+    "setup": {
+        "target_folder": "./package",
+        "subfolders": [
+            "scripts",
+            "input",
+            "change",
+            "output"
+        ],
+        "files_to_copy": [
+            {
+                "source": "./HELP.txt",
+                "destination": "./package/"
+            },
+            {
+                "source": "./scripts_config.json",
+                "destination": "./package/"
+            },
+            {
+                "source": "./run.exe",
+                "destination": "./package/"
+            },
+            {
+                "source": "./scripts/merge_json.exe",
+                "destination": "./package/scripts/"
+            },
+            {
+                "source": "./scripts/report_new_id.exe",
+                "destination": "./package/scripts/"
+            },
+            {
+                "source": "./scripts/fix_trailing_comma.exe",
+                "destination": "./package/scripts/"
+            },
+            {
+                "source": "./scripts/field_editor.exe",
+                "destination": "./package/scripts/"
+            }
+        ]
+    }
+}
