@@ -1,6 +1,8 @@
 # zero_sievert
 Zero Sievert - Modding Scripts Bag - Source Code
 
+![Mod Image](mod_image.jpg)
+
 Read HELP.txt on how to use mod.
 Download from Nexus or if you download source code from here -> Just use packages folder.
 
