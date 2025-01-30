@@ -1,5 +1,6 @@
 # zero_sievert
 Zero Sievert - Modding Scripts Bag - Source Code
+Nexus Link = https://www.nexusmods.com/zerosievert/mods/101
 
 ![Mod Image](mod_image.jpg)
 
