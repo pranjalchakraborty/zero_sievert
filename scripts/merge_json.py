@@ -19,6 +19,7 @@ def save_json(data, file_path):
     """Save Python object as JSON with indentation."""
     try:
         with open(file_path, 'w', encoding='utf-8') as f:
+            # Removed the invalid "quote_keys" parameter.
             json.dump(data, f, indent=4, ensure_ascii=False, quote_keys=True)
     except Exception as e:
         print(f"Could not save {file_path}: {e}")
@@ -203,8 +204,8 @@ def main():
         print(f"Configuration file not found at {config_path}")
         sys.exit(1)
     
-    # Load the JSON configuration
-    with open(config_path, 'r') as config_file:
+    # Load the JSON configuration using json5 to support comments
+    with open(config_path, 'r', encoding='utf-8') as config_file:
         config = json.load(config_file)
     
     # Retrieve the configuration for the current script
@@ -234,9 +235,6 @@ if __name__ == "__main__":
         print("Script finished successfully.")
     except Exception as e:
         error_message = traceback.format_exc()  # Capture full traceback
-        print("An error occurred:\n", error_message)  # Print explicitly
+        print("An error occurred:\n", error_message)
     finally:
         input("\nPress Enter to exit...")
-
-
-

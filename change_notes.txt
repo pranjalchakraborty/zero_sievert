@@ -7,3 +7,4 @@ v0.2:
 
 v0.3:
 -fixed some files corrupted due to git revert push/rebase issues
+-necessary json to json5 migration changes
