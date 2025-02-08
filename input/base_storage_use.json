@@ -1,0 +1,26 @@
+{
+    "data": {
+        "base_storage_use": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "base_storage_use",
+                "description": "Use this item to increase your storage stashes by 1",
+                "name": "Storage kit",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_base_storage_use",
+                "sprite_inv": "s_item_base_storage_use",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 1
+            }
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "item",
+    "version": 0
+}

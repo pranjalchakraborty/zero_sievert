@@ -1,0 +1,32 @@
+{
+    "data": {
+        "gamepad": {
+            "aim_assist_debug_overlay": 0,
+            "aim_assist_on_gamepad": 1,
+            "aim_assist_on_mouse": 1,
+            "aim_assist_precision_amount": 1.4,
+            "aim_assist_precision_distance": 30,
+            "aim_assist_radial_amount": 2.5,
+            "aim_assist_radial_angle": 80,
+            "aim_retract_on": 1,
+            "aiming_sensitivity": 5.25,
+            "aiming_view_distance": 0.35,
+            "frames_for_hold_trigger": 40,
+            "gamepad_joystick_inner_deadzone": 0.2,
+            "gamepad_joystick_outer_deadzone": 0.8,
+            "mouse_sensitivity_ingame": 0.2,
+            "radial_distance_max": 85,
+            "radial_distance_min": 55,
+            "radial_smoothing": 0.75,
+            "shooting_pushback": 12,
+            "shooting_pushback_correction": 0.95
+        }
+    },
+    "metadata": {
+        "author": "David Strachan",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "gamepad",
+    "version": 0
+}

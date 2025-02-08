@@ -1,0 +1,1909 @@
+{
+	"data" : {
+		"acqua_ossigenata" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "hydrogen peroxide",
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_acqua_ossigenata",
+				"sprite_inv" : "s_item_acqua_ossigenata",
+				"stack_max" : 1,
+				"value" : 1300, 
+				"weight" : 0.4
+			}
+		},
+		"alchool" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "alcohol",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_alchool",
+				"sprite_inv" : "s_item_alchool",
+				"stack_max" : 1,
+				"value" : 2250, 
+				"weight" : 0.7
+			}
+		},
+		"battery" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "AAA battery",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_battery",
+				"sprite_inv" : "s_item_battery",
+				"stack_max" : 4,
+				"value" : 900, 
+				"weight" : 0.05
+			}
+		},
+		"blink_artiglio" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "blink's claw",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_blink_artiglio",
+				"sprite_inv" : "s_item_blink_artiglio",
+				"stack_max" : 1,
+				"value" : 4130, 
+				"weight" : 0.1
+			}
+		},
+		"boar_fang" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "boar tusk",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_devourer_tooth",
+				"sprite_inv" : "s_item_devourer_tooth",
+				"stack_max" : 1,
+				"value" : 2120, 
+				"weight" : 0.15
+			}
+		},
+		"boar_pelt" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Boar pelt",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_boar_pelt",
+				"sprite_inv" : "s_item_boar_pelt",
+				"stack_max" : 1,
+				"value" : 8180, 
+				"weight" : 0.6
+			}
+		},
+		"bolt_cutter" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Bolt cutter",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_bolt_cutter",
+				"sprite_inv" : "s_item_bolt_cutter",
+				"stack_max" : 1,
+				"value" : 150, 
+				"weight" : 0.2
+			}
+		},
+		"bracelet_gold" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Golden Bracelet",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_bracelet_gold",
+				"sprite_inv" : "s_item_bracelet_gold",
+				"stack_max" : 1,
+				"value" : 48250, 
+				"weight" : 0.3
+			}
+		},
+		"bracelet_silver" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Silver Bracelet",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_bracelet_silver",
+				"sprite_inv" : "s_item_bracelet_silver",
+				"stack_max" : 1,
+				"value" : 33500, 
+				"weight" : 0.1
+			}
+		},
+		"bulb" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Bulb",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_bulb",
+				"sprite_inv" : "s_item_bulb",
+				"stack_max" : 1,
+				"value" : 180, 
+				"weight" : 0.1
+			}
+		},
+		"camera_crimson_quest" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "CCTV camera",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_camera_crimson_quest",
+				"sprite_inv" : "s_item_camera_crimson_quest",
+				"stack_max" : 1,
+				"value" : 4000, 
+				"weight" : 0.2
+			}
+		},
+		"car_battery" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "car battery",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_car_battery",
+				"sprite_inv" : "s_item_car_battery",
+				"stack_max" : 1,
+				"value" : 12200, 
+				"weight" : 7
+			}
+		},
+		"carbone" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "charcoal",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_carbone",
+				"sprite_inv" : "s_item_carbone",
+				"stack_max" : 10,
+				"value" : 40, 
+				"weight" : 0.2
+			}
+		},
+		"coffee" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Coffee",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_coffee",
+				"sprite_inv" : "s_item_coffee",
+				"stack_max" : 1,
+				"value" : 1500, 
+				"weight" : 0.5
+			}
+		},
+		"copper_wire" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Copper wire",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_copper_wire",
+				"sprite_inv" : "s_item_copper_wire",
+				"stack_max" : 1,
+				"value" : 2150, 
+				"weight" : 0.2
+			}
+		},
+		"cpu" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "CPU",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_cpu",
+				"sprite_inv" : "s_item_cpu",
+				"stack_max" : 1,
+				"value" : 4500, 
+				"weight" : 0.1
+			}
+		},
+		"cristallo_blu" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Electric crystal",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cristallo_blu",
+				"sprite_inv" : "s_item_cristallo_blu",
+				"stack_max" : 1,
+				"value" : 14250, 
+				"weight" : 0.1
+			}
+		},
+		"cristallo_red" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Fire crystal",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cristallo_red",
+				"sprite_inv" : "s_item_cristallo_red",
+				"stack_max" : 1,
+				"value" : 8200, 
+				"weight" : 0.6
+			}
+		},
+		"cristallo_verde" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Chemical crystal",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cristallo_verde",
+				"sprite_inv" : "s_item_cristallo_verde",
+				"stack_max" : 1,
+				"value" : 6500, 
+				"weight" : 0.2
+			}
+		},
+		"crucifix_gold" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Golden crucifix",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_crucifix_gold",
+				"sprite_inv" : "s_item_crucifix_gold",
+				"stack_max" : 1,
+				"value" : 77777, 
+				"weight" : 2
+			}
+		},
+		"devourer_meat" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "devourer meat",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_devourer_meat",
+				"sprite_inv" : "s_item_devourer_meat",
+				"stack_max" : 1,
+				"value" : 3000, 
+				"weight" : 0.5
+			}
+		},
+		"devourer_tooth" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Big's tooth",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_boar_fang",
+				"sprite_inv" : "s_item_boar_fang",
+				"stack_max" : 1,
+				"value" : 5750, 
+				"weight" : 0.3
+			}
+		},
+		"document_quest_lab" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lab documents",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_crystal",
+				"sprite_inv" : "s_item_documents_crystal",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.05
+			}
+		},
+		"drill" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Drill",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_drill",
+				"sprite_inv" : "s_item_drill",
+				"stack_max" : 1,
+				"value" : 6500, 
+				"weight" : 2
+			}
+		},
+		"dumbell" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Dumbell",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_dumbell",
+				"sprite_inv" : "s_item_dumbell",
+				"stack_max" : 1,
+				"value" : 4400, 
+				"weight" : 2
+			}
+		},
+		"dutch_tape" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "duct tape",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_dutch_tape",
+				"sprite_inv" : "s_item_dutch_tape",
+				"stack_max" : 3,
+				"value" : 80, 
+				"weight" : 0.05
+			}
+		},
+		"dvd_drive" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "DVD drive",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_dvd_drive",
+				"sprite_inv" : "s_item_dvd_drive",
+				"stack_max" : 1,
+				"value" : 2000, 
+				"weight" : 0.3
+			}
+		},
+		"electric_motor" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Electric motor",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_electric_motor",
+				"sprite_inv" : "s_item_electric_motor",
+				"stack_max" : 1,
+				"value" : 18000, 
+				"weight" : 3.5
+			}
+		},
+		"engine_oil" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Engine Oil",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_motor_oil",
+				"sprite_inv" : "s_item_motor_oil",
+				"stack_max" : 1,
+				"value" : 3800, 
+				"weight" : 0.7
+			}
+		},
+		"fan" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Fan",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_fan",
+				"sprite_inv" : "s_item_fan",
+				"stack_max" : 1,
+				"value" : 210, 
+				"weight" : 0.1
+			}
+		},
+		"flesh_sample" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Strange flesh sample",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_flesh_sample",
+				"sprite_inv" : "s_item_flesh_sample",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 1
+			}
+		},
+		"fork" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Fork",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_fork",
+				"sprite_inv" : "s_item_fork",
+				"stack_max" : 5,
+				"value" : 50, 
+				"weight" : 0.05
+			}
+		},
+		"fragrance" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Fragrance",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_fragrance",
+				"sprite_inv" : "s_item_fragrance",
+				"stack_max" : 1,
+				"value" : 96000, 
+				"weight" : 0.3
+			}
+		},
+		"gameboy" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "PDA - passcoded",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_gameboy",
+				"sprite_inv" : "s_item_gameboy",
+				"stack_max" : 1,
+				"value" : 15700, 
+				"weight" : 0.6
+			}
+		},
+		"gamestation" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Gamestation",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_playstation",
+				"sprite_inv" : "s_item_playstation",
+				"stack_max" : 1,
+				"value" : 4300, 
+				"weight" : 2.5
+			}
+		},
+		"gas_tank" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Propane tank",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_gas_tank",
+				"sprite_inv" : "s_item_gas_tank",
+				"stack_max" : 1,
+				"value" : 6200, 
+				"weight" : 4
+			}
+		},
+		"ghoul_tentacles" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "ghoul's tentacle",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_ghoul_tentacles",
+				"sprite_inv" : "s_item_ghoul_tentacles",
+				"stack_max" : 1,
+				"value" : 900, 
+				"weight" : 0.15
+			}
+		},
+		"gm_counter" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "gm counter",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_gm_counter",
+				"sprite_inv" : "s_item_gm_counter",
+				"stack_max" : 1,
+				"value" : 2500, 
+				"weight" : 0.25
+			}
+		},
+		"gps_marker" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "GPS Marker",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_gps_marker",
+				"sprite_inv" : "s_item_gps_marker",
+				"stack_max" : 1,
+				"value" : 1000, 
+				"weight" : 0.2
+			}
+		},
+		"gunpowder_blu" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Blue gunpowder",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_gunpowder_blu",
+				"sprite_inv" : "s_item_gunpowder_blu",
+				"stack_max" : 100,
+				"value" : 25, 
+				"weight" : 0.02
+			}
+		},
+		"gunpowder_green" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Green gunpowder",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_gunpowder_green",
+				"sprite_inv" : "s_item_gunpowder_green",
+				"stack_max" : 100,
+				"value" : 50, 
+				"weight" : 0.02
+			}
+		},
+		"gunpowder_orange" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Orange gunpowder",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_gunpowder_orange",
+				"sprite_inv" : "s_item_gunpowder_orange",
+				"stack_max" : 1,
+				"value" : 50, 
+				"weight" : 0.02
+			}
+		},
+		"gunpowder_red" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Red gunpowder",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_gunpowder_red",
+				"sprite_inv" : "s_item_gunpowder_red",
+				"stack_max" : 100,
+				"value" : 100, 
+				"weight" : 0.02
+			}
+		},
+		"hair_dryer" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Hair dryer",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_hair_dryer",
+				"sprite_inv" : "s_item_hair_dryer",
+				"stack_max" : 1,
+				"value" : 1500, 
+				"weight" : 0.6
+			}
+		},
+		"hammer" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Hammer",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_hammer",
+				"sprite_inv" : "s_item_hammer",
+				"stack_max" : 1,
+				"value" : 70, 
+				"weight" : 0.35
+			}
+		},
+		"hard_disk" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Hard disk",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_hard_disk",
+				"sprite_inv" : "s_item_hard_disk",
+				"stack_max" : 1,
+				"value" : 1170, 
+				"weight" : 0.2
+			}
+		},
+		"hose" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Hose",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_hose",
+				"sprite_inv" : "s_item_hose",
+				"stack_max" : 1,
+				"value" : 400, 
+				"weight" : 0.1
+			}
+		},
+		"injector_vuoto" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Syringe",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_injector_vuoto",
+				"sprite_inv" : "s_item_injector_vuoto",
+				"stack_max" : 4,
+				"value" : 250, 
+				"weight" : 0.01
+			}
+		},
+		"key_laboratory_rovinata" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Ruined Laboratory entrance key",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_key_laboratory_rovinata",
+				"sprite_inv" : "s_item_key_laboratory_rovinata",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.05
+			}
+		},
+		"knife" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Knife",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_knife",
+				"sprite_inv" : "s_item_knife",
+				"stack_max" : 5,
+				"value" : 50, 
+				"weight" : 0.05
+			}
+		},
+		"lighter" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lighter",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_lighter_blue",
+				"sprite_inv" : "s_item_lighter_blue",
+				"stack_max" : 1,
+				"value" : 650, 
+				"weight" : 0.05
+			}
+		},
+		"mail" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Secret mail",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 90, 
+				"weight" : 0.1
+			}
+		},
+		"matches" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Matches",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_matches",
+				"sprite_inv" : "s_item_matches",
+				"stack_max" : 5,
+				"value" : 40, 
+				"weight" : 0.01
+			}
+		},
+		"metal_pipe" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Metal pipe",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_metal_pipe",
+				"sprite_inv" : "s_item_metal_pipe",
+				"stack_max" : 4,
+				"value" : 60, 
+				"weight" : 0.25
+			}
+		},
+		"metro" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Tape measure",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_metro",
+				"sprite_inv" : "s_item_metro",
+				"stack_max" : 1,
+				"value" : 110, 
+				"weight" : 0.05
+			}
+		},
+		"military_circuit" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Military circuit",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_military_circuit",
+				"sprite_inv" : "s_item_military_circuit",
+				"stack_max" : 1,
+				"value" : 6200, 
+				"weight" : 0.1
+			}
+		},
+		"multi_plug" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Multi-plug",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_multi_plug",
+				"sprite_inv" : "s_item_multi_plug",
+				"stack_max" : 1,
+				"value" : 250, 
+				"weight" : 0.2
+			}
+		},
+		"nail" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Nail",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_nail",
+				"sprite_inv" : "s_item_nail",
+				"stack_max" : 25,
+				"value" : 20, 
+				"weight" : 0.04
+			}
+		},
+		"natale_luci_kit" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "Use this item to build lights",
+				"name" : "Lights kit",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_natale_luci_kit",
+				"sprite_inv" : "s_item_natale_luci_kit",
+				"stack_max" : 1,
+				"value" : 10, 
+				"weight" : 5
+			}
+		},
+		"necklace_gold" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Golden Necklace",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_necklace_gold",
+				"sprite_inv" : "s_item_necklace_gold",
+				"stack_max" : 1,
+				"value" : 122150, 
+				"weight" : 1
+			}
+		},
+		"paint_white" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "White paint",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_paint_white",
+				"sprite_inv" : "s_item_paint_white",
+				"stack_max" : 1,
+				"value" : 750, 
+				"weight" : 0.5
+			}
+		},
+		"paper" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "papers",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_paper",
+				"sprite_inv" : "s_item_paper",
+				"stack_max" : 1,
+				"value" : 130, 
+				"weight" : 0.05
+			}
+		},
+		"pepper" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Pepper",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_pepper",
+				"sprite_inv" : "s_item_pepper",
+				"stack_max" : 1,
+				"value" : 150, 
+				"weight" : 0.01
+			}
+		},
+		"pillow" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "pillow",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_pillow",
+				"sprite_inv" : "s_item_pillow",
+				"stack_max" : 1,
+				"value" : 370, 
+				"weight" : 0.2
+			}
+		},
+		"pliers" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Pliers",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_pliers",
+				"sprite_inv" : "s_item_pliers",
+				"stack_max" : 1,
+				"value" : 100, 
+				"weight" : 0.1
+			}
+		},
+		"pot_cooking" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Cooking pot",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_pot_cooking",
+				"sprite_inv" : "s_item_pot_cooking",
+				"stack_max" : 1,
+				"value" : 200, 
+				"weight" : 0.7
+			}
+		},
+		"power_bank" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Power bank",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_power_bank",
+				"sprite_inv" : "s_item_power_bank",
+				"stack_max" : 1,
+				"value" : 1800, 
+				"weight" : 0.25
+			}
+		},
+		"power_outlet" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Power outlet",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_power_outlet",
+				"sprite_inv" : "s_item_power_outlet",
+				"stack_max" : 1,
+				"value" : 160, 
+				"weight" : 0.1
+			}
+		},
+		"quest_crimson_equipment_bag" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Briefcase",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_base_empty",
+				"sprite_inv" : "s_item_base_empty",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 8
+			}
+		},
+		"quest_concrete_bag" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Concrete box",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_concrete_bag",
+				"sprite_inv" : "s_item_concrete_bag",
+				"stack_max" : 4,
+				"value" : 0, 
+				"weight" : 10
+			}
+		},
+		"quest_document_2" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Secret documents",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_B",
+				"sprite_inv" : "s_item_documents_B",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_dogtag_spy" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Vlasov's Dogtag",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_dogtag_spy",
+				"sprite_inv" : "s_item_dogtag_spy",
+				"stack_max" : 4,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_dynamite" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Dynamite",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_dynamite",
+				"sprite_inv" : "s_item_dynamite",
+				"stack_max" : 1,
+				"value" : 1000, 
+				"weight" : 2
+			}
+		},
+		"quest_eyes_spy" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Vlasov's eyes",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_eyes_spy",
+				"sprite_inv" : "s_item_eyes_spy",
+				"stack_max" : 4,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_find_usb_sawmill" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "USB drive found in the sawmill",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_usb_quest",
+				"sprite_inv" : "s_item_usb_quest",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_motel_2_document" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "Documents found in the motel",
+				"name" : "Secret documents",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_D",
+				"sprite_inv" : "s_item_documents_D",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_retrieve_document_village" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Secret documents",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents",
+				"sprite_inv" : "s_item_documents",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_retrieve_equipment_1" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Equipment chest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_2" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Equipment chest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_3" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Equipment chest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_4" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Equipment chest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_5" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Equipment chest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_6" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Equipment chest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 8
+			}
+		},
+		"quest_retrive_analyzer_anomaly_fire_big" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "Analyzer found near a big fire anomaly",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_anomaly_fire_medium" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "Analyzer found near a medium fire anomaly",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_anomaly_gas_big" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "Analyzer found near a big chemical anomaly",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_anomaly_gas_medium" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "Analyzer found near a medium chemical anomaly",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_forest" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "scientiest's analyzer found in the forest",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_industrial_area" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "scientiest's analyzer found in the industrial area",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_makeshift_camp" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "scientiest's analyzer found in the makeshift camp",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_mall" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "scientiest's analyzer found in the mall",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_swamp" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "scientiest's analyzer found in the swamp",
+				"name" : "scientiest's analyzer",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_backpack_forest" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lost backpack found in the forest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 3
+			}
+		},
+		"quest_retrive_backpack_industrial_area" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lost backpack found in the industrial area",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 3
+			}
+		},
+		"quest_retrive_backpack_makeshift_camp" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lost backpack found in the makeshift camp",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 3
+			}
+		},
+		"quest_retrive_backpack_swamp" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lost backpack found in the swamp",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 3
+			}
+		},
+		"quest_retrive_document_forest" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lost document found in the forest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_retrive_document_industrial_area" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lost document found in the industrial area",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_retrive_document_makeshift_camp" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lost document found in the makeshift camp",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_retrive_document_swamp" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Lost document found in the swamp",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"quest_retrieve_equipment_cc" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Equipment chest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 15
+			}
+		},
+		"quest_retrieve_equipment_ga" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Equipment chest",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 15
+			}
+		},
+		"quest_transmitter" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Transmitter",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_transmitter",
+				"sprite_inv" : "s_item_transmitter",
+				"stack_max" : 1,
+				"value" : 1000, 
+				"weight" : 0.1
+			}
+		},
+		"rabbit_pelt" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Rabbit pelt",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_rabbit_pelt",
+				"sprite_inv" : "s_item_rabbit_pelt",
+				"stack_max" : 1,
+				"value" : 1728, 
+				"weight" : 0.13
+			}
+		},
+		"rags" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Rags",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_rags",
+				"sprite_inv" : "s_item_rags",
+				"stack_max" : 10,
+				"value" : 80, 
+				"weight" : 0.05
+			}
+		},
+		"ram" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "RAM",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_ram",
+				"sprite_inv" : "s_item_ram",
+				"stack_max" : 1,
+				"value" : 5000, 
+				"weight" : 0.1
+			}
+		},
+		"raw_pelt" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Pelt",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_wolf_pelt",
+				"sprite_inv" : "s_item_wolf_pelt",
+				"stack_max" : 1,
+				"value" : 2230, 
+				"weight" : 0.25
+			}
+		},
+		"relay" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Relay",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_relay",
+				"sprite_inv" : "s_item_relay",
+				"stack_max" : 1,
+				"value" : 220, 
+				"weight" : 0.1
+			}
+		},
+		"repair_radio_tower" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Repair kit for radio tower",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_repair_radio_tower",
+				"sprite_inv" : "s_item_repair_radio_tower",
+				"stack_max" : 1,
+				"value" : 5000, 
+				"weight" : 2.5
+			}
+		},
+		"ring_grigory" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Grigoriy's ring",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_ring_grigory",
+				"sprite_inv" : "s_item_ring_grigory",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.05
+			}
+		},
+		"rope" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Rope",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_rope",
+				"sprite_inv" : "s_item_rope",
+				"stack_max" : 1,
+				"value" : 600, 
+				"weight" : 0.3
+			}
+		},
+		"roubles" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Roubles",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_roubles",
+				"sprite_inv" : "s_item_roubles",
+				"stack_max" : 250000,
+				"value" : 1, 
+				"weight" : 0.00
+			}
+		},
+		"salt" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Salt",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_salt",
+				"sprite_inv" : "s_item_salt",
+				"stack_max" : 10,
+				"value" : 20, 
+				"weight" : 0.01
+			}
+		},
+		"scatola_nera" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Flight recorder",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scatola_nera",
+				"sprite_inv" : "s_item_scatola_nera",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 5
+			}
+		},
+		"scientific_analyzer" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Scientific analyzer",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 1500, 
+				"weight" : 0.25
+			}
+		},
+		"scissors_surgery" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Surgical scissors",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_scissors_surgery",
+				"sprite_inv" : "s_item_scissors_surgery",
+				"stack_max" : 4,
+				"value" : 500, 
+				"weight" : 0.01
+			}
+		},
+		"scrap_ammo" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "scrap ammo",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_ammo",
+				"sprite_inv" : "s_item_scrap_ammo",
+				"stack_max" : 90,
+				"value" : 10, 
+				"weight" : 0.012
+			}
+		},
+		"scrap_food" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "scrap food",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_food",
+				"sprite_inv" : "s_item_scrap_food",
+				"stack_max" : 50,
+				"value" : 10, 
+				"weight" : 0.003
+			}
+		},
+		"scrap_material" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "scrap material",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_metal",
+				"sprite_inv" : "s_item_scrap_metal",
+				"stack_max" : 50,
+				"value" : 10, 
+				"weight" : 0.027
+			}
+		},
+		"scrap_med" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "scrap medicine",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_med",
+				"sprite_inv" : "s_item_scrap_med",
+				"stack_max" : 50,
+				"value" : 10, 
+				"weight" : 0.008
+			}
+		},
+		"scrap_metal" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "scrap material",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_metal",
+				"sprite_inv" : "s_item_scrap_metal",
+				"stack_max" : 50,
+				"value" : 10, 
+				"weight" : 0.027
+			}
+		},
+		"scrap_weapon" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "scrap weapon",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_weapon",
+				"sprite_inv" : "s_item_scrap_weapon",
+				"stack_max" : 40,
+				"value" : 10, 
+				"weight" : 0.019
+			}
+		},
+		"screw_nut" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Screw nut",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_screw_nut",
+				"sprite_inv" : "s_item_screw_nut",
+				"stack_max" : 15,
+				"value" : 20, 
+				"weight" : 0.02
+			}
+		},
+		"screwdriver" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "screwdriver",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_screwdriver",
+				"sprite_inv" : "s_item_screwdriver",
+				"stack_max" : 1,
+				"value" : 100, 
+				"weight" : 0.1
+			}
+		},
+		"shampoo" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "shampoo",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_shampoo",
+				"sprite_inv" : "s_item_shampoo",
+				"stack_max" : 1,
+				"value" : 1250, 
+				"weight" : 0.4
+			}
+		},
+		"smartphone" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Smartphone",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_smartphone",
+				"sprite_inv" : "s_item_smartphone",
+				"stack_max" : 1,
+				"value" : 9500, 
+				"weight" : 0.15
+			}
+		},
+		"soap" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Soap",
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_soap",
+				"sprite_inv" : "s_item_soap",
+				"stack_max" : 1,
+				"value" : 1500, 
+				"weight" : 0.2
+			}
+		},
+		"spark_plug" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "spark plug",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_spark_plug",
+				"sprite_inv" : "s_item_spark_plug",
+				"stack_max" : 1,
+				"value" : 800, 
+				"weight" : 0.1
+			}
+		},
+		"spider_eye" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "spider eye",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_spider_eye",
+				"sprite_inv" : "s_item_spider_eye",
+				"stack_max" : 1,
+				"value" : 2500, 
+				"weight" : 0.1
+			}
+		},
+		"spider_web" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Spider Web",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_spider_web",
+				"sprite_inv" : "s_item_spider_web",
+				"stack_max" : 1,
+				"value" : 1500, 
+				"weight" : 0.1
+			}
+		},
+		"spoon" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Spoon",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_spoon",
+				"sprite_inv" : "s_item_spoon",
+				"stack_max" : 5,
+				"value" : 50, 
+				"weight" : 0.05
+			}
+		},
+		"spray_bug" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Bug spray",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_spray_bug",
+				"sprite_inv" : "s_item_spray_bug",
+				"stack_max" : 1,
+				"value" : 400, 
+				"weight" : 0.2
+			}
+		},
+		"ssd" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "SSD drive",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_ssd",
+				"sprite_inv" : "s_item_ssd",
+				"stack_max" : 1,
+				"value" : 4200, 
+				"weight" : 0.1
+			}
+		},
+		"tea_bag" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Tea bag",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_tea_bag",
+				"sprite_inv" : "s_item_tea_bag",
+				"stack_max" : 1,
+				"value" : 300, 
+				"weight" : 0.1
+			}
+		},
+		"toilet_paper" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Toilet paper",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_toilet_paper",
+				"sprite_inv" : "s_item_toilet_paper",
+				"stack_max" : 1,
+				"value" : 1000, 
+				"weight" : 0.1
+			}
+		},
+		"toilet_paper_quest" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "High quality toilet paper",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_tp_quest",
+				"sprite_inv" : "s_item_tp_quest",
+				"stack_max" : 1,
+				"value" : 0, 
+				"weight" : 0.1
+			}
+		},
+		"usb" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Usb",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_usb",
+				"sprite_inv" : "s_item_usb",
+				"stack_max" : 1,
+				"value" : 1500, 
+				"weight" : 0.1
+			}
+		},
+		"wheel" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Wheel",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wheel",
+				"sprite_inv" : "s_item_wheel",
+				"stack_max" : 1,
+				"value" : 3500, 
+				"weight" : 2
+			}
+		},
+		"wires" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Wires",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wires",
+				"sprite_inv" : "s_item_wires",
+				"stack_max" : 2,
+				"value" : 1200, 
+				"weight" : 0.05
+			}
+		},
+		"wolf_pelt" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Wolf pelt",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_wolf_pelt",
+				"sprite_inv" : "s_item_wolf_pelt",
+				"stack_max" : 1,
+				"value" : 2230, 
+				"weight" : 0.25
+			}
+		},
+		"wrench" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Wrench",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wrench",
+				"sprite_inv" : "s_item_wrench",
+				"stack_max" : 1,
+				"value" : 80, 
+				"weight" : 0.2
+			}
+		},
+		"wristwatch" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Wristwatch",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wristwatch",
+				"sprite_inv" : "s_item_wristwatch",
+				"stack_max" : 1,
+				"value" : 2500, 
+				"weight" : 0.2
+			}
+		},
+		"wristwatch_gold" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Gold Wristwatch",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wristwatch_gold",
+				"sprite_inv" : "s_item_wristwatch_gold",
+				"stack_max" : 1,
+				"value" : 59800, 
+				"weight" : 1.5
+			}
+		},
+		"zippo" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Zippo lighter",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_zippo",
+				"sprite_inv" : "s_item_zippo",
+				"stack_max" : 1,
+				"value" : 750, 
+				"weight" : 0.1
+			}
+		},
+		"zippo_gold" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "Golden zippo",
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_zippo_gold",
+				"sprite_inv" : "s_item_zippo_gold",
+				"stack_max" : 1,
+				"value" : 38720, 
+				"weight" : 0.3
+			}
+		},
+		"zombie_skin" : {
+			"basic" : {
+				"categoria" : "barter",
+				"description" : "",
+				"name" : "zombie skin",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_zombie_skin",
+				"sprite_inv" : "s_item_zombie_skin",
+				"stack_max" : 1,
+				"value" : 560, 
+				"weight" : 0.1
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

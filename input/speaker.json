@@ -1,0 +1,128 @@
+{
+    "data": {
+        "bar": {
+            "index": 5
+        },
+        "capotreno": {
+            "index": 16
+        },
+        "crimson_soldier": {
+            "index": 18
+        },
+        "crimson_trader_bunker": {
+            "index": 31
+        },
+        "engineer": {
+            "index": 9
+        },
+        "forest_trader": {
+            "index": 32
+        },
+        "green_army_guardia_ingresso": {
+            "index": 21
+        },
+        "green_army_quest_swamp_leader": {
+            "index": 26
+        },
+        "green_army_soldier1": {
+            "index": 17
+        },
+        "green_army_vicino_branda_elicottero": {
+            "index": 34
+        },
+        "guardia_crimson_base": {
+            "index": 29
+        },
+        "guardia_ingresso_1": {
+            "index": 22
+        },
+        "guardia_ingresso_2": {
+            "index": 23
+        },
+        "guardia_iniziale": {
+            "index": 24
+        },
+        "guardia_iniziale_posso_passare": {
+            "index": 25
+        },
+        "guide": {
+            "index": 12
+        },
+        "guy": {
+            "index": 10
+        },
+        "guy2": {
+            "index": 13
+        },
+        "guy3": {
+            "index": 14
+        },
+        "guy4": {
+            "index": 15
+        },
+        "hunter_neutral": {
+            "index": 11
+        },
+        "junk_trader": {
+            "index": 33
+        },
+        "leader_crimson_base": {
+            "index": 30
+        },
+        "leader_faction1": {
+            "index": 1
+        },
+        "leader_faction2": {
+            "index": 2
+        },
+        "medic": {
+            "index": 6
+        },
+        "mercenary": {
+            "index": 19
+        },
+        "no_speaker": {
+            "index": 0
+        },
+        "quest_dealer": {
+            "index": 36
+        },
+        "random_trader": {
+            "index": 7
+        },
+        "sacriel": {
+            "index": 37
+        },
+        "scientist": {
+            "index": 20
+        },
+        "scientist_cristallo_viola": {
+            "index": 27
+        },
+        "standard_no_question": {
+            "index": 8
+        },
+        "the_networker": {
+            "index": 38
+        },
+        "trader_faction1": {
+            "index": 3
+        },
+        "trader_faction2": {
+            "index": 4
+        },
+        "tutorial_npc": {
+            "index": 35
+        },
+        "unknown_sewer": {
+            "index": 28
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "speakers",
+    "version": 0
+}

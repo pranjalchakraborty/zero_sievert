@@ -8,3 +8,10 @@ v0.2:
 v0.3:
 -fixed some files corrupted due to git revert push/rebase issues
 -necessary json to json5 migration changes
+
+v0.4:
+-changed format of new id reporting script - for easy copy-paste of new ids (especially in trader file)
+-added "only" and "only_ask" options in merge for directly adding new ids 
+Note: ID and IDDs follow format of data -> ID so is not valid for trader.json file
+-added a small script texture_renamer to rename textures of old mods [game cannot read old names]
+(ex. Exotic Items Pack Mod was dead but works again with this!)

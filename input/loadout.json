@@ -1,0 +1,362 @@
+{
+    "data": {
+        "equipment_1": {
+            "description": "The tried and tested choice. A versatile loadout that's generally effective at most ranges but excels at none of them.",
+            "items": [
+                {
+                    "id": "medikit_long",
+                    "stack": 3
+                },
+                {
+                    "id": "bandage",
+                    "stack": 4
+                },
+                {
+                    "id": "med_wound_1",
+                    "stack": 2
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "vodka"
+                },
+                {
+                    "id": "cup_tea"
+                },
+                {
+                    "id": "tushonka_meat"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "backpack9"
+                },
+                {
+                    "id": "ak_74u_1"
+                },
+                {
+                    "id": "makarov"
+                },
+                {
+                    "id": "armor_bulletproof"
+                },
+                {
+                    "id": "ammo_545x39",
+                    "stack": 150
+                },
+                {
+                    "id": "ammo_545x39",
+                    "stack": 30
+                },
+                {
+                    "id": "ammo_9x18",
+                    "stack": 50
+                }
+            ],
+            "name": "Assault",
+            "starting_money": 7500
+        },
+        "equipment_2": {
+            "description": "Get in close and make them hurt! What it lacks in range it makes up for in close-range superiority.",
+            "items": [
+                {
+                    "id": "medikit_long",
+                    "stack": 3
+                },
+                {
+                    "id": "bandage",
+                    "stack": 4
+                },
+                {
+                    "id": "med_wound_1",
+                    "stack": 2
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "vodka"
+                },
+                {
+                    "id": "cup_tea"
+                },
+                {
+                    "id": "tushonka_meat"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "backpack9"
+                },
+                {
+                    "id": "pp91"
+                },
+                {
+                    "id": "sawed_off_double_shotgun"
+                },
+                {
+                    "id": "armor_novice"
+                },
+                {
+                    "id": "ammo_9x18",
+                    "stack": 200
+                },
+                {
+                    "id": "ammo_12x70",
+                    "stack": 40
+                }
+            ],
+            "name": "Bruiser",
+            "starting_money": 7500
+        },
+        "equipment_3": {
+            "description": "They'll never see it coming. Scout out targets from afar and pick them off one-by-one. Just don't let them get too close.",
+            "items": [
+                {
+                    "id": "medikit_long",
+                    "stack": 3
+                },
+                {
+                    "id": "bandage",
+                    "stack": 4
+                },
+                {
+                    "id": "med_wound_1",
+                    "stack": 2
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "vodka"
+                },
+                {
+                    "id": "cup_tea"
+                },
+                {
+                    "id": "tushonka_meat"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "backpack9"
+                },
+                {
+                    "id": "mosin"
+                },
+                {
+                    "id": "mod_scope_pu"
+                },
+                {
+                    "id": "makarov"
+                },
+                {
+                    "id": "armor_bulletproof"
+                },
+                {
+                    "id": "ammo_9x18",
+                    "stack": 100
+                },
+                {
+                    "id": "ammo_762x54R",
+                    "stack": 40
+                }
+            ],
+            "name": "Marksman",
+            "starting_money": 7500
+        },
+        "equipment_4": {
+            "description": "Precision on the move. Great at mid-to-long range engagements with the ability to outrange most guns. Keep a sidearm handy for when they're too close.",
+            "items": [
+                {
+                    "id": "medikit_long",
+                    "stack": 3
+                },
+                {
+                    "id": "bandage",
+                    "stack": 4
+                },
+                {
+                    "id": "med_wound_1",
+                    "stack": 2
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "vodka"
+                },
+                {
+                    "id": "cup_tea"
+                },
+                {
+                    "id": "tushonka_meat"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "backpack9"
+                },
+                {
+                    "id": "sks"
+                },
+                {
+                    "id": "makarov"
+                },
+                {
+                    "id": "armor_bulletproof"
+                },
+                {
+                    "id": "ammo_762x39",
+                    "stack": 80
+                },
+                {
+                    "id": "ammo_9x18",
+                    "stack": 50
+                }
+            ],
+            "name": "Ranger",
+            "starting_money": 7500
+        },
+        "equipment_5": {
+            "description": "Who needs big guns? Reposition quickly and use your trusty pistol and starting flashbangs to come out on top.",
+            "items": [
+                {
+                    "id": "medikit_long",
+                    "stack": 3
+                },
+                {
+                    "id": "bandage",
+                    "stack": 4
+                },
+                {
+                    "id": "med_wound_1",
+                    "stack": 2
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "vodka"
+                },
+                {
+                    "id": "cup_tea"
+                },
+                {
+                    "id": "tushonka_meat"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "backpack9"
+                },
+                {
+                    "id": "tt_tokarev"
+                },
+                {
+                    "id": "armor_bandit_1"
+                },
+                {
+                    "id": "ammo_762x25",
+                    "stack": 120
+                },
+                {
+                    "id": "grenade_flash",
+                    "stack": 2
+                }
+            ],
+            "name": "Tactical Operator",
+            "starting_money": 7500
+        },
+        "equipment_6": {
+            "description": "Someone packed light. This is going to be rough.",
+            "items": [
+                {
+                    "id": "medikit_long"
+                },
+                {
+                    "id": "bandage"
+                },
+                {
+                    "id": "water_bottle"
+                },
+                {
+                    "id": "vodka"
+                },
+                {
+                    "id": "bread"
+                },
+                {
+                    "id": "backpack9"
+                },
+                {
+                    "id": "makarov"
+                },
+                {
+                    "id": "ammo_9x18",
+                    "stack": 50
+                }
+            ],
+            "name": "Survivor",
+            "starting_money": 0
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "loadouts",
+    "version": 0
+}

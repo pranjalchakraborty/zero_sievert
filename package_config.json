@@ -10,6 +10,10 @@
                 "output_executable": "./scripts/merge_json.exe"
             },
             {
+                "source": "./scripts/texture_renamer.py",
+                "output_executable": "./scripts/texture_renamer.exe"
+            },
+            {
                 "source": "./scripts/report_new_id.py",
                 "output_executable": "./scripts/report_new_id.exe"
             },
@@ -62,6 +66,9 @@
             },
             {
                 "source": "./scripts/field_editor.exe",
+                "destination": "./package/scripts/"
+            },{
+                "source": "./scripts/texture_renamer.exe",
                 "destination": "./package/scripts/"
             }
         ]

@@ -1,0 +1,161 @@
+{
+    "data": {
+        "book_cardio": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this to gain 1 point in cardio",
+                "name": "Book cardio",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_cardio",
+                "sprite_inv": "s_item_book_cardio",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "book_charisma": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this book to gain 1 point in charisma",
+                "name": "Book charisma",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_charisma",
+                "sprite_inv": "s_item_book_charisma",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "book_cooking": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this book to gain 1 point in cooking",
+                "name": "Book cooking",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_cooking",
+                "sprite_inv": "s_item_book_cooking",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "book_craftmanship": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this book",
+                "name": "Book craftmanship",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_craftmanship",
+                "sprite_inv": "s_item_book_craftmanship",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "book_gunsmith": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this book to gain 1 point in gunsmith",
+                "name": "Book gunsmith",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_gunsmith",
+                "sprite_inv": "s_item_book_gunsmith",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "book_gunsmith1": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this book to learn new barter and crafting options",
+                "name": "Basic gunsmith book",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_gunsmith1",
+                "sprite_inv": "s_item_book_gunsmith1",
+                "stack_max": 1,
+                "value": 20000,
+                "weight": 0.5
+            }
+        },
+        "book_gunsmith2": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this book to learn new barter and crafting options",
+                "name": "Advanced gunsmith book",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_gunsmith2",
+                "sprite_inv": "s_item_book_gunsmith2",
+                "stack_max": 1,
+                "value": 50000,
+                "weight": 0.5
+            }
+        },
+        "book_medicine": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this book to gain 1 point in medicine",
+                "name": "Book medicine",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_medicine",
+                "sprite_inv": "s_item_book_medicine",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "book_shooting": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this book to gain 1 point in shooting",
+                "name": "Book shooting",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_shooting",
+                "sprite_inv": "s_item_book_shooting",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "book_style": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "book",
+                "description": "Read this to gain 1 point in style",
+                "name": "Book style",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_book_style",
+                "sprite_inv": "s_item_book_style",
+                "stack_max": 1,
+                "value": 0,
+                "weight": 0.5
+            }
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "item",
+    "version": 0
+}

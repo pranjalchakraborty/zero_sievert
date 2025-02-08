@@ -1,0 +1,505 @@
+{
+	"data" : {
+		"backpack1?" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack1_game",
+				"weight" : 11
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "Backpack 1",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack1",
+				"sprite_inv" : "s_item_backpack1",
+				"stack_max" : 1,
+				"value" : 62000,
+				"weight" : 0
+			}
+		},
+		"backpack10?" : {
+			"backpack" : {
+				"ergonomic" : -5,
+				"movement_speed" : 5,
+				"sprite_game" : "s_item_backpack10_game",
+				"weight" : 19
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "",
+				"name" : "Military standard backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack10",
+				"sprite_inv" : "s_item_backpack10",
+				"stack_max" : 1,
+				"value" : 195000,
+				"weight" : 0
+			}
+		},
+		"backpack11?" : {
+			"backpack" : {
+				"ergonomic" : -25,
+				"movement_speed" : -15,
+				"sprite_game" : "s_item_backpack11_game",
+				"weight" : 37
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "",
+				"name" : "Military high capacity backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack11",
+				"sprite_inv" : "s_item_backpack11",
+				"stack_max" : 1,
+				"value" : 900000,
+				"weight" : 0
+			}
+		},
+		"backpack2?" : {
+			"backpack" : {
+				"ergonomic" : 15,
+				"movement_speed" : 10,
+				"sprite_game" : "s_item_backpack2_game",
+				"weight" : 10
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "RTU Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack2",
+				"sprite_inv" : "s_item_backpack2",
+				"stack_max" : 1,
+				"value" : 92500,
+				"weight" : 0
+			}
+		},
+		"backpack3?" : {
+			"backpack" : {
+				"ergonomic" : 18,
+				"movement_speed" : 7,
+				"sprite_game" : "s_item_backpack3_game",
+				"weight" : 12
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "RTU-000 Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack3",
+				"sprite_inv" : "s_item_backpack3",
+				"stack_max" : 1,
+				"value" : 112500,
+				"weight" : 0
+			}
+		},
+		"backpack4?" : {
+			"backpack" : {
+				"ergonomic" : -10,
+				"movement_speed" : -10,
+				"sprite_game" : "s_item_backpack4_game",
+				"weight" : 18
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "SZX-100 Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 165000,
+				"weight" : 0
+			}
+		},
+		"backpack5?" : {
+			"backpack" : {
+				"ergonomic" : -13,
+				"movement_speed" : -10,
+				"sprite_game" : "s_item_backpack5_game",
+				"weight" : 29
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "HFY Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack5",
+				"sprite_inv" : "s_item_backpack5",
+				"stack_max" : 1,
+				"value" : 450000,
+				"weight" : 0
+			}
+		},
+		"backpack6?" : {
+			"backpack" : {
+				"ergonomic" : 15,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack6_game",
+				"weight" : 25
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "TQ001 Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack6",
+				"sprite_inv" : "s_item_backpack6",
+				"stack_max" : 1,
+				"value" : 330000,
+				"weight" : 0
+			}
+		},
+		"backpack7?" : {
+			"backpack" : {
+				"ergonomic" : 5,
+				"movement_speed" : 5,
+				"sprite_game" : "s_item_backpack7_game",
+				"weight" : 21
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "EXE Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack7",
+				"sprite_inv" : "s_item_backpack7",
+				"stack_max" : 1,
+				"value" : 215000,
+				"weight" : 0
+			}
+		},
+		"backpack8?" : {
+			"backpack" : {
+				"ergonomic" : 20,
+				"movement_speed" : 12,
+				"sprite_game" : "s_item_backpack8_game",
+				"weight" : 15
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "ZXOP-500 Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack8",
+				"sprite_inv" : "s_item_backpack8",
+				"stack_max" : 1,
+				"value" : 112500,
+				"weight" : 0
+			}
+		},
+		"backpack9?" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack9_game",
+				"weight" : 9
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "",
+				"name" : "School bag",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack9",
+				"sprite_inv" : "s_item_backpack9",
+				"stack_max" : 1,
+				"value" : 44000,
+				"weight" : 0
+			}
+		},
+		"backpack_santa?" : {
+			"backpack" : {
+				"ergonomic" : 300,
+				"movement_speed" : 300,
+				"sprite_game" : "s_item_backpack_santa_game",
+				"weight" : 40
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "",
+				"name" : "Santa's Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack_santa",
+				"sprite_inv" : "s_item_backpack_santa",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 0
+			}
+		},
+		"backpack_small?" : {
+			"backpack" : {
+				"ergonomic" : 3,
+				"movement_speed" : 8,
+				"sprite_game" : "s_item_backpack1_game",
+				"weight" : 4
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "small backpack",
+				"name" : "Backpack small",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack1",
+				"sprite_inv" : "s_item_backpack1",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0
+			}
+		},
+		"backpack1" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack1_game",
+				"weight" : 11
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "Backpack 1",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack1",
+				"sprite_inv" : "s_item_backpack1",
+				"stack_max" : 1,
+				"value" : 6200,
+				"weight" : 0
+			}
+		},
+		"backpack10" : {
+			"backpack" : {
+				"ergonomic" : -5,
+				"movement_speed" : 5,
+				"sprite_game" : "s_item_backpack10_game",
+				"weight" : 19
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "",
+				"name" : "Military standard backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack10",
+				"sprite_inv" : "s_item_backpack10",
+				"stack_max" : 1,
+				"value" : 19500,
+				"weight" : 0
+			}
+		},
+		"backpack11" : {
+			"backpack" : {
+				"ergonomic" : -25,
+				"movement_speed" : -15,
+				"sprite_game" : "s_item_backpack11_game",
+				"weight" : 37
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "",
+				"name" : "Military high capacity backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack11",
+				"sprite_inv" : "s_item_backpack11",
+				"stack_max" : 1,
+				"value" : 90000,
+				"weight" : 0
+			}
+		},
+		"backpack2" : {
+			"backpack" : {
+				"ergonomic" : 15,
+				"movement_speed" : 10,
+				"sprite_game" : "s_item_backpack2_game",
+				"weight" : 10
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "RTU Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack2",
+				"sprite_inv" : "s_item_backpack2",
+				"stack_max" : 1,
+				"value" : 9250,
+				"weight" : 0
+			}
+		},
+		"backpack3" : {
+			"backpack" : {
+				"ergonomic" : 18,
+				"movement_speed" : 7,
+				"sprite_game" : "s_item_backpack3_game",
+				"weight" : 12
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "RTU-000 Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack3",
+				"sprite_inv" : "s_item_backpack3",
+				"stack_max" : 1,
+				"value" : 11250,
+				"weight" : 0
+			}
+		},
+		"backpack4" : {
+			"backpack" : {
+				"ergonomic" : -10,
+				"movement_speed" : -10,
+				"sprite_game" : "s_item_backpack4_game",
+				"weight" : 18
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "SZX-100 Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 16500,
+				"weight" : 0
+			}
+		},
+		"backpack5" : {
+			"backpack" : {
+				"ergonomic" : -13,
+				"movement_speed" : -10,
+				"sprite_game" : "s_item_backpack5_game",
+				"weight" : 29
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "HFY Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack5",
+				"sprite_inv" : "s_item_backpack5",
+				"stack_max" : 1,
+				"value" : 45000,
+				"weight" : 0
+			}
+		},
+		"backpack6" : {
+			"backpack" : {
+				"ergonomic" : 15,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack6_game",
+				"weight" : 25
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "TQ001 Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack6",
+				"sprite_inv" : "s_item_backpack6",
+				"stack_max" : 1,
+				"value" : 33000,
+				"weight" : 0
+			}
+		},
+		"backpack7" : {
+			"backpack" : {
+				"ergonomic" : 5,
+				"movement_speed" : 5,
+				"sprite_game" : "s_item_backpack7_game",
+				"weight" : 21
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "EXE Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack7",
+				"sprite_inv" : "s_item_backpack7",
+				"stack_max" : 1,
+				"value" : 21500,
+				"weight" : 0
+			}
+		},
+		"backpack8" : {
+			"backpack" : {
+				"ergonomic" : 20,
+				"movement_speed" : 12,
+				"sprite_game" : "s_item_backpack8_game",
+				"weight" : 15
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "backpack",
+				"name" : "ZXOP-500 Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack8",
+				"sprite_inv" : "s_item_backpack8",
+				"stack_max" : 1,
+				"value" : 11250,
+				"weight" : 0
+			}
+		},
+		"backpack9" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack9_game",
+				"weight" : 9
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "",
+				"name" : "School bag",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack9",
+				"sprite_inv" : "s_item_backpack9",
+				"stack_max" : 1,
+				"value" : 4400,
+				"weight" : 0
+			}
+		},
+		"backpack_santa" : {
+			"backpack" : {
+				"ergonomic" : 300,
+				"movement_speed" : 300,
+				"sprite_game" : "s_item_backpack_santa_game",
+				"weight" : 40
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "",
+				"name" : "Santa's Backpack",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack_santa",
+				"sprite_inv" : "s_item_backpack_santa",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 0
+			}
+		},
+		"backpack_small" : {
+			"backpack" : {
+				"ergonomic" : 3,
+				"movement_speed" : 8,
+				"sprite_game" : "s_item_backpack1_game",
+				"weight" : 4
+			},
+			"basic" : {
+				"categoria" : "backpack",
+				"description" : "small backpack",
+				"name" : "Backpack small",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack1",
+				"sprite_inv" : "s_item_backpack1",
+				"stack_max" : 1,
+				"value" : 650,
+				"weight" : 0
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

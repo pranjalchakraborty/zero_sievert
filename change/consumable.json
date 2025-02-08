@@ -1,0 +1,1061 @@
+{
+	"data" : {
+		"blue_cigarettes" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "description",
+				"name" : "Wilfon Cigarette",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cigarettes_blue",
+				"sprite_inv" : "s_item_cigarettes_blue",
+				"stack_max" : 5,
+				"value" : 4020, 
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"animation" : "s_arms_smoke",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : -0.25,
+				"sound" : "snd_accendino_1",
+				"thirst" : -4
+			}
+		},
+		"boar_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "boar meat",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_boar_meat",
+				"sprite_inv" : "s_item_boar_meat",
+				"stack_max" : 1,
+				"value" : 480, 
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 12,
+				"fatigue" : 0,
+				"radiation" : 0.4,
+				"sound" : "snd_eating_1",
+				"thirst" : -9
+			}
+		},
+		"bread" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Bread",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_bread",
+				"sprite_inv" : "s_item_bread",
+				"stack_max" : 1,
+				"value" : 115, 
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 12,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -7
+			}
+		},
+		"bread_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Bread",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_bread_rotten",
+				"sprite_inv" : "s_item_bread_rotten",
+				"stack_max" : 1,
+				"value" : 30, 
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 10,
+				"fatigue" : 0,
+				"radiation" : 0.15,
+				"sound" : "snd_eating_1",
+				"thirst" : -7
+			}
+		},
+		"butter" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Butter",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_butter",
+				"sprite_inv" : "s_item_butter",
+				"stack_max" : 1,
+				"value" : 1900, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 20,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -20
+			}
+		},
+		"canned_beans" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Canned beans",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_beans",
+				"sprite_inv" : "s_item_beans",
+				"stack_max" : 1,
+				"value" : 2200, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 10
+			}
+		},
+		"cheese" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cheese",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cheese",
+				"sprite_inv" : "s_item_cheese",
+				"stack_max" : 1,
+				"value" : 1500, 
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 14,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"cheese_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Cheese",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cheese_rotten",
+				"sprite_inv" : "s_item_cheese_rotten",
+				"stack_max" : 1,
+				"value" : 120, 
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 12,
+				"fatigue" : 0,
+				"radiation" : 0.12,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"chips" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Chips",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_chips",
+				"sprite_inv" : "s_item_chips",
+				"stack_max" : 1,
+				"value" : 600, 
+				"weight" : 0.1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 11,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"coke" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "description",
+				"name" : "Generic cola",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_coke",
+				"sprite_inv" : "s_item_coke",
+				"stack_max" : 1,
+				"value" : 880, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_cola",
+				"energy" : 7,
+				"fatigue" : 8,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 13
+			}
+		},
+		"crackers" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Crackers",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_crackers",
+				"sprite_inv" : "s_item_crackers",
+				"stack_max" : 1,
+				"value" : 50, 
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 7,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -3
+			}
+		},
+		"crackers_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Crackers",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_crackers_rotten",
+				"sprite_inv" : "s_item_crackers_rotten",
+				"stack_max" : 1,
+				"value" : 10, 
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 6,
+				"fatigue" : 0,
+				"radiation" : 0.09,
+				"sound" : "snd_eating_1",
+				"thirst" : -3
+			}
+		},
+		"cup_coffee" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cup of coffee",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cup_coffee",
+				"sprite_inv" : "s_item_cup_coffee",
+				"stack_max" : 1,
+				"value" : 750, 
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 13,
+				"radiation" : -0.15,
+				"sound" : "snd_drinking_1",
+				"thirst" : 5
+			}
+		},
+		"cup_tea" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cup of Tea",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cup_tea",
+				"sprite_inv" : "s_item_cup_tea",
+				"stack_max" : 1,
+				"value" : 710, 
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 8,
+				"radiation" : -0.09,
+				"sound" : "snd_drinking_1",
+				"thirst" : 10
+			}
+		},
+		"egg" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Egg",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg",
+				"sprite_inv" : "s_item_egg",
+				"stack_max" : 1,
+				"value" : 80, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 5,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 5
+			}
+		},
+		"egg_boiled" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Boiled egg",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_boiled",
+				"sprite_inv" : "s_item_egg_boiled",
+				"stack_max" : 1,
+				"value" : 650, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 11,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"egg_cooked" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cooked egg",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_cooked",
+				"sprite_inv" : "s_item_egg_cooked",
+				"stack_max" : 1,
+				"value" : 1060, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 18,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"egg_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Egg",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_rotten",
+				"sprite_inv" : "s_item_egg_rotten",
+				"stack_max" : 1,
+				"value" : 50, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 3,
+				"fatigue" : 0,
+				"radiation" : 0.1,
+				"sound" : "snd_eating_1",
+				"thirst" : 3
+			}
+		},
+		"energy_drink" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "description",
+				"name" : "Energy drink",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_energy_drink",
+				"sprite_inv" : "s_item_energy_drink",
+				"stack_max" : 1,
+				"value" : 2150, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 16,
+				"fatigue" : 18,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 15
+			}
+		},
+		"fruit_juice" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Fruit Juice",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_fruit_juice",
+				"sprite_inv" : "s_item_fruit_juice",
+				"stack_max" : 1,
+				"value" : 860, 
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_juice",
+				"energy" : 6,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 18
+			}
+		},
+		"generic_chocolate" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Generic chocolate",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_generic_chocolate",
+				"sprite_inv" : "s_item_generic_chocolate",
+				"stack_max" : 1,
+				"value" : 550, 
+				"weight" : 0.13
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_chocolate",
+				"energy" : 10,
+				"fatigue" : 5,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"hamburger" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Hamburger",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_hamburger",
+				"sprite_inv" : "s_item_hamburger",
+				"stack_max" : 1,
+				"value" : 1140, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 41,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"meat_cooked" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cooked meat",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_meat_cooked",
+				"sprite_inv" : "s_item_meat_cooked",
+				"stack_max" : 1,
+				"value" : 780, 
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 16,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"meatballs" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "meatballs",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_meatballs",
+				"sprite_inv" : "s_item_meatballs",
+				"stack_max" : 1,
+				"value" : 520, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 17,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"milk" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Milk",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_milk",
+				"sprite_inv" : "s_item_milk",
+				"stack_max" : 1,
+				"value" : 1220, 
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 8,
+				"fatigue" : 10,
+				"radiation" : -0.05,
+				"sound" : "snd_drinking_1",
+				"thirst" : 18
+			}
+		},
+		"milk_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Milk",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_milk_rotten",
+				"sprite_inv" : "s_item_milk_rotten",
+				"stack_max" : 1,
+				"value" : 350, 
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 7,
+				"fatigue" : 8,
+				"radiation" : 0.35,
+				"sound" : "snd_drinking_1",
+				"thirst" : 13
+			}
+		},
+		"mre" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "MRE",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_mre",
+				"sprite_inv" : "s_item_mre",
+				"stack_max" : 1,
+				"value" : 15000, 
+				"weight" : 0.8
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_mre",
+				"energy" : 32,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 18
+			}
+		},
+		"pasta" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Pasta",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_pasta",
+				"sprite_inv" : "s_item_pasta",
+				"stack_max" : 1,
+				"value" : 550, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 10,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -20
+			}
+		},
+		"pasta_cooked" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Cooked pasta",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_pasta_cooked",
+				"sprite_inv" : "s_item_pasta_cooked",
+				"stack_max" : 1,
+				"value" : 1100, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 23,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"raw_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Raw meat",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_boar_meat",
+				"sprite_inv" : "s_item_boar_meat",
+				"stack_max" : 1,
+				"value" : 380, 
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 12,
+				"fatigue" : 0,
+				"radiation" : 0.4,
+				"sound" : "snd_eating_1",
+				"thirst" : -9
+			}
+		},
+		"red_cigarettes" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "description",
+				"name" : "Molbaro Cigarette",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cigarettes_red",
+				"sprite_inv" : "s_item_cigarettes_red",
+				"stack_max" : 5,
+				"value" : 1950, 
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"animation" : "s_arms_smoke",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : -0.13,
+				"sound" : "snd_accendino_1",
+				"thirst" : -3
+			}
+		},
+		"red_wine" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Red Wine",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wine_red",
+				"sprite_inv" : "s_item_wine_red",
+				"stack_max" : 1,
+				"value" : 6000, 
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_juice",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : -0.45,
+				"sound" : "snd_drinking_1",
+				"thirst" : -8
+			}
+		},
+		"russian_chocolate" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Premium chocolate",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_russian_chocolate",
+				"sprite_inv" : "s_item_russian_chocolate",
+				"stack_max" : 1,
+				"value" : 8150, 
+				"weight" : 0.13
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_chocolate",
+				"energy" : 15,
+				"fatigue" : 8,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"salame" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Salami",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_salame",
+				"sprite_inv" : "s_item_salame",
+				"stack_max" : 1,
+				"value" : 380, 
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"salame_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Rotten Salami",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_salame_rotten",
+				"sprite_inv" : "s_item_salame_rotten",
+				"stack_max" : 1,
+				"value" : 60, 
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 10,
+				"fatigue" : 0,
+				"radiation" : 0.12,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_butter" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Sandwich with Butter",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_butter",
+				"sprite_inv" : "s_item_sandwich_butter",
+				"stack_max" : 1,
+				"value" : 550, 
+				"weight" : 0.1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 12,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Sandwich with meat",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_meat",
+				"sprite_inv" : "s_item_sandwich_meat",
+				"stack_max" : 1,
+				"value" : 980, 
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 22,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_salame" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Sandwich with salami",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_salame",
+				"sprite_inv" : "s_item_sandwich_salame",
+				"stack_max" : 1,
+				"value" : 590, 
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_wurstel" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Sandwich with wurstel",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_wurstel",
+				"sprite_inv" : "s_item_sandwich_wurstel",
+				"stack_max" : 1,
+				"value" : 590, 
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"stew_meat_beans" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Stew with meat and beans",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_stew_meat_beans",
+				"sprite_inv" : "s_item_stew_meat_beans",
+				"stack_max" : 1,
+				"value" : 2250, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 30,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 14
+			}
+		},
+		"tushonka_fish" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Canned fish",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_tushonka_fish",
+				"sprite_inv" : "s_item_tushonka_fish",
+				"stack_max" : 1,
+				"value" : 700, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_can",
+				"energy" : 16,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 7
+			}
+		},
+		"tushonka_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Tushonka",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_tushonka_meat",
+				"sprite_inv" : "s_item_tushonka_meat",
+				"stack_max" : 1,
+				"value" : 680, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_can",
+				"energy" : 18,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"vodka" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Vodka",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_vodka",
+				"sprite_inv" : "s_item_vodka",
+				"stack_max" : 1,
+				"value" : 7220, 
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 23,
+				"fatigue" : 0,
+				"radiation" : -0.5,
+				"sound" : "snd_drinking_1",
+				"thirst" : -17
+			}
+		},
+		"water_bottle" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Bottle of water",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_water_bottle",
+				"sprite_inv" : "s_item_water_bottle",
+				"stack_max" : 1,
+				"value" : 1250, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : -0.05,
+				"sound" : "snd_drinking_1",
+				"thirst" : 18
+			}
+		},
+		"water_bottle_rotten" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Bottle of rotten water",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_water_bottle_rotten",
+				"sprite_inv" : "s_item_water_bottle_rotten",
+				"stack_max" : 1,
+				"value" : 320, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : 0.4,
+				"sound" : "snd_drinking_1",
+				"thirst" : 16
+			}
+		},
+		"whisky" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "whisky",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_whisky",
+				"sprite_inv" : "s_item_whisky",
+				"stack_max" : 1,
+				"value" : 2950, 
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 14,
+				"fatigue" : 0,
+				"radiation" : -0.7,
+				"sound" : "snd_drinking_1",
+				"thirst" : -22
+			}
+		},
+		"wolf_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Wolf meat",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wolf_meat",
+				"sprite_inv" : "s_item_wolf_meat",
+				"stack_max" : 1,
+				"value" : 320, 
+				"weight" : 0.35
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 10,
+				"fatigue" : 0,
+				"radiation" : 0.3,
+				"sound" : "snd_eating_1",
+				"thirst" : -9
+			}
+		},
+		"wurstel" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "",
+				"name" : "Wurstel",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wurstel",
+				"sprite_inv" : "s_item_wurstel",
+				"stack_max" : 1,
+				"value" : 390, 
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"zombie_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "description",
+				"name" : "polluted flesh",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_flesh_sample",
+				"sprite_inv" : "s_item_flesh_sample",
+				"stack_max" : 1,
+				"value" : 1700, 
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : -12,
+				"fatigue" : 28,
+				"radiation" : 0.8,
+				"sound" : "snd_eating_1",
+				"thirst" : -20
+			}
+		},
+		"mutant_meat" : {
+			"basic" : {
+				"categoria" : "consumable",
+				"description" : "description",
+				"name" : "biomass",
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_zombie_meat",
+				"sprite_inv" : "s_item_zombie_meat",
+				"stack_max" : 1,
+				"value" : 9200, 
+				"weight" : 0.8
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : -5,
+				"fatigue" : 45,
+				"radiation" : 1.6,
+				"sound" : "snd_eating_1",
+				"thirst" : -12
+			}
+		},
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

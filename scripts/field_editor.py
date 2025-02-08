@@ -34,6 +34,7 @@ def process_file(input_file_path: str, output_file_path: str, field: str, adder:
             print(f'No "{field}" key found.')
         print('Done.')
     except ValueError as jde:
+        #print("test")
         print(f'JSON decode error in file {input_file_path}: {jde}')
     except Exception as e:
         print(f'Error processing file {input_file_path}: {e}')

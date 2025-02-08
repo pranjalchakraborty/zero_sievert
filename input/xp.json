@@ -1,0 +1,101 @@
+{
+    "data": {
+        "levels": [
+            {
+                "skills": [],
+                "xp": 500
+            },
+            {
+                "skills": [],
+                "xp": 1000
+            },
+            {
+                "skills": [],
+                "xp": 2000
+            },
+            {
+                "skills": [],
+                "xp": 3000
+            },
+            {
+                "skills": [],
+                "xp": 4000
+            },
+            {
+                "skills": [],
+                "xp": 5000
+            },
+            {
+                "skills": [],
+                "xp": 6000
+            },
+            {
+                "skills": [],
+                "xp": 7000
+            },
+            {
+                "skills": [],
+                "xp": 8000
+            },
+            {
+                "skills": [],
+                "xp": 9000
+            },
+            {
+                "skills": [],
+                "xp": 11000
+            },
+            {
+                "skills": [],
+                "xp": 13000
+            },
+            {
+                "skills": [],
+                "xp": 15000
+            },
+            {
+                "skills": [],
+                "xp": 17000
+            },
+            {
+                "skills": [],
+                "xp": 19000
+            },
+            {
+                "skills": [],
+                "xp": 21000
+            },
+            {
+                "skills": [],
+                "xp": 23000
+            },
+            {
+                "skills": [],
+                "xp": 25000
+            },
+            {
+                "skills": [],
+                "xp": 28000
+            },
+            {
+                "skills": [],
+                "xp": 31500
+            },
+            {
+                "skills": [],
+                "xp": 35500
+            },
+            {
+                "skills": [],
+                "xp": 40000
+            }
+        ]
+    },
+    "metadata": {
+        "author": "Fern Nigro",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "xp",
+    "version": 0
+}

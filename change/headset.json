@@ -1,0 +1,131 @@
+{
+	"data" : {
+		"headset_lamp1" : {
+			"basic" : {
+				"categoria" : "headset",
+				"description" : "Creates a soft light in the direction of the weapon",
+				"name" : "Standard headlamp",
+				"scrap" : "material",
+				"sprite_ingame" : "s_headset_lamp1",
+				"sprite_inv" : "s_headset_lamp1",
+				"stack_max" : 1,
+				"value" : 16250,
+				"weight" : 0.3
+			},
+			"headset" : {
+				"light_id": "headset_lamp_1",
+				"type" : "torch"
+			}
+		},
+		"headset_lamp2" : {
+			"basic" : {
+				"categoria" : "headset",
+				"description" : "Creates a soft light in all directions",
+				"name" : "All direction headlamp",
+				"scrap" : "material",
+				"sprite_ingame" : "s_headset_lamp2",
+				"sprite_inv" : "s_headset_lamp2",
+				"stack_max" : 1,
+				"value" : 9200,
+				"weight" : 0.3
+			},
+			"headset" : {
+				"light_id": "headset_lamp_2",
+				"type" : "torch"
+			}
+		},
+		"headset_pumpkin" : {
+			"basic" : {
+				"categoria" : "headset",
+				"description" : "Creates a soft light in all directions",
+				"name" : "pumpkin headlamp",
+				"scrap" : "material",
+				"sprite_ingame" : "s_headset_pumpkin",
+				"sprite_inv" : "s_headset_pumpkin",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 1
+			},
+			"headset" : {
+				"light_id": "hs_pumpkin",
+				"type" : "torch"
+			}
+		},
+		"headset_nv_1" : {
+			"basic" : {
+				"categoria" : "headset",
+				"description" : "",
+				"name" : "Night vision goggles 1",
+				"scrap" : "material",
+				"sprite_ingame" : "s_headset_nv_1",
+				"sprite_inv" : "s_headset_nv_1",
+				"stack_max" : 1,
+				"value" : 180000,
+				"weight" : 0.5
+			},
+			"headset" : {
+				"blue" : 1,
+				"brightness" : 0.05,
+				"contrast" : -0.05,
+				"gamma" : 1,
+				"grain" : 0.35,
+				"green" : 0.4,
+				"red" : 0,
+				"type" : "night_vision"
+			}
+		},
+		"headset_nv_2" : {
+			"basic" : {
+				"categoria" : "headset",
+				"description" : "",
+				"name" : "Night vision goggles 2",
+				"scrap" : "material",
+				"sprite_ingame" : "s_headset_nv_2",
+				"sprite_inv" : "s_headset_nv_2",
+				"stack_max" : 1,
+				"value" : 370000,
+				"weight" : 0.5
+			},
+			"headset" : {
+				"blue" : 0,
+				"brightness" : 0.17,
+				"contrast" : -0.2,
+				"gamma" : 1,
+				"grain" : 0.3,
+				"green" : 1,
+				"red" : 0,
+				"type" : "night_vision"
+			}
+		},
+		"headset_nv_3" : {
+			"basic" : {
+				"categoria" : "headset",
+				"description" : "",
+				"name" : "Night vision goggles 3",
+				"scrap" : "material",
+				"sprite_ingame" : "s_headset_nv_3",
+				"sprite_inv" : "s_headset_nv_3",
+				"stack_max" : 1,
+				"value" : 600000,
+				"weight" : 0.5
+			},
+			"headset" : {
+				"blue" : 0,
+				"brightness" : 0.25,
+				"contrast" : -0.2,
+				"gamma" : 1.1,
+				"grain" : 0.1,
+				"green" : 1,
+				"red" : 0.3,
+				"type" : "night_vision"
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

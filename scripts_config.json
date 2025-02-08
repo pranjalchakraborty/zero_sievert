@@ -1,6 +1,6 @@
 {
     "alphabetic_sort": {
-        "input_folder": ".././input",
+        "input_folder": ".././change",
         "output_folder": ".././change"
     },
     "report_new_id": {
@@ -13,14 +13,14 @@
         "output_folder": ".././output",
         "field": "stack_max",
         "adder": 0,
-        "multiplier": 0.8
+        "multiplier": 8
     },
     "merge_json": {
         "input_folder": ".././input",
         "change_folder": ".././change",
         "output_folder": ".././output",
-        "excluded_fields": "['stack_max', 'value']",
+        "excluded_fields": "['faction','name']",
         "array_merge_strategy": "merge",
-        "new_id_strategy": "merge"
+        "new_id_strategy": "only_ask"
     }
 }

@@ -1,0 +1,6684 @@
+{
+	"data" : {
+		"ak_101" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "EC 101",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak101_base_game",
+				"sprite_inv" : "s_mod_ak101_base",
+				"stack_max" : 1,
+				"value" : 21000, 
+				"weight" : 3.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_3",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak101_magazine_standard",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_3",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 6,
+				"recoil" : 119,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},		
+		"ak_101?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "EC 101",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak101_base_game",
+				"sprite_inv" : "s_mod_ak101_base",
+				"stack_max" : 1,
+				"value" : 210000, 
+				"weight" : 3.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_3",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak101_magazine_standard",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_3",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 6,
+				"recoil" : 119,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},				
+		"ak_74" : {			
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "EC 74",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_base_game",
+				"sprite_inv" : "s_mod_ak74_base",
+				"stack_max" : 1,
+				"value" : 17500, 
+				"weight" : 3.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 35,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_3",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_3",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 82,
+				"rate_of_fire" : 6,
+				"recoil" : 138,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 80,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_74?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "EC 74",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_base_game",
+				"sprite_inv" : "s_mod_ak74_base",
+				"stack_max" : 1,
+				"value" : 175000, 
+				"weight" : 3.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 35,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_3",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_3",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 82,
+				"rate_of_fire" : 6,
+				"recoil" : 138,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 80,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_74u_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "EC 74U",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74u_base_game",
+				"sprite_inv" : "s_mod_ak74u_base",
+				"stack_max" : 1,
+				"value" : 13000, 
+				"weight" : 3.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 31,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 22,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_2",
+						"needed" : true,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_2",
+						"needed" : true,
+						"x" : 25,
+						"y" : 18
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 25,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 76,
+				"rate_of_fire" : 6,
+				"recoil" : 140,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"sound" : "snd_fal_before",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_74u_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "EC 74U",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74u_base_game",
+				"sprite_inv" : "s_mod_ak74u_base",
+				"stack_max" : 1,
+				"value" : 130000, 
+				"weight" : 3.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 31,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 22,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_2",
+						"needed" : true,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_2",
+						"needed" : true,
+						"x" : 25,
+						"y" : 18
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 25,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 76,
+				"rate_of_fire" : 6,
+				"recoil" : 140,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"sound" : "snd_fal_before",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"akm" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "ECM",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_base_game",
+				"sprite_inv" : "s_mod_ak74_base",
+				"stack_max" : 1,
+				"value" : 20000, 
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 19,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 30,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_2",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_2",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_2",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_2",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 83,
+				"rate_of_fire" : 6,
+				"recoil" : 170,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"akm?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "ECM",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_base_game",
+				"sprite_inv" : "s_mod_ak74_base",
+				"stack_max" : 1,
+				"value" : 200000, 
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 19,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 30,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_2",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_2",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_2",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_2",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 83,
+				"rate_of_fire" : 6,
+				"recoil" : 170,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"aps" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "ETS",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_aps_base_game",
+				"sprite_inv" : "s_mod_aps_base",
+				"stack_max" : 1,
+				"value" : 9100, 
+				"weight" : 1
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 72,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 8
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 16,
+						"y" : 5
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 12,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 5,
+				"recoil" : 80,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"aps?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "ETS",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_aps_base_game",
+				"sprite_inv" : "s_mod_aps_base",
+				"stack_max" : 1,
+				"value" : 95000, 
+				"weight" : 1
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 72,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 8
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 16,
+						"y" : 5
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 12,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 5,
+				"recoil" : 80,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"as_val" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "ZZ VEL",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_val_base_game",
+				"sprite_inv" : "s_mod_val_base",
+				"stack_max" : 1,
+				"value" : 31500, 
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 17,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"grip" : {
+						"default_id" : "mod_val_grip_1",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_val_magazine_1",
+						"needed" : true,
+						"x" : 28,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 28,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 20,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 4,
+				"recoil" : 83,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_vss",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"as_val?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "ZZ VEL",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_val_base_game",
+				"sprite_inv" : "s_mod_val_base",
+				"stack_max" : 1,
+				"value" : 315000, 
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 17,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"grip" : {
+						"default_id" : "mod_val_grip_1",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_val_magazine_1",
+						"needed" : true,
+						"x" : 28,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 28,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 20,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 4,
+				"recoil" : 83,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_vss",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ash12" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Sha-12",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ash12_base_game",
+				"sprite_inv" : "s_mod_ash12_base",
+				"stack_max" : 1,
+				"value" : 46000, 
+				"weight" : 6
+			},
+			"weapon" : {
+				"ammo" : "ammo_127x55_ps",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a127x55",
+				"damage" : 30,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 18
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 15
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 37,
+						"y" : 13
+					},
+					"brake" : {
+						"default_id" : "mod_ash12_brake_standard",
+						"needed" : true,
+						"x" : 41,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ash12_magazine_10",
+						"needed" : true,
+						"x" : 13,
+						"y" : 18
+					},
+					"scope" : {
+						"default_id" : "mod_ash12_sight",
+						"needed" : false,
+						"x" : 25,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 80,
+				"rate_of_fire" : 6,
+				"recoil" : 110,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ash12",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ash12?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Sha-12",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ash12_base_game",
+				"sprite_inv" : "s_mod_ash12_base",
+				"stack_max" : 1,
+				"value" : 460000, 
+				"weight" : 6
+			},
+			"weapon" : {
+				"ammo" : "ammo_127x55_ps",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a127x55",
+				"damage" : 30,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 18
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 15
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 37,
+						"y" : 13
+					},
+					"brake" : {
+						"default_id" : "mod_ash12_brake_standard",
+						"needed" : true,
+						"x" : 41,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ash12_magazine_10",
+						"needed" : true,
+						"x" : 13,
+						"y" : 18
+					},
+					"scope" : {
+						"default_id" : "mod_ash12_sight",
+						"needed" : false,
+						"x" : 25,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 80,
+				"rate_of_fire" : 6,
+				"recoil" : 110,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ash12",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},		
+		"avt_40" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "ATV-40",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svt_base_game",
+				"sprite_inv" : "s_mod_svt_base",
+				"stack_max" : 1,
+				"value" : 28000, 
+				"weight" : 4.20
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 32,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 21,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 63,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 38,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svt_magazine_10",
+						"needed" : true,
+						"x" : 26,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 16,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "sniper"
+			}
+		},
+		"avt_40?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "ATV-40",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svt_base_game",
+				"sprite_inv" : "s_mod_svt_base",
+				"stack_max" : 1,
+				"value" : 140000, 
+				"weight" : 4.20
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 32,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 21,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 63,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 38,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svt_magazine_10",
+						"needed" : true,
+						"x" : 26,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 16,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "sniper"
+			}
+		},
+		"dvl" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "EDL",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_dvl_base_game",
+				"sprite_inv" : "s_mod_dvl_base",
+				"stack_max" : 1,
+				"value" : 24500, 
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "bolt_action",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"grip" : {
+						"default_id" : "mod_dvl_grip",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"magazine" : {
+						"default_id" : "mod_dvl_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 98,
+				"rate_of_fire" : 60,
+				"recoil" : 140,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 85,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_dvl",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"dvl?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "EDL",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_dvl_base_game",
+				"sprite_inv" : "s_mod_dvl_base",
+				"stack_max" : 1,
+				"value" : 122500, 
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "bolt_action",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"grip" : {
+						"default_id" : "mod_dvl_grip",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"magazine" : {
+						"default_id" : "mod_dvl_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 98,
+				"rate_of_fire" : 60,
+				"recoil" : 140,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 85,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_dvl",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"famas" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Fanaz",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_famas_base_game",
+				"sprite_inv" : "s_mod_famas_base",
+				"stack_max" : 1,
+				"value" : 32000, 
+				"weight" : 3.6
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 48,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_famas_grip_1",
+						"needed" : true,
+						"x" : 19,
+						"y" : 19
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 18
+					},
+					"magazine" : {
+						"default_id" : "mod_famas_mag_20",
+						"needed" : true,
+						"x" : 11,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 84,
+				"rate_of_fire" : 4,
+				"recoil" : 80,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"famas?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Fanaz",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_famas_base_game",
+				"sprite_inv" : "s_mod_famas_base",
+				"stack_max" : 1,
+				"value" : 320000, 
+				"weight" : 3.6
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 48,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_famas_grip_1",
+						"needed" : true,
+						"x" : 19,
+						"y" : 19
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 18
+					},
+					"magazine" : {
+						"default_id" : "mod_famas_mag_20",
+						"needed" : true,
+						"x" : 11,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 84,
+				"rate_of_fire" : 4,
+				"recoil" : 80,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},	
+		"fn57" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "RP 57",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_fn_base_game",
+				"sprite_inv" : "s_mod_fn_base",
+				"stack_max" : 1,
+				"value" : 10500, 
+				"weight" : 1.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_57x28",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a57x28",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 80,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 17,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 10,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 14,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 5,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 8,
+				"recoil" : 75,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 18,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_3",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"fn57?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "RP 57",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_fn_base_game",
+				"sprite_inv" : "s_mod_fn_base",
+				"stack_max" : 1,
+				"value" : 105000, 
+				"weight" : 1.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_57x28",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a57x28",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 80,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 17,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 10,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 14,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 5,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 8,
+				"recoil" : 75,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 18,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_3",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},		
+		"g36" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "G 76",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_g36_base_game",
+				"sprite_inv" : "s_mod_g36_base",
+				"stack_max" : 1,
+				"value" : 29500, 
+				"weight" : 3.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_g36_barrel_1",
+						"needed" : true,
+						"x" : 30,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 0,
+						"y" : 0
+					},
+					"handguard" : {
+						"default_id" : "mod_g36_handguard_1",
+						"needed" : true,
+						"x" : 30,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 10
+					},
+					"stock" : {
+						"default_id" : "mod_g36_stock_1",
+						"needed" : true,
+						"x" : 13,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 80,
+				"rate_of_fire" : 6,
+				"recoil" : 108,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"g36?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "G 76",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_g36_base_game",
+				"sprite_inv" : "s_mod_g36_base",
+				"stack_max" : 1,
+				"value" : 395000, 
+				"weight" : 3.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_g36_barrel_1",
+						"needed" : true,
+						"x" : 30,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 0,
+						"y" : 0
+					},
+					"handguard" : {
+						"default_id" : "mod_g36_handguard_1",
+						"needed" : true,
+						"x" : 30,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 10
+					},
+					"stock" : {
+						"default_id" : "mod_g36_stock_1",
+						"needed" : true,
+						"x" : 13,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 80,
+				"rate_of_fire" : 6,
+				"recoil" : 108,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},		
+		"glock_17_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Vlok 17",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_glock_base_game",
+				"sprite_inv" : "s_mod_glock_base",
+				"stack_max" : 1,
+				"value" : 13500, 
+				"weight" : 1.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 19,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 85,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 17,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 11,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 15,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 6,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 7,
+				"recoil" : 65,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 15,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_3",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"glock_17_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Vlok 17",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_glock_base_game",
+				"sprite_inv" : "s_mod_glock_base",
+				"stack_max" : 1,
+				"value" : 135000, 
+				"weight" : 1.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 19,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 85,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 17,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 11,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 15,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 6,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 7,
+				"recoil" : 65,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 15,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_3",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"groza_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Grusa 1",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_groza_base_game",
+				"sprite_inv" : "s_mod_groza_base",
+				"stack_max" : 1,
+				"value" : 34000, 
+				"weight" : 3
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 21,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"default_id" : "mod_groza_barrel_1",
+						"needed" : true,
+						"x" : 31,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 21,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_groza_magazine_20",
+						"needed" : true,
+						"x" : 14,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 5,
+				"recoil" : 90,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 65,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"groza_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Grusa 1",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_groza_base_game",
+				"sprite_inv" : "s_mod_groza_base",
+				"stack_max" : 1,
+				"value" : 340000, 
+				"weight" : 3
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 21,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"default_id" : "mod_groza_barrel_1",
+						"needed" : true,
+						"x" : 31,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 21,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_groza_magazine_20",
+						"needed" : true,
+						"x" : 14,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 5,
+				"recoil" : 90,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 65,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"groza_4" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Grusa 4",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_groza_base_game",
+				"sprite_inv" : "s_mod_groza_base",
+				"stack_max" : 1,
+				"value" : 37500, 
+				"weight" : 3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 23,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"default_id" : "mod_groza_barrel_1",
+						"needed" : true,
+						"x" : 31,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 21,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_groza_magazine_20",
+						"needed" : true,
+						"x" : 14,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 5,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 65,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"groza_4?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Grusa 4",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_groza_base_game",
+				"sprite_inv" : "s_mod_groza_base",
+				"stack_max" : 1,
+				"value" : 275000, 
+				"weight" : 3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 23,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"default_id" : "mod_groza_barrel_1",
+						"needed" : true,
+						"x" : 31,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 21,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_groza_magazine_20",
+						"needed" : true,
+						"x" : 14,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 5,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 65,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"m1a" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "N1o",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_m1a_base_game",
+				"sprite_inv" : "s_mod_m1a_base",
+				"stack_max" : 1,
+				"value" : 24500, 
+				"weight" : 4.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 29,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 32,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 57,
+						"y" : 14
+					},
+					"handguard" : {
+						"default_id" : "mod_m1a_handguard_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"magazine" : {
+						"default_id" : "mod_m1a_magazine_1",
+						"needed" : true,
+						"x" : 27,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 28,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 91,
+				"rate_of_fire" : 8,
+				"recoil" : 185,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 110,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m1a",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"m1a?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "N1o",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_m1a_base_game",
+				"sprite_inv" : "s_mod_m1a_base",
+				"stack_max" : 1,
+				"value" : 245000, 
+				"weight" : 4.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 29,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 32,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 57,
+						"y" : 14
+					},
+					"handguard" : {
+						"default_id" : "mod_m1a_handguard_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"magazine" : {
+						"default_id" : "mod_m1a_magazine_1",
+						"needed" : true,
+						"x" : 27,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 28,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 91,
+				"rate_of_fire" : 8,
+				"recoil" : 185,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 110,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m1a",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}		
+		},
+		"m4a1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "N4o1",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_m4_base_game",
+				"sprite_inv" : "s_mod_m4_base",
+				"stack_max" : 1,
+				"value" : 23500, 
+				"weight" : 2.9
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ar15_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_ar15_handguard_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"default_id" : "mod_ar15_iron_sight",
+						"needed" : false,
+						"x" : 20,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_1",
+						"needed" : true,
+						"x" : 14,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 5,
+				"recoil" : 120,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"m4a1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "N4o1",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_m4_base_game",
+				"sprite_inv" : "s_mod_m4_base",
+				"stack_max" : 1,
+				"value" : 235000, 
+				"weight" : 2.9
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ar15_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_ar15_handguard_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"default_id" : "mod_ar15_iron_sight",
+						"needed" : false,
+						"x" : 20,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_1",
+						"needed" : true,
+						"x" : 14,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 5,
+				"recoil" : 120,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"makarov" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "PN Pokarov",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_pm_base_game",
+				"sprite_inv" : "s_mod_pm_base",
+				"stack_max" : 1,
+				"value" : 4400, 
+				"weight" : 0.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 13,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 62,
+				"rate_of_fire" : 8,
+				"recoil" : 93,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"makarov?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "PN Pokarov",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_pm_base_game",
+				"sprite_inv" : "s_mod_pm_base",
+				"stack_max" : 1,
+				"value" : 44000, 
+				"weight" : 0.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 13,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 62,
+				"rate_of_fire" : 8,
+				"recoil" : 93,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},		
+		"mk47" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "NC 47 CHIMERA",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mk47_base_game",
+				"sprite_inv" : "s_mod_mk47_base",
+				"stack_max" : 1,
+				"value" : 43600, 
+				"weight" : 3.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 22,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 45,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_mk47_barrel_1",
+						"needed" : true,
+						"x" : 33,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 21,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ar15_handguard_black",
+						"needed" : true,
+						"x" : 33,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 26,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_1",
+						"needed" : false,
+						"x" : 16,
+						"y" : 13
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 86,
+				"rate_of_fire" : 5,
+				"recoil" : 132,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"mk47?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "NC 47 CHIMERA",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mk47_base_game",
+				"sprite_inv" : "s_mod_mk47_base",
+				"stack_max" : 1,
+				"value" : 436000,
+				"weight" : 3.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 22,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 45,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_mk47_barrel_1",
+						"needed" : true,
+						"x" : 33,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 21,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ar15_handguard_black",
+						"needed" : true,
+						"x" : 33,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 26,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_1",
+						"needed" : false,
+						"x" : 16,
+						"y" : 13
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 86,
+				"rate_of_fire" : 5,
+				"recoil" : 132,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},	
+		"mosin" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "Nozin Makant",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mosin_base_game",
+				"sprite_inv" : "s_mod_mosin_base",
+				"stack_max" : 1,
+				"value" : 19000,
+				"weight" : 5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 52,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 12,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 58,
+						"y" : 7
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 25,
+						"y" : 6
+					},
+					"stock" : {
+						"default_id" : "mod_mosin_stock_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 94,
+				"rate_of_fire" : 75,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "sniper_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_sniper_fine",
+				"sound_mag_out" : "snd_sniper_inizio",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"mosin?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "Nozin Makant",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mosin_base_game",
+				"sprite_inv" : "s_mod_mosin_base",
+				"stack_max" : 1,
+				"value" : 95000,
+				"weight" : 5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 52,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 12,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 58,
+						"y" : 7
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 25,
+						"y" : 6
+					},
+					"stock" : {
+						"default_id" : "mod_mosin_stock_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 94,
+				"rate_of_fire" : 75,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "sniper_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_sniper_fine",
+				"sound_mag_out" : "snd_sniper_inizio",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},		
+		"mp153" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "NB 153",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mp153_base_game",
+				"sprite_inv" : "s_mod_mp153_base",
+				"stack_max" : 1,
+				"value" : 27000,
+				"weight" : 4
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 53,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 18,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 6,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 60,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 33,
+						"y" : 15
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_mp153_stock_1",
+						"needed" : true,
+						"x" : 21,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 40,
+				"rate_of_fire" : 25,
+				"recoil" : 185,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 30,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"mp153?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "NB 153",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mp153_base_game",
+				"sprite_inv" : "s_mod_mp153_base",
+				"stack_max" : 1,
+				"value" : 270000,
+				"weight" : 4
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 53,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 18,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 6,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 60,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 33,
+						"y" : 15
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_mp153_stock_1",
+						"needed" : true,
+						"x" : 21,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 40,
+				"rate_of_fire" : 25,
+				"recoil" : 185,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 30,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},		
+		"mp5" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "NB5",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mp5_base_game",
+				"sprite_inv" : "s_mod_mp5_base",
+				"stack_max" : 1,
+				"value" : 21500,
+				"weight" : 2.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 13,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_mp5_grip",
+						"needed" : true,
+						"x" : 18,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_mp5_handguard_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_mp5_magazine_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 18,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_mp5_stock_1",
+						"needed" : true,
+						"x" : 13,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 71,
+				"rate_of_fire" : 4,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mp5",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"mp5?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "NB5",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mp5_base_game",
+				"sprite_inv" : "s_mod_mp5_base",
+				"stack_max" : 1,
+				"value" : 215000,
+				"weight" : 2.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 13,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_mp5_grip",
+						"needed" : true,
+						"x" : 18,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_mp5_handguard_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_mp5_magazine_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 18,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_mp5_stock_1",
+						"needed" : true,
+						"x" : 13,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 71,
+				"rate_of_fire" : 4,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mp5",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"mp_133" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "MP 133",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mp133_game",
+				"sprite_inv" : "s_mp133",
+				"stack_max" : 1,
+				"value" : 16600,
+				"weight" : 4
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 51,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 14,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 48,
+						"y" : 5
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 25,
+				"recoil" : 170,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mp153",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"mp_133?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "MP 133",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mp133_game",
+				"sprite_inv" : "s_mp133",
+				"stack_max" : 1,
+				"value" : 165000,
+				"weight" : 4
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 51,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 14,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 48,
+						"y" : 5
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 25,
+				"recoil" : 170,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mp153",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},		
+		"no_item" : {
+			"basic" : {
+				"categoria" : "none",
+				"description" : "no item",
+				"name" : "no item",
+				"scrap" : "none",
+				"sprite_ingame" : "s_vuoto",
+				"sprite_inv" : "s_vuoto",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0
+			}
+		},		
+		"no_weapon" : {			
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "item description",
+				"scrap" : "none",
+				"sprite_ingame" : "s_vuoto",
+				"sprite_inv" : "s_vuoto",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0
+			}
+		},		
+		"p90" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "F90",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_p90_base_game",
+				"sprite_inv" : "s_mod_p90_base",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 2.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_57x28",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a57x28",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 57,
+				"fire_mode" : "automatic",
+				"magazine" : 50,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 17
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 68,
+				"rate_of_fire" : 4,
+				"recoil" : 81,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_p90",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"p90?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "F90",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_p90_base_game",
+				"sprite_inv" : "s_mod_p90_base",
+				"stack_max" : 1,
+				"value" : 250000,
+				"weight" : 2.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_57x28",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a57x28",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 57,
+				"fire_mode" : "automatic",
+				"magazine" : 50,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 17
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 68,
+				"rate_of_fire" : 4,
+				"recoil" : 81,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_p90",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},		
+		"pp19_bizon" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "BB 19 MOOSE",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_bizon_base_game",
+				"sprite_inv" : "s_mod_bizon_base",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 64,
+				"moddable" : true,
+				"mods" : {
+					"att_3" : {
+						"needed" : false,
+						"x" : 36,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 42,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 67,
+				"rate_of_fire" : 5,
+				"recoil" : 77,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"pp19_bizon?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "BB 19 MOOSE",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_bizon_base_game",
+				"sprite_inv" : "s_mod_bizon_base",
+				"stack_max" : 1,
+				"value" : 150000,
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 64,
+				"moddable" : true,
+				"mods" : {
+					"att_3" : {
+						"needed" : false,
+						"x" : 36,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 42,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 67,
+				"rate_of_fire" : 5,
+				"recoil" : 77,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"pp19_bizon_9x19" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "BB 19 MOOSE",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_bizon_base_game",
+				"sprite_inv" : "s_mod_bizon_base",
+				"stack_max" : 1,
+				"value" : 15500,
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 12,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 64,
+				"moddable" : true,
+				"mods" : {
+					"att_3" : {
+						"needed" : false,
+						"x" : 36,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 42,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 67,
+				"rate_of_fire" : 5,
+				"recoil" : 77,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"pp19_bizon_9x19?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "BB 19 MOOSE",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_bizon_base_game",
+				"sprite_inv" : "s_mod_bizon_base",
+				"stack_max" : 1,
+				"value" : 155000,
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 12,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 64,
+				"moddable" : true,
+				"mods" : {
+					"att_3" : {
+						"needed" : false,
+						"x" : 36,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 42,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 67,
+				"rate_of_fire" : 5,
+				"recoil" : 77,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},				
+		"pp91" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "BB 91 KERR",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_pp91_base_game",
+				"sprite_inv" : "s_mod_pp91_base",
+				"stack_max" : 1,
+				"value" : 12300,
+				"weight" : 2.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 33,
+						"y" : 13
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 27,
+						"y" : 15
+					},
+					"magazine" : {
+						"default_id" : "mod_pp91_magazine_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 20,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 68,
+				"rate_of_fire" : 3,
+				"recoil" : 55,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 40,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"pp91?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "BB 91 KERR",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_pp91_base_game",
+				"sprite_inv" : "s_mod_pp91_base",
+				"stack_max" : 1,
+				"value" : 130000,
+				"weight" : 2.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 33,
+						"y" : 13
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 27,
+						"y" : 15
+					},
+					"magazine" : {
+						"default_id" : "mod_pp91_magazine_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 20,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 68,
+				"rate_of_fire" : 3,
+				"recoil" : 55,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 40,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"ppsh_41_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "BBsH 41",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ppsh_base_game",
+				"sprite_inv" : "s_mod_ppsh_base",
+				"stack_max" : 1,
+				"value" : 13000,
+				"weight" : 4.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x25",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x25",
+				"damage" : 12,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 33,
+				"moddable" : true,
+				"mods" : {
+					"magazine" : {
+						"default_id" : "mod_ppsh_magazine_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 16
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 73,
+				"rate_of_fire" : 4,
+				"recoil" : 78,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_fn57",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"ppsh_41_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "BBsH 41",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ppsh_base_game",
+				"sprite_inv" : "s_mod_ppsh_base",
+				"stack_max" : 1,
+				"value" : 130000,
+				"weight" : 4.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x25",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x25",
+				"damage" : 12,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 33,
+				"moddable" : true,
+				"mods" : {
+					"magazine" : {
+						"default_id" : "mod_ppsh_magazine_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 16
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 73,
+				"rate_of_fire" : 4,
+				"recoil" : 78,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_fn57",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"protecta_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Boulder",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_protecta_base_game",
+				"sprite_inv" : "s_mod_protecta_base",
+				"stack_max" : 1,
+				"value" : 34000,
+				"weight" : 5.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 48,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 25,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 18,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_protecta_grip",
+						"needed" : true,
+						"x" : 22,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 16
+					},
+					"magazine" : {
+						"default_id" : "mod_protecta_magazine6",
+						"needed" : true,
+						"x" : 25,
+						"y" : 14
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 11
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 17,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 25,
+				"rate_of_fire" : 15,
+				"recoil" : 175,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"protecta_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Boulder",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_protecta_base_game",
+				"sprite_inv" : "s_mod_protecta_base",
+				"stack_max" : 1,
+				"value" : 340000,
+				"weight" : 5.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 48,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 25,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 18,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_protecta_grip",
+						"needed" : true,
+						"x" : 22,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 16
+					},
+					"magazine" : {
+						"default_id" : "mod_protecta_magazine6",
+						"needed" : true,
+						"x" : 25,
+						"y" : 14
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 11
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 17,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 25,
+				"rate_of_fire" : 15,
+				"recoil" : 175,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"r700_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "Marauder 700",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_r700_1_base_game",
+				"sprite_inv" : "s_mod_r700_1_base",
+				"stack_max" : 1,
+				"value" : 22000,
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 15,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 59,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 75,
+				"recoil" : 150,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "sniper_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_r700",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_sniper_fine",
+				"sound_mag_out" : "snd_sniper_inizio",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"r700_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "Marauder 700",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_r700_1_base_game",
+				"sprite_inv" : "s_mod_r700_1_base",
+				"stack_max" : 1,
+				"value" : 110000,
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 15,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 59,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 75,
+				"recoil" : 150,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "sniper_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_r700",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_sniper_fine",
+				"sound_mag_out" : "snd_sniper_inizio",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"r700_modern" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "Marauder 700 Modern",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_r700_2_base_game",
+				"sprite_inv" : "s_mod_r700_2_base",
+				"stack_max" : 1,
+				"value" : 3750,
+				"weight" : 3.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 65,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 18
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 18
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 15
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 59,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 18
+					},
+					"magazine" : {
+						"default_id" : "mod_r700_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_ctr_black",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 99,
+				"rate_of_fire" : 60,
+				"recoil" : 145,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_r700",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"r700_modern?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "Marauder 700 Modern",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_r700_2_base_game",
+				"sprite_inv" : "s_mod_r700_2_base",
+				"stack_max" : 1,
+				"value" : 187500,
+				"weight" : 3.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 65,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 18
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 18
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 15
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 59,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 18
+					},
+					"magazine" : {
+						"default_id" : "mod_r700_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_ctr_black",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 99,
+				"rate_of_fire" : 60,
+				"recoil" : 145,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 100,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_r700",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"rpk" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "PRK 16",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_rpk_base_game",
+				"sprite_inv" : "s_mod_rpk_base",
+				"stack_max" : 1,
+				"value" : 36000,
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 47,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_rpk_grip",
+						"needed" : true,
+						"x" : 19,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_rpk_handguard_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 24,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_rpk_stock",
+						"needed" : false,
+						"x" : 15,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 6,
+				"recoil" : 92,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"rpk?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "PRK 16",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_rpk_base_game",
+				"sprite_inv" : "s_mod_rpk_base",
+				"stack_max" : 1,
+				"value" : 360000,
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 47,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_rpk_grip",
+						"needed" : true,
+						"x" : 19,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_rpk_handguard_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 24,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_rpk_stock",
+						"needed" : false,
+						"x" : 15,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 6,
+				"recoil" : 92,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},	
+		"santa_ak" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Santa EC 74",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_santa_base_game",
+				"sprite_inv" : "s_mod_ak74_santa_base",
+				"stack_max" : 1,
+				"value" : 13000,
+				"weight" : 3.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 60,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 37,
+						"y" : 17
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 17
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 14
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 12
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 91,
+				"rate_of_fire" : 6,
+				"recoil" : 80,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 80,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sil_545x39_1",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"santa_ak?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Santa EC 74",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_santa_base_game",
+				"sprite_inv" : "s_mod_ak74_santa_base",
+				"stack_max" : 1,
+				"value" : 500000,
+				"weight" : 3.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 60,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 37,
+						"y" : 17
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 17
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 14
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 12
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 91,
+				"rate_of_fire" : 6,
+				"recoil" : 80,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 80,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sil_545x39_1",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"sawed_off_double_shotgun" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Sawed off double shotgun",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_sawed_off_double_shotgun_game",
+				"sprite_inv" : "s_sawed_off_double_shotgun_inv",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 2.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 48,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 13,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 2,
+				"moddable" : true,
+				"mods" : {},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 20,
+				"rate_of_fire" : 10,
+				"recoil" : 150,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_2shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"sawed_off_double_shotgun?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Sawed off double shotgun",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_sawed_off_double_shotgun_game",
+				"sprite_inv" : "s_sawed_off_double_shotgun_inv",
+				"stack_max" : 1,
+				"value" : 110000,
+				"weight" : 2.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 48,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 13,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 2,
+				"moddable" : true,
+				"mods" : {},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 20,
+				"rate_of_fire" : 10,
+				"recoil" : 150,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_2shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"scar_h_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Skop H",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_scar_base_game",
+				"sprite_inv" : "s_mod_scar_base",
+				"stack_max" : 1,
+				"value" : 36000,
+				"weight" : 4.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 25,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 38,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_scar_barrel_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_scar_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_scar_handguard_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_m1a_magazine_1",
+						"needed" : true,
+						"x" : 26,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_scar_stock_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 87,
+				"rate_of_fire" : 6,
+				"recoil" : 135,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_fal",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"scar_h_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Skop H",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_scar_base_game",
+				"sprite_inv" : "s_mod_scar_base",
+				"stack_max" : 1,
+				"value" : 360000,
+				"weight" : 4.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 25,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 38,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_scar_barrel_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_scar_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_scar_handguard_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_m1a_magazine_1",
+						"needed" : true,
+						"x" : 26,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_scar_stock_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 87,
+				"rate_of_fire" : 6,
+				"recoil" : 135,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 100,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_fal",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},		
+		"scar_l" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Skop L",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_scar_base_game",
+				"sprite_inv" : "s_mod_scar_base",
+				"stack_max" : 1,
+				"value" : 22000,
+				"weight" : 4.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 18,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 45,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_scar_barrel_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_scar_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_scar_handguard_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 26,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_scar_stock_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 87,
+				"rate_of_fire" : 6,
+				"recoil" : 125,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"scar_l?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Skop L",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_scar_base_game",
+				"sprite_inv" : "s_mod_scar_base",
+				"stack_max" : 1,
+				"value" : 220000,
+				"weight" : 4.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 18,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 45,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_scar_barrel_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_scar_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_scar_handguard_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 26,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_scar_stock_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 87,
+				"rate_of_fire" : 6,
+				"recoil" : 125,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},	
+		"skorpion" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Spyder",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_skorpion_base_game",
+				"sprite_inv" : "s_mod_skorpion_base",
+				"stack_max" : 1,
+				"value" : 850,
+				"weight" : 2
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 28,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 5,
+				"recoil" : 58,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 40,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"skorpion?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Spyder",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_skorpion_base_game",
+				"sprite_inv" : "s_mod_skorpion_base",
+				"stack_max" : 1,
+				"value" : 85000,
+				"weight" : 2
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 28,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 5,
+				"recoil" : 58,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 40,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"sks" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "MKM",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_sks_base_game",
+				"sprite_inv" : "s_mod_sks_base",
+				"stack_max" : 1,
+				"value" : 1950,
+				"weight" : 3.6
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 24,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 25,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_sks_magazine_10",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 86,
+				"rate_of_fire" : 10,
+				"recoil" : 135,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sks",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"sks?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "MKM",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_sks_base_game",
+				"sprite_inv" : "s_mod_sks_base",
+				"stack_max" : 1,
+				"value" : 195000,
+				"weight" : 3.6
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 24,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 25,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_sks_magazine_10",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 86,
+				"rate_of_fire" : 10,
+				"recoil" : 135,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sks",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"spas_12_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Stas 12",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_spas_base_game",
+				"sprite_inv" : "s_mod_spas_base",
+				"stack_max" : 1,
+				"value" : 30000,
+				"weight" : 3.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 20,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 7,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 56,
+						"y" : 5
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 34,
+						"y" : 9
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 4
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 18,
+						"y" : 6
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 25,
+				"recoil" : 165,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"spas_12_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Stas 12",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_spas_base_game",
+				"sprite_inv" : "s_mod_spas_base",
+				"stack_max" : 1,
+				"value" : 300000,
+				"weight" : 3.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 20,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 7,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 56,
+						"y" : 5
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 34,
+						"y" : 9
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 4
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 18,
+						"y" : 6
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 25,
+				"recoil" : 165,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"sv98_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "VS-98",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_sv98_base_game",
+				"sprite_inv" : "s_mod_sv98_base",
+				"stack_max" : 1,
+				"value" : 19500,
+				"weight" : 4.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 33,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 61,
+						"y" : 7
+					},
+					"magazine" : {
+						"default_id" : "mod_sv98_magazine5",
+						"needed" : true,
+						"x" : 24,
+						"y" : 11
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 6
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 97,
+				"rate_of_fire" : 75,
+				"recoil" : 168,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sniper_1",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"sv98_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "VS-98",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_sv98_base_game",
+				"sprite_inv" : "s_mod_sv98_base",
+				"stack_max" : 1,
+				"value" : 97500,
+				"weight" : 4.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 33,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 61,
+						"y" : 7
+					},
+					"magazine" : {
+						"default_id" : "mod_sv98_magazine5",
+						"needed" : true,
+						"x" : 24,
+						"y" : 11
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 6
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 97,
+				"rate_of_fire" : 75,
+				"recoil" : 168,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 100,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sniper_1",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"svd" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "FRD",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svd_base_game",
+				"sprite_inv" : "s_mod_svd_base",
+				"stack_max" : 1,
+				"value" : 39100,
+				"weight" : 4.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 33,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 18,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 62,
+						"y" : 14
+					},
+					"handguard" : {
+						"default_id" : "mod_svd_handguard_1",
+						"needed" : true,
+						"x" : 33,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svd_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_svd_stock_1",
+						"needed" : true,
+						"x" : 16,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 93,
+				"rate_of_fire" : 15,
+				"recoil" : 190,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 110,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_svd",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"svd?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "FRD",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svd_base_game",
+				"sprite_inv" : "s_mod_svd_base",
+				"stack_max" : 1,
+				"value" : 195000,
+				"weight" : 4.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 33,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 18,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 62,
+						"y" : 14
+					},
+					"handguard" : {
+						"default_id" : "mod_svd_handguard_1",
+						"needed" : true,
+						"x" : 33,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svd_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_svd_stock_1",
+						"needed" : true,
+						"x" : 16,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 93,
+				"rate_of_fire" : 15,
+				"recoil" : 190,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 110,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_svd",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"svt_40" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "STV-40",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svt_base_game",
+				"sprite_inv" : "s_mod_svt_base",
+				"stack_max" : 1,
+				"value" : 21500,
+				"weight" : 4.20
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 32,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 21,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 63,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 38,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svt_magazine_10",
+						"needed" : true,
+						"x" : 26,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 15,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"svt_40?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "description",
+				"name" : "STV-40",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svt_base_game",
+				"sprite_inv" : "s_mod_svt_base",
+				"stack_max" : 1,
+				"value" : 107500,
+				"weight" : 4.20
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 32,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 21,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 63,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 38,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svt_magazine_10",
+						"needed" : true,
+						"x" : 26,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 15,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"tapco" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Batko MKM",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_tapco_base_game",
+				"sprite_inv" : "s_mod_tapco_base",
+				"stack_max" : 1,
+				"value" : 29000,
+				"weight" : 3.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 26,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 33,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 61,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 21,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_tapco_handguard_1",
+						"needed" : true,
+						"x" : 37,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_sks_magazine_20",
+						"needed" : true,
+						"x" : 31,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 25,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : true,
+						"x" : 17,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 88,
+				"rate_of_fire" : 8,
+				"recoil" : 135,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sks",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"tapco?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Batko MKM",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_tapco_base_game",
+				"sprite_inv" : "s_mod_tapco_base",
+				"stack_max" : 1,
+				"value" : 290000,
+				"weight" : 3.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 26,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 33,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 61,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 21,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_tapco_handguard_1",
+						"needed" : true,
+						"x" : 37,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_sks_magazine_20",
+						"needed" : true,
+						"x" : 31,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 25,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : true,
+						"x" : 17,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 88,
+				"rate_of_fire" : 8,
+				"recoil" : 135,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sks",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"toz34" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Tus 34",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_toz34_game",
+				"sprite_inv" : "s_toz34_inv",
+				"stack_max" : 1,
+				"value" : 20500,
+				"weight" : 4.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 50,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 12,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 2,
+				"moddable" : true,
+				"mods" : {},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 10,
+				"recoil" : 165,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_2shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"toz34?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Tus 34",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_toz34_game",
+				"sprite_inv" : "s_toz34_inv",
+				"stack_max" : 1,
+				"value" : 204000,
+				"weight" : 4.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 50,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 12,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 2,
+				"moddable" : true,
+				"mods" : {},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 10,
+				"recoil" : 165,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_2shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"tt_tokarev" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "PP Kokarev",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_tt_base_game",
+				"sprite_inv" : "s_mod_tt_base",
+				"stack_max" : 1,
+				"value" : 34000,
+				"weight" : 0.75
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x25",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x25",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 11,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 15,
+						"y" : 7
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 8,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 8,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"tt_tokarev?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "PP Kokarev",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_tt_base_game",
+				"sprite_inv" : "s_mod_tt_base",
+				"stack_max" : 1,
+				"value" : 68000,
+				"weight" : 0.75
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x25",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x25",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 11,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 15,
+						"y" : 7
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 8,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 8,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},		
+		"ump_1" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "VNP",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ump_base_game",
+				"sprite_inv" : "s_mod_ump_base",
+				"stack_max" : 1,
+				"value" : 21500,
+				"weight" : 2.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a45",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 59,
+				"fire_mode" : "automatic",
+				"magazine" : 33,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 16
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 34,
+						"y" : 13
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 73,
+				"rate_of_fire" : 6,
+				"recoil" : 53,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"ump_1?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "VNP",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ump_base_game",
+				"sprite_inv" : "s_mod_ump_base",
+				"stack_max" : 1,
+				"value" : 215000,
+				"weight" : 2.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a45",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 59,
+				"fire_mode" : "automatic",
+				"magazine" : 33,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 16
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 34,
+						"y" : 13
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 73,
+				"rate_of_fire" : 6,
+				"recoil" : 53,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},		
+		"vector" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "VRIZZ Sector .45 acp",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vector_base_game",
+				"sprite_inv" : "s_mod_vector_base",
+				"stack_max" : 1,
+				"value" : 21000,
+				"weight" : 1.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a45",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 16
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_vector_magazine_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 21
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 3,
+				"recoil" : 45,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"vector?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "VRIZZ Sector .45 acp",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vector_base_game",
+				"sprite_inv" : "s_mod_vector_base",
+				"stack_max" : 1,
+				"value" : 210000,
+				"weight" : 1.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a45",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 16
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_vector_magazine_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 21
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 3,
+				"recoil" : 45,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"vector_9x19" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "VRIZZ Sector 9x19mm",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vector_base_game",
+				"sprite_inv" : "s_mod_vector_base",
+				"stack_max" : 1,
+				"value" : 21000,
+				"weight" : 1.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 13,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 16
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_vector_magazine_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 21
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 3,
+				"recoil" : 45,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"vector_9x19?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "VRIZZ Sector 9x19mm",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vector_base_game",
+				"sprite_inv" : "s_mod_vector_base",
+				"stack_max" : 1,
+				"value" : 210000,
+				"weight" : 1.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 13,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 16
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_vector_magazine_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 21
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 3,
+				"recoil" : 45,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"vintar_bc" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Wintar BK",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vintar_base_game",
+				"sprite_inv" : "s_mod_vintar_base",
+				"stack_max" : 1,
+				"value" : 36000,
+				"weight" : 2.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 27,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"magazine" : {
+						"default_id" : "mod_val_magazine_3",
+						"needed" : true,
+						"x" : 21,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_scope_pso",
+						"needed" : false,
+						"x" : 20,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 92,
+				"rate_of_fire" : 3,
+				"recoil" : 75,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_vss",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"vintar_bc?" : {
+			"basic" : {
+				"categoria" : "weapon",
+				"description" : "",
+				"name" : "Wintar BK",
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vintar_base_game",
+				"sprite_inv" : "s_mod_vintar_base",
+				"stack_max" : 1,
+				"value" : 360000,
+				"weight" : 2.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 27,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"magazine" : {
+						"default_id" : "mod_val_magazine_3",
+						"needed" : true,
+						"x" : 21,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_scope_pso",
+						"needed" : false,
+						"x" : 20,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 92,
+				"rate_of_fire" : 3,
+				"recoil" : 75,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_vss",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"		}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

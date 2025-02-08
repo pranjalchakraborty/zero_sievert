@@ -1,0 +1,17 @@
+{
+    "data": {
+        "dmr": {},
+        "pistol": {},
+        "rifle": {},
+        "shotgun": {},
+        "smg": {},
+        "sniper": {}
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "weapon_types",
+    "version": 0
+}

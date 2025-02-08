@@ -1,0 +1,230 @@
+{
+    "data": {
+        "injector1": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "injector",
+                "description": "Stop all bleeding immediately and forcefully close your open wounds, by draining moisture from your body.",
+                "name": "Zagustin Hemostatic",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_injector1",
+                "sprite_inv": "s_item_injector1",
+                "stack_max": 8.0,
+                "value": 5000,
+                "weight": 0.1
+            },
+            "injector": {
+                "bleed_immune": true,
+                "bleed_rec": 25,
+                "duration": 7200,
+                "hp_regen": 10,
+                "hunger": 0,
+                "hunger_regen": -5,
+                "max_hp": 0,
+                "max_weight": 0,
+                "rad_def": 0,
+                "rad_regen": 0,
+                "stamina_max": 0,
+                "stamina_regen": 0,
+                "thirst": -50,
+                "thirst_regen": -10
+            }
+        },
+        "injector2": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "injector",
+                "description": "Push your muscles into override by burning up all of your fat, expect intense aches and dislocated joints.",
+                "name": "Creatine Monohydrate",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_injector2",
+                "sprite_inv": "s_item_injector2",
+                "stack_max": 8.0,
+                "value": 8000,
+                "weight": 0.1
+            },
+            "injector": {
+                "bleed_immune": false,
+                "bleed_rec": 0,
+                "duration": 7200,
+                "hp_regen": 0,
+                "hunger": -50,
+                "hunger_regen": -10,
+                "max_hp": -10,
+                "max_weight": 10,
+                "rad_def": 0,
+                "rad_regen": 0,
+                "stamina_max": 50,
+                "stamina_regen": 25,
+                "thirst": -10,
+                "thirst_regen": -10
+            }
+        },
+        "injector3": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "injector",
+                "description": "Dampen pain and paralyze your nerves. Will save your life but it's extremely harmful to your body. Also addictive.",
+                "name": "Syrette Morphine",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_injector3",
+                "sprite_inv": "s_item_injector3",
+                "stack_max": 8.0,
+                "value": 5000,
+                "weight": 0.1
+            },
+            "injector": {
+                "bleed_immune": false,
+                "bleed_rec": 0,
+                "duration": 7200,
+                "hp_regen": 25,
+                "hunger": -5,
+                "hunger_regen": -10,
+                "max_hp": 50,
+                "max_weight": 0,
+                "rad_def": 0,
+                "rad_regen": -1,
+                "stamina_max": -5,
+                "stamina_regen": -10,
+                "thirst": -5,
+                "thirst_regen": -10
+            }
+        },
+        "injector4": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "injector",
+                "description": "Artificially stimulate and reinforce your muscles, turning you into The Hulk at the cost of your athelete career.",
+                "name": "Steroids Stimulants",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_injector4",
+                "sprite_inv": "s_item_injector4",
+                "stack_max": 8.0,
+                "value": 15000,
+                "weight": 0.1
+            },
+            "injector": {
+                "bleed_immune": false,
+                "bleed_rec": 0,
+                "duration": 18000,
+                "hp_regen": 0,
+                "hunger": -50,
+                "hunger_regen": -5,
+                "max_hp": 0,
+                "max_weight": 50,
+                "rad_def": 0,
+                "rad_regen": 0,
+                "stamina_max": 50,
+                "stamina_regen": 0,
+                "thirst": -50,
+                "thirst_regen": -5
+            }
+        },
+        "injector5": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "injector",
+                "description": "Artificially produced proteins and leptin, easily absorbed by your body. Contains enough nutritions for a day.",
+                "name": "Proteins Injector",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_injector5",
+                "sprite_inv": "s_item_injector5",
+                "stack_max": 8.0,
+                "value": 11000,
+                "weight": 0.1
+            },
+            "injector": {
+                "bleed_immune": false,
+                "bleed_rec": 0,
+                "duration": 600,
+                "energy": 25,
+                "fatigue": 25,
+                "hp_regen": 0,
+                "hunger": 0,
+                "hunger_regen": 50,
+                "max_hp": 0,
+                "max_weight": 0,
+                "rad_def": 0,
+                "rad_regen": 0,
+                "stamina_max": 0,
+                "stamina_regen": 0,
+                "thirst": 0,
+                "thirst_regen": 50
+            }
+        },
+        "injector6": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "injector",
+                "description": "Basically anti-rad pills but it's liquid in huge dose. This stuff will give you cancer in the long run.",
+                "name": "Liquified Iodide",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_injector6",
+                "sprite_inv": "s_item_injector6",
+                "stack_max": 8.0,
+                "value": 8000,
+                "weight": 0.1
+            },
+            "injector": {
+                "bleed_immune": false,
+                "bleed_rec": 25,
+                "duration": 7200,
+                "hp_regen": 0,
+                "hunger": 0,
+                "hunger_regen": -10,
+                "max_hp": 0,
+                "max_weight": 0,
+                "rad_def": 250,
+                "rad_regen": 120,
+                "stamina_max": 0,
+                "stamina_regen": 0,
+                "thirst": 0,
+                "thirst_regen": -10
+            }
+        },
+        "injector7": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "injector",
+                "description": "Force your marrow to increase blood production. Bad for your bones obviously, no amount of milk gonna help.",
+                "name": "Erythropoiesis Stimulant",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_injector3",
+                "sprite_inv": "s_item_injector3",
+                "stack_max": 8.0,
+                "value": 8000,
+                "weight": 0.1
+            },
+            "injector": {
+                "bleed_immune": false,
+                "bleed_rec": 0,
+                "duration": 1800,
+                "hp_regen": 150,
+                "hunger": -5,
+                "hunger_regen": -25,
+                "max_hp": 25,
+                "max_weight": 0,
+                "rad_def": 0,
+                "rad_regen": -1,
+                "stamina_max": 0,
+                "stamina_regen": 0,
+                "thirst": -5,
+                "thirst_regen": -25
+            }
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "item",
+    "version": 0
+}

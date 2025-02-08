@@ -1,0 +1,247 @@
+{
+	"data" : {
+		"equipment_1" : {
+			"name" : "Unauthorized Loiterer",
+			"description" : "You aren't supposed to be here.",
+			"starting_money" : 0,
+			"items" : [
+				{
+					"id" : "bandage"
+				},
+				{
+					"id" : "scrap_ammo",
+					"stack" : 35
+				},
+				{ 
+					"id" : "base_scavenger_1" 
+				},
+				{ 
+					"id" : "base_kitchen_1" 
+				},
+				{ 
+					"id" : "base_bed_1" 
+				},
+				{ 
+					"id" : "base_ammo_1" 
+				} 
+			]
+		},
+		"equipment_2" : {
+			"name" : "Rookie Hunter",
+			"description" : "Get out of here, hunter.",
+			"starting_money" : 0,
+			"items" : [
+				{
+					"id" : "medikit_1",
+					"stack" : 1
+				},
+				{
+					"id" : "bandage",
+					"stack" : 3
+				},
+				{
+					"id" : "water_bottle",
+					"stack" : 2
+				},
+				{
+					"id" : "bread"
+				},
+				{
+					"id" : "armor_bulletproof"
+				},
+				{
+					"id" : "scrap_ammo",
+					"stack" : 35
+				},
+				{ 
+					"id" : "base_scavenger_1" 
+				},
+				{ 
+					"id" : "base_kitchen_1" 
+				},
+				{ 
+					"id" : "base_bed_1" 
+				},
+				{ 
+					"id" : "base_ammo_1" 
+				} 
+			]
+		},
+		"equipment_3" : {
+			"name" : "Butcher",
+			"description" : "Put that knife away, hunter! Save it for the mutants.",
+			"starting_money" : 0,
+			"items" : [
+				{
+					"id" : "medikit_1",
+					"stack" : 3
+				},
+				{
+					"id" : "injector1",
+				},
+				{	
+				"id"  : "bandage"
+				},
+				{
+					"id" : "water_bottle",
+					"stack" : 1
+				},
+				{
+					"id" : "rabbit_pelt", 
+					"stack" : 2
+				},
+				{
+					"id" : "blue_cigarettes",
+					"stack" : 2
+				},
+				{
+					"id" : "meat_cooked"
+				},
+				{
+					"id" : "armor_novice"
+				},
+				{
+					"id" : "scrap_ammo",
+					"stack" : 35
+				},
+				{ 
+					"id" : "base_scavenger_1" 
+				},
+				{ 
+					"id" : "base_kitchen_1" 
+				},
+				{ 
+					"id" : "base_bed_1" 
+				},
+				{ 
+					"id" : "base_ammo_1" 
+				} 
+			]
+		},
+		"equipment_4" : {
+			"name" : "Anomalous Scav",
+			"description" : "Is the allure of pricey artifacts really worth the risk?",
+			"starting_money" : 0,
+			"items" : [
+				{
+					"id" : "medikit_long", 
+					"stack" : 2
+				},
+				{
+					"id" : "headset_lamp2"
+				},
+				{
+					"id" : "bandage_sterilizzata",
+					"stack" : 2
+				},
+				{
+					"id" : "zombie_meat"
+				},
+				{
+					"id" : "armor_scientist_1"
+				},
+				{
+					"id" : "scrap_ammo", 
+					"stack" : 35
+				},
+				{
+					"id" : "scientific_analyzer"
+				},
+				{ 
+					"id" : "base_scavenger_1" 
+				},
+				{ 
+					"id" : "base_kitchen_1" 
+				},
+				{ 
+					"id" : "base_bed_1" 
+				},
+				{ 
+					"id" : "base_ammo_1" 
+				} 
+			]
+		},
+		"equipment_5" : {
+			"name" : "Renegade",
+			"description" : "Degenerate!",
+			"starting_money" : 0,
+			"items" : [
+				{
+					"id" : "medikit_1",
+					"stack" : 3
+				},
+				{
+					"id" : "bandage"
+				},
+				{
+					"id" : "vodka", 
+					"stack" : 2
+				},
+				{
+					"id" : "scrap_ammo",
+					"stack" : 35
+				},
+				{
+					"id" : "red_cigarettes"
+				},
+				{
+					"id" : "armor_bandit_2"
+				},
+				{ 
+					"id" : "base_scavenger_1" 
+				},
+				{ 
+					"id" : "base_kitchen_1" 
+				},
+				{ 
+					"id" : "base_bed_1" 
+				},
+				{ 
+					"id" : "base_ammo_1" 
+				} 
+			]
+		},
+		"equipment_6" : {
+			"name" : "Free Mercenary",
+			"description" : "You shouldn't be meddling here, foreigner.",
+			"starting_money" : 0,
+			"items" : [
+				{
+					"id" : "pills_anti_rad"
+				},
+				{
+					"id" : "armor_m_1"
+				},
+				{
+					"id" : "mod_torch_1"
+				},
+				{
+					"id" : "scrap_ammo",
+					"stack" : 35
+				},
+				{
+					"id" : "energy_drink"
+				},
+				{ 
+					"id" : "base_scavenger_1" 
+				},
+				{ 
+					"id" : "base_kitchen_1" 
+				},
+				{ 
+					"id" : "base_bed_1" 
+				},
+				{ 
+					"id" : "base_ammo_1" 
+				} 
+			]
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "loadouts",
+	"version" : 0
+}

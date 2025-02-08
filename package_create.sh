@@ -22,8 +22,8 @@ echo "Starting PyInstaller build process..."
 
 # Read and iterate over each script to build
 jq -c '.pyinstaller.scripts_to_build[]' "$CONFIG_FILE" | while read -r script; do
-    source=$(echo "$script" | jq -r '.source')
-    output=$(echo "$script" | jq -r '.output_executable')
+    source=$(echo "$script" | jq -r '.source' | tr -d '\r')
+    output=$(echo "$script" | jq -r '.output_executable' | tr -d '\r')
     output_dir=$(dirname "$output")
     executable_name=$(basename "$output")
 
@@ -38,7 +38,7 @@ jq -c '.pyinstaller.scripts_to_build[]' "$CONFIG_FILE" | while read -r script; d
 
     # Run PyInstaller
     echo "Building $source -> $output_dir/$executable_name"
-    pyinstaller --onefile "$source" --dist "$output_dir" --name "$executable_name"
+    pyinstaller --onefile --clean --noconfirm "$source" --dist "$output_dir" --name "$executable_name"
 
     if [ $? -ne 0 ]; then
         echo "Failed to build $source"

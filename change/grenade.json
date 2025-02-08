@@ -1,0 +1,311 @@
+{
+	"data" : {
+		"grenade_f1?" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "T-1 Grenade",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_f1_game",
+				"sprite_inv" : "s_item_grenade_f1",
+				"stack_max" : 1,
+				"value" : 44600,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_f1",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 150,
+				"damage_min" : 50,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 32,
+				"radius_min_damage" : 52,
+				"radius_effect" : 64
+			}
+		},
+		"grenade_rgd5?" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "RDG-5 Grenade",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_rgd5_game",
+				"sprite_inv" : "s_item_grenade_rgd5",
+				"stack_max" : 1,
+				"value" : 232000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_rgd",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 150,
+				"damage_min" : 50,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 18,
+				"radius_min_damage" : 36,
+				"radius_effect" : 64
+			}
+		},
+		"grenade_flash?" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "Flashbang grenade",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_flash_game",
+				"sprite_inv" : "s_item_grenade_flash",
+				"stack_max" : 1,
+				"value" : 27000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_flash",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 90,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 0,
+				"damage_min" : 0,
+				"detonation_type" : "GRENADE_detonation_flash",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 32,
+				"radius_min_damage" : 60,
+				"radius_effect" : 64
+			}
+		},
+		"grenade_mine_pmn?" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "PMN land mine",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_mine_pmn_game",
+				"sprite_inv" : "s_item_grenade_mine_pmn",
+				"stack_max" : 1,
+				"value" : 163000,
+				"weight" : 1
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_mine_pmn",
+				"throw_min" : 0,
+				"throw_max" : 0,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_no_move",
+				"damage_max" : 200,
+				"damage_min" : 100,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 24,
+				"radius_min_damage" : 48,
+				"radius_effect" : 64
+			}
+		},
+		"grenade_rgn?" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "SGN Grenade",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_rgn_game",
+				"sprite_inv" : "s_item_grenade_rgn",
+				"stack_max" : 1,
+				"value" : 53640,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_rgn",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_no_bounce",
+				"damage_max" : 100,
+				"damage_min" : 50,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 16,
+				"radius_min_damage" : 28,
+				"radius_effect" : 48
+			}
+		},
+		"grenade_f1" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "T-1 Grenade",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_f1_game",
+				"sprite_inv" : "s_item_grenade_f1",
+				"stack_max" : 1,
+				"value" : 223000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_f1",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 150,
+				"damage_min" : 50,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 32,
+				"radius_min_damage" : 52,
+				"radius_effect" : 64
+			}
+		},
+		"grenade_rgd5" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "RDG-5 Grenade",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_rgd5_game",
+				"sprite_inv" : "s_item_grenade_rgd5",
+				"stack_max" : 1,
+				"value" : 43000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_rgd",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 150,
+				"damage_min" : 50,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 18,
+				"radius_min_damage" : 36,
+				"radius_effect" : 64
+			}
+		},
+		"grenade_flash" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "Flashbang grenade",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_flash_game",
+				"sprite_inv" : "s_item_grenade_flash",
+				"stack_max" : 1,
+				"value" : 45000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_flash",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 90,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 0,
+				"damage_min" : 0,
+				"detonation_type" : "GRENADE_detonation_flash",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 32,
+				"radius_min_damage" : 60,
+				"radius_effect" : 64
+			}
+		},
+		"grenade_mine_pmn" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "PMN land mine",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_mine_pmn_game",
+				"sprite_inv" : "s_item_grenade_mine_pmn",
+				"stack_max" : 1,
+				"value" : 80875,
+				"weight" : 1
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_mine_pmn",
+				"throw_min" : 0,
+				"throw_max" : 0,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_no_move",
+				"damage_max" : 200,
+				"damage_min" : 100,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 24,
+				"radius_min_damage" : 48,
+				"radius_effect" : 64
+			}
+		},
+		"grenade_rgn" : {
+			"basic" : {
+				"categoria" : "grenade",
+				"description" : "",
+				"name" : "SGN Grenade",
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_rgn_game",
+				"sprite_inv" : "s_item_grenade_rgn",
+				"stack_max" : 1,
+				"value" : 24100,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_rgn",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_no_bounce",
+				"damage_max" : 100,
+				"damage_min" : 50,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 16,
+				"radius_min_damage" : 28,
+				"radius_effect" : 48
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

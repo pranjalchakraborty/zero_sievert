@@ -1,0 +1,200 @@
+{
+    "data": {
+        "skill_gun_passives": {
+            "dmr": {
+                "passives": [
+                    {
+                        "best": 0.85,
+                        "stat": "recoil",
+                        "worst": 1
+                    },
+                    {
+                        "best": 1.15,
+                        "stat": "ergonomics",
+                        "worst": 1
+                    },
+                    {
+                        "best": 0.8,
+                        "stat": "min_range",
+                        "worst": 1
+                    },
+                    {
+                        "best": 0.8,
+                        "stat": "scope_initial_drag",
+                        "worst": 1
+                    }
+                ],
+                "skill": "mastery_dmr",
+                "type": "dmr"
+            },
+            "pistol": {
+                "passives": [
+                    {
+                        "best": 1.3,
+                        "stat": "ergonomics",
+                        "worst": 1
+                    },
+                    {
+                        "best": 1.25,
+                        "stat": "recover_from_mouse_movement",
+                        "worst": 1
+                    },
+                    {
+                        "best": 0.8,
+                        "stat": "reload_speed",
+                        "worst": 1
+                    }
+                ],
+                "skill": "mastery_pistol",
+                "type": "pistol"
+            },
+            "rifle": {
+                "passives": [
+                    {
+                        "best": 0.9,
+                        "stat": "recoil",
+                        "worst": 1
+                    },
+                    {
+                        "best": 1.1,
+                        "stat": "accuracy",
+                        "worst": 1
+                    },
+                    {
+                        "best": 0.8,
+                        "stat": "min_range",
+                        "worst": 1
+                    },
+                    {
+                        "best": 1.2,
+                        "stat": "max_range",
+                        "worst": 1
+                    }
+                ],
+                "skill": "mastery_rifle",
+                "type": "rifle"
+            },
+            "shotgun": {
+                "passives": [
+                    {
+                        "best": 1.25,
+                        "stat": "recover_from_mouse_movement",
+                        "worst": 1
+                    },
+                    {
+                        "best": 0.85,
+                        "stat": "reload_speed",
+                        "worst": 1
+                    },
+                    {
+                        "best": 1.2,
+                        "stat": "damage",
+                        "worst": 1
+                    }
+                ],
+                "skill": "mastery_shotgun",
+                "type": "shotgun"
+            },
+            "smg": {
+                "passives": [
+                    {
+                        "best": 1.25,
+                        "stat": "recover_from_mouse_movement",
+                        "worst": 1
+                    },
+                    {
+                        "best": 0.85,
+                        "stat": "reload_speed",
+                        "worst": 1
+                    },
+                    {
+                        "best": 1.1,
+                        "stat": "ergonomics",
+                        "worst": 1
+                    }
+                ],
+                "skill": "mastery_smg",
+                "type": "smg"
+            },
+            "sniper": {
+                "passives": [
+                    {
+                        "best": 1.25,
+                        "stat": "ergonomics",
+                        "worst": 1
+                    },
+                    {
+                        "best": 2.0,
+                        "stat": "scope_alpha_speed",
+                        "worst": 1
+                    },
+                    {
+                        "best": 1.1,
+                        "stat": "scope_extra_damage",
+                        "worst": 1
+                    },
+                    {
+                        "best": 0.5,
+                        "stat": "scope_drag",
+                        "worst": 1
+                    },
+                    {
+                        "best": 0.9,
+                        "stat": "recoil",
+                        "worst": 1
+                    }
+                ],
+                "skill": "mastery_sniper",
+                "type": "sniper"
+            }
+        },
+        "weapon_mastery_stats": {
+            "accuracy": {
+                "name": "Accuracy"
+            },
+            "damage": {
+                "name": "Damage"
+            },
+            "ergonomics": {
+                "name": "Ergonomics"
+            },
+            "knockback": {
+                "name": "Knockback"
+            },
+            "max_range": {
+                "name": "Max Range"
+            },
+            "min_range": {
+                "name": "Min Range"
+            },
+            "recoil": {
+                "name": "Recoil"
+            },
+            "recover_from_mouse_movement": {
+                "name": "Recover From Cursor Movement"
+            },
+            "reload_speed": {
+                "name": "Reload Speed"
+            },
+            "scope_alpha_speed": {
+                "name": "Scope View Speed"
+            },
+            "scope_drag": {
+                "name": "Scope Drag Reduction"
+            },
+            "scope_extra_damage": {
+                "name": "Scope Extra Damage"
+            },
+            "scope_initial_drag": {
+                "name": "Scope Initial Drag"
+            }
+        }
+    },
+    "metadata": {
+        "author": "David Strachan",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "skills_gun_passives",
+    "version": 0
+}

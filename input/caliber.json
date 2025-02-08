@@ -1,0 +1,68 @@
+{
+    "data": {
+        "a127x55": {
+            "name": "12.7x55mm",
+        },
+        "a12x70": {
+            "name": "12x70",
+        },
+        "a357magnum": {
+            "name": ".357 Magnum",
+        },
+        "a45": {
+            "name": ".45",
+        },
+        "a545x39": {
+            "name": "5.45x39",
+        },
+        "a556x45": {
+            "name": "5.56x45",
+        },
+        "a57x28": {
+            "name": "5.7x28",
+        },
+        "a762x25": {
+            "name": "7.62x25",
+        },
+        "a762x39": {
+            "name": "7.62x39",
+        },
+        "a762x51": {
+            "name": "7.62x51",
+        },
+        "a762x54r": {
+            "name": "7.62x54R",
+        },
+        "a9x18": {
+            "name": "9x18",
+        },
+        "a9x19": {
+            "name": "9x19",
+        },
+        "a9x39": {
+            "name": "9x39",
+        },
+        "not_ammo": {
+            "name": "",
+        },
+        "a.50": {
+            "name": ".50",
+        },
+        "aDustyLight": {
+            "name": "energy source",
+        },
+        "aRed": {
+            "name": "Red Demon Bullet",
+        },
+        "apenhuo": {
+            "name": "fuel",
+        },
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert",
+    },
+    "usage": "caliber",
+    "version": 0,
+}

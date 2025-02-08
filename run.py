@@ -126,7 +126,7 @@ class JSONEditor:
         exe_name = f"{top_key}.exe"
         exe_directory = "./scripts"
         exe_path = os.path.join(exe_directory, exe_name)
-
+        #print(exe_name,exe_directory,exe_path)
         if not os.path.isfile(exe_path):
             messagebox.showerror("Error", f"Executable '{exe_name}' not found in '{exe_directory}'.")
             return

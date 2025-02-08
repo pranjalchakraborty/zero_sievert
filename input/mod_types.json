@@ -1,0 +1,23 @@
+{
+    "data": {
+        "barrel": {},
+        "brake": {},
+        "foregrip": {},
+        "grip": {},
+        "handguard": {},
+        "laser": {},
+        "magazine": {},
+        "not_a_mod": {},
+        "scope": {},
+        "silencer": {},
+        "stock": {},
+        "torch": {}
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "mod_types",
+    "version": 0
+}

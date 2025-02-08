@@ -1,0 +1,319 @@
+{
+    "data": {
+        "anti_bleed_gel": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Stab it in your wound, ignore the pain. It'll fill up your juicily leaking hole almost instantly.",
+                "name": "Hemostatic Suture Gel",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_anti_bleed_gel",
+                "sprite_inv": "s_item_anti_bleed_gel",
+                "stack_max": 30,
+                "value": 2500,
+                "weight": 0.1
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med1",
+                "bleed": 1,
+                "can_move": true,
+                "duration": 120,
+                "hp": 10,
+                "radiation": 0,
+                "speed_multiplier": 1.0,
+                "wound": 1
+            }
+        },
+        "bandage": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Torn from whatever cloth you can find. Unsanitary and you'll probably die from infection, but it'll stop you from bleeding out and bind your wound.",
+                "name": "Improvised Bandage",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_bandage",
+                "sprite_inv": "s_item_bandage",
+                "stack_max": 40,
+                "value": 850,
+                "weight": 0.1
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med_bandage",
+                "bleed": 1,
+                "can_move": true,
+                "duration": 480,
+                "hp": 0,
+                "radiation": 0.1,
+                "speed_multiplier": 1,
+                "wound": 1
+            }
+        },
+        "bandage_military": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "High quality, factory made medicated bandage intended for field hospitals. Even comes with splints and plastic sheets to secure bones and wounds.",
+                "name": "Military Bandage",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_bandage_military",
+                "sprite_inv": "s_item_bandage_military",
+                "stack_max": 20,
+                "value": 3500,
+                "weight": 0.2
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med_bandage",
+                "bleed": 2,
+                "can_move": true,
+                "duration": 480,
+                "hp": 20,
+                "radiation": 0,
+                "speed_multiplier": 1.0,
+                "wound": 2
+            }
+        },
+        "bandage_sterilizzata": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Carefully selected, thoroughly boiled, disinfected and cut. Not quite the kind you'd find in hospitals but it's on par in term of quality.",
+                "name": "Sterilised Bandage",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_bandage_2",
+                "sprite_inv": "s_item_bandage_2",
+                "stack_max": 40,
+                "value": 1500,
+                "weight": 0.1
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med_bandage_sterilizzata",
+                "bleed": 1,
+                "can_move": true,
+                "duration": 480,
+                "hp": 10,
+                "radiation": 0,
+                "speed_multiplier": 1.0,
+                "wound": 1
+            }
+        },
+        "med_wound_1": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Containing the most essential tools and meds, allowing combat medics to save lives under fire. Kits made for the Zone typically included radiation poisoning and burns treatments.",
+                "name": "Field Surgical kit",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_med_wound_1",
+                "sprite_inv": "s_item_med_wound_1",
+                "stack_max": 10,
+                "value": 4000,
+                "weight": 2.5
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med_wound_1",
+                "bleed": 25,
+                "can_move": false,
+                "duration": 3600,
+                "hp": 0,
+                "radiation": -2.5,
+                "speed_multiplier": 1.0,
+                "wound": 25
+            }
+        },
+        "med_wound_2": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Dedicated field hospital surgeons rely on these to operate on badly wounded and poisoned personel. This variant includes solutions to flush accumulated radiation.",
+                "name": "N.B.C Surgery Kit",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_med_wound_2",
+                "sprite_inv": "s_item_med_wound_2",
+                "stack_max": 10,
+                "value": 6000,
+                "weight": 5.0
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med_wound_1",
+                "bleed": 100,
+                "can_move": false,
+                "duration": 7200,
+                "hp": 100,
+                "radiation": -100,
+                "speed_multiplier": 1.0,
+                "wound": 100
+            }
+        },
+        "medikit_1": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Mass produced stim easily found in any first aid kit or emergency cabinet. Does not stop bleed-out.",
+                "name": "Emergency Stimpack",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_medikit_1",
+                "sprite_inv": "s_item_medikit_1",
+                "stack_max": 30,
+                "value": 3500,
+                "weight": 0.06
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med1",
+                "bleed": 0,
+                "can_move": true,
+                "duration": 150,
+                "hp": 50,
+                "radiation": 0,
+                "speed_multiplier": 1.0,
+                "wound": 1
+            }
+        },
+        "medikit_2": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Standard military grade stim issued to active-duty military personel. Stop bleed-out at injection point, increased blood production to compensate blood loss.",
+                "name": "Standard Stimpack",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_medikit_2",
+                "sprite_inv": "s_item_medikit_2",
+                "stack_max": 20,
+                "value": 5200,
+                "weight": 0.08
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med1",
+                "bleed": 1,
+                "can_move": true,
+                "duration": 150,
+                "hp": 75,
+                "radiation": 0,
+                "speed_multiplier": 1.0,
+                "wound": 1
+            }
+        },
+        "medikit_3": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Issued to researchers and their extensions. Heal some interal ruptures, included nano-bots to repair wounds and flush radiation from your system.",
+                "name": "N.B.C Stimpack",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_medikit_3",
+                "sprite_inv": "s_item_medikit_3",
+                "stack_max": 20,
+                "value": 7300,
+                "weight": 0.1
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med1",
+                "bleed": 10,
+                "can_move": true,
+                "duration": 150,
+                "hp": 100,
+                "radiation": -1,
+                "speed_multiplier": 1.0,
+                "wound": 10
+            }
+        },
+        "medikit_long": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Also known as I.F.A.K, contains everything a soldier on the field needed for self-treatment in a compact package. Includes Iodide for minor radiation poisoning or burns.",
+                "name": "Individual First-Aid Kit",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_medikit_long",
+                "sprite_inv": "s_item_medikit_long",
+                "stack_max": 30,
+                "value": 3000,
+                "weight": 0.75
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med_long",
+                "bleed": 10,
+                "can_move": false,
+                "duration": 1800,
+                "hp": 100,
+                "radiation": -0.25,
+                "speed_multiplier": 1.0,
+                "wound": 10
+            }
+        },
+        "pills_anti_rad": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "medication",
+                "description": "Anti-radiation pill, only protect your thyroid. Consuming too much will result in cancer. You've been warned.",
+                "name": "Iodide-Pills",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_pills_anti_rad",
+                "sprite_inv": "s_item_pills_anti_rad",
+                "stack_max": 40,
+                "value": 1000,
+                "weight": 0.01
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "medicine": {
+                "animation": "s_arms_med1",
+                "bleed": 0,
+                "can_move": true,
+                "duration": 120,
+                "hp": -1,
+                "radiation": -0.1,
+                "speed_multiplier": 1.0,
+                "wound": 0
+            }
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "item",
+    "version": 0
+}

@@ -79,11 +79,10 @@ def main():
         if extra_ids:
             extra_ids_full = {id_key: data2[id_key] for id_key in extra_ids}
 
-        # Now, for IDs present in both, check for extra IDDs
+        # For IDs present in both, check for extra IDDs
         for id_key in common_ids:
             items2 = get_item_set(data2, id_key)
             items1 = get_item_set(data1, id_key)
-
             added_items = items2 - items1
             if added_items:
                 # Retrieve full item objects for added IDDs
@@ -97,7 +96,6 @@ def main():
             txt_filename = os.path.splitext(filename)[0] + '.txt'
             txt_path = os.path.join(output_folder, txt_filename)
 
-            # Format the report as per the desired sequence
             with open(txt_path, 'w', encoding='utf-8') as txt_file:
                 # 1. List of Added Top-Level IDs
                 if extra_ids:
@@ -115,31 +113,35 @@ def main():
                             txt_file.write(f"  - {added_idd}\n")
                     txt_file.write("\n")
 
-                # 3. Full Objects of Added Top-Level IDs
+                # 3. Full Objects of Added Top-Level IDs (Desired Pattern)
                 if extra_ids_full:
                     txt_file.write("=== Full Objects of Added Top-Level IDs ===\n")
+                    top_level_blocks = []
                     for extra_id, obj in sorted(extra_ids_full.items()):
-                        txt_file.write(f"ID: {extra_id}\n")
-                        txt_file.write("Full Object:\n")
-                        # Pretty-print the JSON object with indentation
                         obj_pretty = json.dumps(obj, indent=4, ensure_ascii=False, quote_keys=True)
-                        # Indent each line for better readability
-                        obj_pretty_indented = '\n'.join(['    ' + line for line in obj_pretty.splitlines()])
-                        txt_file.write(f"{obj_pretty_indented}\n\n")
+                        # Indent the JSON block by 4 spaces
+                        indented_obj = '    ' + obj_pretty.replace('\n', '\n    ')
+                        block = f'"{extra_id}":\n{indented_obj}'
+                        top_level_blocks.append(block)
+                    # Join each block with a comma and newline between them
+                    txt_file.write((",\n").join(top_level_blocks))
+                    txt_file.write("\n\n")
 
-                # 4. Full Objects of Added IDDs
+                # 4. Full Objects of Added IDDs (Desired Pattern)
                 if idd_full_objects:
                     txt_file.write("=== Full Objects of Added IDDs ===\n")
                     for id_key, items in sorted(idd_full_objects.items()):
-                        txt_file.write(f"ID: {id_key}\n")
+                        txt_file.write(f'"{id_key}":\n')
+                        item_blocks = []
                         for item in items:
-                            # Pretty-print each item object
                             item_pretty = json.dumps(item, indent=4, ensure_ascii=False, quote_keys=True)
-                            # Indent each line for better readability
-                            item_pretty_indented = '\n'.join(['    ' + line for line in item_pretty.splitlines()])
-                            txt_file.write(f"  - {item_pretty_indented}\n")
-                        txt_file.write("\n")  # Add space between IDs
-
+                            # Indent each item by 2 spaces
+                            indented_item = '  ' + item_pretty.replace('\n', '\n  ')
+                            item_blocks.append(indented_item)
+                        # Join item blocks with a comma and newline between them,
+                        # then add a trailing comma after the group
+                        txt_file.write((",\n").join(item_blocks))
+                        txt_file.write(",\n")
             print(f"Changes found in '{filename}'. Report saved to '{txt_path}'.")
         else:
             print(f"No changes found in '{filename}'.")
@@ -150,7 +152,6 @@ if __name__ == "__main__":
         print("Script finished successfully.")
     except Exception as e:
         error_message = traceback.format_exc()  # Capture full traceback
-        print("An error occurred:\n", error_message)  # Print explicitly
+        print("An error occurred:\n", error_message)
     finally:
         input("\nPress Enter to exit...")
-

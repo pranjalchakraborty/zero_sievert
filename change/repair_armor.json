@@ -1,0 +1,84 @@
+{
+	"data" : {
+		"repair_armor_high?" : {
+			"basic" : {
+				"categoria" : "repair_armor",
+				"description" : "To use this repair kit equip the armor, right click the repair kit and check the green box.",
+				"name" : "Armor repair kit",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_repair_armor_high",
+				"sprite_inv" : "s_item_repair_armor_high",
+				"stack_max" : 3,
+				"value" : 24500,
+				"weight" : 2
+			},
+			"repair" : {
+				"condition_gain" : "{armor high}",
+				"condition_max" : "{armor high}",
+				"condition_min" : "{armor high}"
+			}
+		},
+		"repair_armor_low?" : {
+			"basic" : {
+				"categoria" : "repair_armor",
+				"description" : "To use this repair kit equip the armor, right click the repair kit and check the green box.",
+				"name" : "Armor repair kit",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_repair_armor_low",
+				"sprite_inv" : "s_item_repair_armor_low",
+				"stack_max" : 1,
+				"value" : 898200,
+				"weight" : 4
+			},
+			"repair" : {
+				"condition_gain" : "{armor low}",
+				"condition_max" : "{armor low}",
+				"condition_min" : "{armor low}"
+			}
+		},
+		"repair_armor_high" : {
+			"basic" : {
+				"categoria" : "repair_armor",
+				"description" : "To use this repair kit equip the armor, right click the repair kit and check the green box.",
+				"name" : "Armor repair kit",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_repair_armor_high",
+				"sprite_inv" : "s_item_repair_armor_high",
+				"stack_max" : 3,
+				"value" : 3450,
+				"weight" : 2
+			},
+			"repair" : {
+				"condition_gain" : "{armor high}",
+				"condition_max" : "{armor high}",
+				"condition_min" : "{armor high}"
+			}
+		},
+		"repair_armor_low" : {
+			"basic" : {
+				"categoria" : "repair_armor",
+				"description" : "To use this repair kit equip the armor, right click the repair kit and check the green box.",
+				"name" : "Armor repair kit",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_repair_armor_low",
+				"sprite_inv" : "s_item_repair_armor_low",
+				"stack_max" : 1,
+				"value" : 19820,
+				"weight" : 4
+			},
+			"repair" : {
+				"condition_gain" : "{armor low}",
+				"condition_max" : "{armor low}",
+				"condition_min" : "{armor low}"
+			}
+		}
+		
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

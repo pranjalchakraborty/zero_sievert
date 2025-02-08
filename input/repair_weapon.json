@@ -1,0 +1,171 @@
+{
+    "data": {
+        "repair_weapon1_high": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "repair_weapon",
+                "description": "To use this repair kit put the weapon in the primary slot, right click the repair kit and use the item.",
+                "name": "Low Calibers Firearm MAINTENANCE KIT",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_repair_weapon1_high",
+                "sprite_inv": "s_item_repair_weapon1_high",
+                "stack_max": 0.8,
+                "value": 7000,
+                "weight": 0.5
+            },
+            "repair": {
+                "caliber": [
+                    "a9x18",
+                    "a9x19",
+                    "a57x28",
+                    "a762x25",
+                    "a45"
+                ],
+                "condition_gain": "{weapon high}",
+                "condition_max": "{weapon high}",
+                "condition_min": "{weapon high}"
+            }
+        },
+        "repair_weapon1_low": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "repair_weapon",
+                "description": "To use this repair kit put the weapon in the primary slot, right click the repair kit and use the item.",
+                "name": "Low Calibers Firearm REPAIR KIT",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_repair_weapon1_low",
+                "sprite_inv": "s_item_repair_weapon1_low",
+                "stack_max": 0.8,
+                "value": 13500,
+                "weight": 2.0
+            },
+            "repair": {
+                "caliber": [
+                    "a9x18",
+                    "a9x19",
+                    "a57x28",
+                    "a762x25",
+                    "a45"
+                ],
+                "condition_gain": "{weapon low}",
+                "condition_max": "{weapon low}",
+                "condition_min": "{weapon low}"
+            }
+        },
+        "repair_weapon2_high": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "repair_weapon",
+                "description": "To use this repair kit put the weapon in the primary slot, right click the repair kit and use the item.",
+                "name": "Intermediate Calibers Firearm MAINTENANCE KIT",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_repair_weapon2_high",
+                "sprite_inv": "s_item_repair_weapon2_high",
+                "stack_max": 0.8,
+                "value": 7800,
+                "weight": 1.0
+            },
+            "repair": {
+                "caliber": [
+                    "a357magnum",
+                    "a12x70",
+                    "a9x39",
+                    "a545x39",
+                    "a556x45",
+                    "a762x39"
+                ],
+                "condition_gain": "{weapon high}",
+                "condition_max": "{weapon high}",
+                "condition_min": "{weapon high}"
+            }
+        },
+        "repair_weapon2_low": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "repair_weapon",
+                "description": "To use this repair kit put the weapon in the primary slot, right click the repair kit and use the item.",
+                "name": "Intermediate Calibers Firearm REPAIR KIT",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_repair_weapon2_low",
+                "sprite_inv": "s_item_repair_weapon2_low",
+                "stack_max": 0.8,
+                "value": 15000,
+                "weight": 4.0
+            },
+            "repair": {
+                "caliber": [
+                    "a357magnum",
+                    "a12x70",
+                    "a9x39",
+                    "a545x39",
+                    "a556x45",
+                    "a762x39"
+                ],
+                "condition_gain": "{weapon low}",
+                "condition_max": "{weapon low}",
+                "condition_min": "{weapon low}"
+            }
+        },
+        "repair_weapon3_high": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "repair_weapon",
+                "description": "To use this repair kit put the weapon in the primary slot, right click the repair kit and use the item.",
+                "name": "High Calibers Firearm MAINTENANCE KIT",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_repair_weapon3_high",
+                "sprite_inv": "s_item_repair_weapon3_high",
+                "stack_max": 0.8,
+                "value": 9000,
+                "weight": 2.0
+            },
+            "repair": {
+                "caliber": [
+                    "a762x51",
+                    "a762x54r",
+                    "a127x55"
+                ],
+                "condition_gain": "{weapon high}",
+                "condition_max": "{weapon high}",
+                "condition_min": "{weapon high}"
+            }
+        },
+        "repair_weapon3_low": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "repair_weapon",
+                "description": "To use this repair kit put the weapon in the primary slot, right click the repair kit and use the item.",
+                "name": "High Calibers Firearm REPAIR KIT",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_repair_weapon3_low",
+                "sprite_inv": "s_item_repair_weapon3_low",
+                "stack_max": 0.8,
+                "value": 18000,
+                "weight": 8.0
+            },
+            "repair": {
+                "caliber": [
+                    "a762x51",
+                    "a762x54r",
+                    "a127x55"
+                ],
+                "condition_gain": "{weapon low}",
+                "condition_max": "{weapon low}",
+                "condition_min": "{weapon low}"
+            }
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "item",
+    "version": 0
+}
