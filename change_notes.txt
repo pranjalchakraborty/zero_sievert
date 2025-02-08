@@ -4,3 +4,6 @@ v0.2:
 -Added Alphabetical Json sort for easier comparison of changes.
 -Updated all scripts to Json5
 -Added Example Usage
+
+v0.3:
+-fixed some files corrupted due to git revert push/rebase issues
