@@ -24,10 +24,10 @@ def update_field_in_json(data: Any, field: str, adder: int, multiplier: int, upd
                 data[key] = (value+adder) * multiplier
                 updates.append((original_value, data[key]))
             else:
-                data[key] = update_field_in_json(value, field, multiplier, updates)
+                data[key] = update_field_in_json(value, field, adder, multiplier, updates)
     elif isinstance(data, list):
         for index, item in enumerate(data):
-            data[index] = update_field_in_json(item, field, multiplier, updates)
+            data[index] = update_field_in_json(item, field, adder, multiplier, updates)
     return data
 
 def process_file(input_file_path: str, output_file_path: str, field: str, adder: int, multiplier: int):

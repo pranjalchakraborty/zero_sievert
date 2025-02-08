@@ -1,8 +1,8 @@
-(['C:\\Users\\Admin\\Downloads\\New folder\\Modding Scripts '
-  'B\\scripts\\field_editor.py'],
- ['C:\\Users\\Admin\\Downloads\\New folder\\Modding Scripts B\\scripts'],
+(['C:\\Users\\Admin\\Downloads\\codes\\zero_sievert\\scripts\\field_editor.py'],
+ ['C:\\Users\\Admin\\Downloads\\codes\\zero_sievert\\scripts'],
  [],
- [('C:\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
+ [('C:\\Python312\\Lib\\site-packages\\numpy\\_pyinstaller', 0),
+  ('C:\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
    -1000),
   ('C:\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib', -1000)],
  {},
@@ -19,8 +19,7 @@
    'C:\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('field_editor',
-   'C:\\Users\\Admin\\Downloads\\New folder\\Modding Scripts '
-   'B\\scripts\\field_editor.py',
+   'C:\\Users\\Admin\\Downloads\\codes\\zero_sievert\\scripts\\field_editor.py',
    'PYSOURCE')],
  [('inspect', 'C:\\Python312\\Lib\\inspect.py', 'PYMODULE'),
   ('importlib', 'C:\\Python312\\Lib\\importlib\\__init__.py', 'PYMODULE'),
@@ -192,6 +191,5 @@
  [],
  [],
  [('base_library.zip',
-   'C:\\Users\\Admin\\Downloads\\New folder\\Modding Scripts '
-   'B\\build\\field_editor.exe\\base_library.zip',
+   'C:\\Users\\Admin\\Downloads\\codes\\zero_sievert\\build\\field_editor.exe\\base_library.zip',
    'DATA')])

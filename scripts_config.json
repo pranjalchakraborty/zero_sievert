@@ -13,7 +13,7 @@
         "output_folder": ".././output",
         "field": "stack_max",
         "adder": 0,
-        "multiplier": 10
+        "multiplier": 0.8
     },
     "merge_json": {
         "input_folder": ".././input",

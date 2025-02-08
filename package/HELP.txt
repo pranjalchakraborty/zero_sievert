@@ -4,7 +4,7 @@ I've been running into errors with using mods. It seems that two dependencies of
 Many game files are in JSON and mods change those to add new items / modify existing ones.
 Multiple mods require JSON of vanilla + different mods to be merged while Vortex handles rest of the files.
 
-So, I made several scripts to use mods and also some scripts for personal use.
+So, I made several scripts to use mods and also some scripts for personal use. Read each part to use properly and resolve doubts.
 
 
 
