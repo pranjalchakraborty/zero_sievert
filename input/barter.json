@@ -1,0 +1,2366 @@
+{
+    "data": {
+        "acqua_ossigenata": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It basically bleach. Here's how to use this: You watched a wild dog squatting at your front door, its back door gapes open as a stream of golden bricks slowly...",
+                "name": "hydrogen peroxide",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_acqua_ossigenata",
+                "sprite_inv": "s_item_acqua_ossigenata",
+                "stack_max": 10,
+                "value": 700,
+                "weight": 0.4
+            }
+        },
+        "alchool": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Before you ask, NO, you cannot drink this, damn alcoholics.",
+                "name": "alcohol",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_alchool",
+                "sprite_inv": "s_item_alchool",
+                "stack_max": 10,
+                "value": 350,
+                "weight": 0.7
+            }
+        },
+        "battery": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Cheap, mass produced lithium battery sold in bulk. Torch, Light, NVG are the few examples that DON'T use this battery (for whatever reason).",
+                "name": "AAA battery",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_battery",
+                "sprite_inv": "s_item_battery",
+                "stack_max": 40,
+                "value": 220,
+                "weight": 0.05
+            }
+        },
+        "blink_artiglio": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "blink's claw",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_blink_artiglio",
+                "sprite_inv": "s_item_blink_artiglio",
+                "stack_max": 10,
+                "value": 1300,
+                "weight": 0.1
+            }
+        },
+        "boar_fang": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "boar tusk",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_devourer_tooth",
+                "sprite_inv": "s_item_devourer_tooth",
+                "stack_max": 10,
+                "value": 750,
+                "weight": 0.3
+            }
+        },
+        "boar_pelt": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Big and thick enough to be a comfortable sleeping bag. If you're not minding the smell that is.",
+                "name": "Boar pelt",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_boar_pelt",
+                "sprite_inv": "s_item_boar_pelt",
+                "stack_max": 10,
+                "value": 700,
+                "weight": 0.35
+            }
+        },
+        "bolt_cutter": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": " Yes it's a bolt cutter. No it cannot cut fences and chain links. Why? Cause the dev said so, yo can sell it though.",
+                "name": "Bolt cutter",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_bolt_cutter",
+                "sprite_inv": "s_item_bolt_cutter",
+                "stack_max": 10,
+                "value": 150,
+                "weight": 0.2
+            }
+        },
+        "bracelet_gold": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Golden Bracelet",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_bracelet_gold",
+                "sprite_inv": "s_item_bracelet_gold",
+                "stack_max": 10,
+                "value": 7500,
+                "weight": 0.3
+            }
+        },
+        "bracelet_silver": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Silver Bracelet",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_bracelet_silver",
+                "sprite_inv": "s_item_bracelet_silver",
+                "stack_max": 10,
+                "value": 3200,
+                "weight": 0.1
+            }
+        },
+        "bulb": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Bulb",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_bulb",
+                "sprite_inv": "s_item_bulb",
+                "stack_max": 10,
+                "value": 180,
+                "weight": 0.05
+            }
+        },
+        "camera_crimson_quest": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Tiny, easily hidden in plain sight. Perfect for spying on your hated politicians or hot milfs in your area.",
+                "name": "CCTV camera",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_camera_crimson_quest",
+                "sprite_inv": "s_item_camera_crimson_quest",
+                "stack_max": 10,
+                "value": 4000,
+                "weight": 0.2
+            }
+        },
+        "car_battery": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Not a single functioning car around here. BUT, plenty of uses for a decent battery.",
+                "name": "car battery",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_car_battery",
+                "sprite_inv": "s_item_car_battery",
+                "stack_max": 10,
+                "value": 7500,
+                "weight": 4
+            }
+        },
+        "carbone": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "charcoal",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_carbone",
+                "sprite_inv": "s_item_carbone",
+                "stack_max": 100,
+                "value": 40,
+                "weight": 0.2
+            }
+        },
+        "coffee": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Coffee",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_coffee",
+                "sprite_inv": "s_item_coffee",
+                "stack_max": 10,
+                "value": 1500,
+                "weight": 0.1
+            }
+        },
+        "copper_wire": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Half lead, half copper. Make for good garrote if this game ever have proper stealth and melee mechanic.",
+                "name": "Copper wire",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_copper_wire",
+                "sprite_inv": "s_item_copper_wire",
+                "stack_max": 10,
+                "value": 280,
+                "weight": 0.05
+            }
+        },
+        "cpu": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Some people lack these things in their brain. Just saying.",
+                "name": "CPU",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_cpu",
+                "sprite_inv": "s_item_cpu",
+                "stack_max": 10,
+                "value": 8000,
+                "weight": 0.05
+            }
+        },
+        "cristallo_blu": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Electric crystal",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_cristallo_blu",
+                "sprite_inv": "s_item_cristallo_blu",
+                "stack_max": 10,
+                "value": 2000,
+                "weight": 0.5
+            }
+        },
+        "cristallo_red": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Fire crystal",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_cristallo_red",
+                "sprite_inv": "s_item_cristallo_red",
+                "stack_max": 10,
+                "value": 2000,
+                "weight": 0.5
+            }
+        },
+        "cristallo_verde": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Chemical crystal",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_cristallo_verde",
+                "sprite_inv": "s_item_cristallo_verde",
+                "stack_max": 10,
+                "value": 2000,
+                "weight": 0.5
+            }
+        },
+        "cristallo_viola": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Why is this thing the only crystal described by colour again?",
+                "name": "Violet crystal",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_cristallo_viola",
+                "sprite_inv": "s_item_cristallo_viola",
+                "stack_max": 10,
+                "value": 5000,
+                "weight": 0.5
+            }
+        },
+        "crucifix_gold": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Golden crucifix",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_crucifix_gold",
+                "sprite_inv": "s_item_crucifix_gold",
+                "stack_max": 10,
+                "value": 3500,
+                "weight": 2
+            }
+        },
+        "devourer_meat": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "devourer meat",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_devourer_meat",
+                "sprite_inv": "s_item_devourer_meat",
+                "stack_max": 10,
+                "value": 6000,
+                "weight": 0.5
+            }
+        },
+        "devourer_tooth": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Big's tooth",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_boar_fang",
+                "sprite_inv": "s_item_boar_fang",
+                "stack_max": 10,
+                "value": 12000,
+                "weight": 0.3
+            }
+        },
+        "document_power_grid": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "DANGER! DO NOT TAMPER WITH STUFF YOU DON'T UNDERSTAND! Quite valuable to certain people.",
+                "name": "Power Grid documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_power_grid",
+                "sprite_inv": "s_item_documents_power_grid",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "document_quest_lab": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "DANGER! DO NOT TAMPER WITH STUFF YOU DON'T UNDERSTAND! Quite valuable to certain people.",
+                "name": "Lab documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_crystal",
+                "sprite_inv": "s_item_documents_crystal",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "drill": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Drill",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_drill",
+                "sprite_inv": "s_item_drill",
+                "stack_max": 10,
+                "value": 2000,
+                "weight": 2
+            }
+        },
+        "dumbell": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Danberu Nan-Kiro Moteru?",
+                "name": "Dumbell",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_dumbell",
+                "sprite_inv": "s_item_dumbell",
+                "stack_max": 10,
+                "value": 1200,
+                "weight": 2.5
+            }
+        },
+        "dutch_tape": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Gorilla not included.",
+                "name": "Adhesive tape roll",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_dutch_tape",
+                "sprite_inv": "s_item_dutch_tape",
+                "stack_max": 10,
+                "value": 80,
+                "weight": 0.05
+            }
+        },
+        "dvd_drive": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "DVD drive",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_dvd_drive",
+                "sprite_inv": "s_item_dvd_drive",
+                "stack_max": 10,
+                "value": 500,
+                "weight": 0.3
+            }
+        },
+        "electric_motor": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Electric motor",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_electric_motor",
+                "sprite_inv": "s_item_electric_motor",
+                "stack_max": 10,
+                "value": 18000,
+                "weight": 3.5
+            }
+        },
+        "engine_oil": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "If you leave some of these out in the open, it'll attract some freedom and bald eagles.",
+                "name": "Engine Oil",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_motor_oil",
+                "sprite_inv": "s_item_motor_oil",
+                "stack_max": 10,
+                "value": 1400,
+                "weight": 0.5
+            }
+        },
+        "fan": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Useful for hot days and ass ventilation for long hours of games.",
+                "name": "Fan",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_fan",
+                "sprite_inv": "s_item_fan",
+                "stack_max": 10,
+                "value": 205,
+                "weight": 0.05
+            }
+        },
+        "flesh_sample": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's just meat, really!",
+                "name": "Strange flesh sample",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_flesh_sample",
+                "sprite_inv": "s_item_flesh_sample",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 1
+            }
+        },
+        "fork": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Seriously why is this thing so big? Are these designed by Crimson Corp for BIG?",
+                "name": "Kitchen fork",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_fork",
+                "sprite_inv": "s_item_fork",
+                "stack_max": 50,
+                "value": 50,
+                "weight": 0.05
+            }
+        },
+        "fragrance": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Cologne, idgaf it's for men or women. Good men and women take a good rinse with soap, not spraying these on and skip shower.",
+                "name": "Fragrance",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_fragrance",
+                "sprite_inv": "s_item_fragrance",
+                "stack_max": 10,
+                "value": 10000,
+                "weight": 0.05
+            }
+        },
+        "gameboy": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "You need batteries and game disks. Which you're guaranteed to never have the latter.",
+                "name": "Portable GameBoy",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_gameboy",
+                "sprite_inv": "s_item_gameboy",
+                "stack_max": 10,
+                "value": 25000,
+                "weight": 0.25
+            }
+        },
+        "gamestation": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Totally useless without some form of controller, keyboard and mouse.",
+                "name": "Games Station",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_playstation",
+                "sprite_inv": "s_item_playstation",
+                "stack_max": 10,
+                "value": 40000,
+                "weight": 2.5
+            }
+        },
+        "gas_tank": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "DO I LOOK LIKE A TEN FEET TALL MONSTER?!",
+                "name": "Propane tank",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_gas_tank",
+                "sprite_inv": "s_item_gas_tank",
+                "stack_max": 10,
+                "value": 5000,
+                "weight": 4
+            }
+        },
+        "ghoul_tentacles": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "You're lucky these grew on ghouls and not Cthulhu nor some lockers. Ask any school girls and they'll tell you about the horrors these represent.",
+                "name": "ghoul's tentacle",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_ghoul_tentacles",
+                "sprite_inv": "s_item_ghoul_tentacles",
+                "stack_max": 10,
+                "value": 600,
+                "weight": 0.075
+            }
+        },
+        "gm_counter": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "This isn't a geiger counter. You got one on you and it doesn't look like this... Wait... You don't have one?",
+                "name": "gm counter",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_gm_counter",
+                "sprite_inv": "s_item_gm_counter",
+                "stack_max": 10,
+                "value": 2500,
+                "weight": 0.2
+            }
+        },
+        "gps_marker": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Subscription range from $10 a month for an update every 3 minute to $100 a month for constant real time update.",
+                "name": "GPS Marker",
+                "quest_item": true,
+                "scrap": "material",
+                "sprite_ingame": "s_item_gps_marker",
+                "sprite_inv": "s_item_gps_marker",
+                "stack_max": 10,
+                "value": 1000,
+                "weight": 0.2
+            }
+        },
+        "gunpowder_blu": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Blue gunpowder",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_gunpowder_blu",
+                "sprite_inv": "s_item_gunpowder_blu",
+                "stack_max": 1000,
+                "value": 2.5,
+                "weight": 0.02
+            }
+        },
+        "gunpowder_green": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Green gunpowder",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_gunpowder_green",
+                "sprite_inv": "s_item_gunpowder_green",
+                "stack_max": 1000,
+                "value": 5,
+                "weight": 0.02
+            }
+        },
+        "gunpowder_orange": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Orange gunpowder",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_gunpowder_orange",
+                "sprite_inv": "s_item_gunpowder_orange",
+                "stack_max": 10,
+                "value": 5,
+                "weight": 0.02
+            }
+        },
+        "gunpowder_red": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Red gunpowder",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_gunpowder_red",
+                "sprite_inv": "s_item_gunpowder_red",
+                "stack_max": 1000,
+                "value": 10,
+                "weight": 0.02
+            }
+        },
+        "hair_dryer": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Hair dryer",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_hair_dryer",
+                "sprite_inv": "s_item_hair_dryer",
+                "stack_max": 10,
+                "value": 800,
+                "weight": 0.05
+            }
+        },
+        "hammer": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Now all we need is an anvil, then my not-so-terrible-pun is completed.",
+                "name": "Hammer",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_hammer",
+                "sprite_inv": "s_item_hammer",
+                "stack_max": 10,
+                "value": 70,
+                "weight": 0.35
+            }
+        },
+        "hard_disk": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Hard disk",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_hard_disk",
+                "sprite_inv": "s_item_hard_disk",
+                "stack_max": 10,
+                "value": 850,
+                "weight": 0.08
+            }
+        },
+        "hose": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "HO! No no, I was talking about my garden HOSE!",
+                "name": "Hose",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_hose",
+                "sprite_inv": "s_item_hose",
+                "stack_max": 10,
+                "value": 400,
+                "weight": 0.1
+            }
+        },
+        "injector_vuoto": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Health communities advise you to toss away any and all empty syringe. In Zarkov you're taught to question said advice and reuse them.",
+                "name": "Syringe",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_injector_vuoto",
+                "sprite_inv": "s_item_injector_vuoto",
+                "stack_max": 40,
+                "value": 250,
+                "weight": 0.01
+            }
+        },
+        "key_laboratory_rovinata": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Won't do much good in this state, better pass it on to someone who know what to do with this garbage.",
+                "name": "Ruined Laboratory entrance key",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_laboratory_rovinata",
+                "sprite_inv": "s_item_key_laboratory_rovinata",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "knife": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Seriously why is this thing so big? Are these designed by Crimson Corp for BIG?",
+                "name": "Kitchen knife",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_knife",
+                "sprite_inv": "s_item_knife",
+                "stack_max": 50,
+                "value": 50,
+                "weight": 0.05
+            }
+        },
+        "lighter": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Lighter",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_lighter_blue",
+                "sprite_inv": "s_item_lighter_blue",
+                "stack_max": 10,
+                "value": 400,
+                "weight": 0.05
+            }
+        },
+        "mail": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Secret mail",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_mail",
+                "sprite_inv": "s_item_mail",
+                "stack_max": 10,
+                "value": 90,
+                "weight": 0.1
+            }
+        },
+        "matches": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weather resistant matches in a rugged cardboard box. Well known in the Metro, Chernobyl exclusion zone, Tarkov and NOT HERE!",
+                "name": "Matches Box",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_matches",
+                "sprite_inv": "s_item_matches",
+                "stack_max": 50,
+                "value": 40,
+                "weight": 0.01
+            }
+        },
+        "metal_pipe": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "A tad longer and I'll be calling this an 'extended barrel' attachment.",
+                "name": "Metal pipe",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_metal_pipe",
+                "sprite_inv": "s_item_metal_pipe",
+                "stack_max": 40,
+                "value": 60,
+                "weight": 0.2
+            }
+        },
+        "metro": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Tape measure",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_metro",
+                "sprite_inv": "s_item_metro",
+                "stack_max": 10,
+                "value": 110,
+                "weight": 0.025
+            }
+        },
+        "military_circuit": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Systemized Telemetry for Automated Robot Control core. 35 are needed for each control system. Won't do much good for you tho, better sell them off.",
+                "name": "Military-grade circuit",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_military_circuit",
+                "sprite_inv": "s_item_military_circuit",
+                "stack_max": 10,
+                "value": 9000,
+                "weight": 1
+            }
+        },
+        "multi_plug": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Multi-plug",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_multi_plug",
+                "sprite_inv": "s_item_multi_plug",
+                "stack_max": 10,
+                "value": 250,
+                "weight": 0.2
+            }
+        },
+        "nail": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Nail",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_nail",
+                "sprite_inv": "s_item_nail",
+                "stack_max": 250,
+                "value": 20,
+                "weight": 0.04
+            }
+        },
+        "natale_luci_kit": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Use this item to build lights",
+                "name": "Lights kit",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_natale_luci_kit",
+                "sprite_inv": "s_item_natale_luci_kit",
+                "stack_max": 10,
+                "value": 10,
+                "weight": 5
+            }
+        },
+        "necklace_gold": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Fake gold, but very high quality, so it worth something.",
+                "name": "Golden Necklace",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_necklace_gold",
+                "sprite_inv": "s_item_necklace_gold",
+                "stack_max": 10,
+                "value": 15000,
+                "weight": 0.2
+            }
+        },
+        "paint_white": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Spilling it might cause unwanted misunderstanding.",
+                "name": "White paint",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_paint_white",
+                "sprite_inv": "s_item_paint_white",
+                "stack_max": 10,
+                "value": 400,
+                "weight": 0.5
+            }
+        },
+        "paper": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "High quality printing papers. Always in need of these.",
+                "name": "Paper sheets",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_paper",
+                "sprite_inv": "s_item_paper",
+                "stack_max": 10,
+                "value": 130,
+                "weight": 0.001
+            }
+        },
+        "pepper": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Pepper Can",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_pepper",
+                "sprite_inv": "s_item_pepper",
+                "stack_max": 100,
+                "value": 15,
+                "weight": 0.01
+            }
+        },
+        "pillow": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Sleep whenever and wherever you can. The bro you're borrowing his bed won't mind some extra fluff.",
+                "name": "pillow",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_pillow",
+                "sprite_inv": "s_item_pillow",
+                "stack_max": 10,
+                "value": 370,
+                "weight": 0.1
+            }
+        },
+        "pliers": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Pliers",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_pliers",
+                "sprite_inv": "s_item_pliers",
+                "stack_max": 10,
+                "value": 100,
+                "weight": 0.1
+            }
+        },
+        "pot_cooking": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It might be a pot but I'm tempted to call it a cauldron. I mean it's as big as a car wheel!",
+                "name": "Cooking pot",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_pot_cooking",
+                "sprite_inv": "s_item_pot_cooking",
+                "stack_max": 10,
+                "value": 200,
+                "weight": 0.7
+            }
+        },
+        "power_bank": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Power bank",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_power_bank",
+                "sprite_inv": "s_item_power_bank",
+                "stack_max": 10,
+                "value": 800,
+                "weight": 0.25
+            }
+        },
+        "power_outlet": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Power outlet",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_power_outlet",
+                "sprite_inv": "s_item_power_outlet",
+                "stack_max": 10,
+                "value": 160,
+                "weight": 0.1
+            }
+        },
+        "psy_helmet": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Small, non-removable name tag on the side reads: Prototype of Professor Sakharov.",
+                "name": "PSY Helmet (Calibrated)",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_psy_helmet",
+                "sprite_inv": "s_item_psy_helmet",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "quest_concrete_bag": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Never wipe with concrete's cardboard or bag no matter how desperate you are. Otherwise the good doc gonna take a sledge hammer on your backdoor upon your next constipation.",
+                "name": "Concrete box",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_concrete_bag",
+                "sprite_inv": "s_item_concrete_bag",
+                "stack_max": 40,
+                "value": 0,
+                "weight": 10
+            }
+        },
+        "quest_crimson_equipment_bag": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's like a mystery box, or G-MAN's possession. Why is it so damn heavy anyhow?",
+                "name": "Briefcase",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_base_empty",
+                "sprite_inv": "s_item_base_empty",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 8
+            }
+        },
+        "quest_document_2": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "This thing is sealed tight and the cover made out of plastic, better not tamper with it, else you'll fail your quest and lower its value.",
+                "name": "Secret documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_B",
+                "sprite_inv": "s_item_documents_B",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_documents_fire_station": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Some random, technical gibberish in here of no interest. TLDR.",
+                "name": "Zakov fire station documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_fire_station",
+                "sprite_inv": "s_item_documents_fire_station",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "quest_documents_police_station": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Included, but not limited to: Orders for guns, ammo, frag grenades, tasers, ... WAIT! FRAG GRENADES?! I thought these guys are cops!",
+                "name": "Zakov police station documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_police_station",
+                "sprite_inv": "s_item_documents_police_station",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "quest_documents_revelations_1": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Erh... What? Do I look like an egghead? I'm not built for these.",
+                "name": "First part of the Crystal documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_revelations_1",
+                "sprite_inv": "s_item_documents_revelations_1",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "quest_documents_revelations_2": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Erh... What? Do I look like an egghead? I'm not built for these.",
+                "name": "Second part of the Crystal documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_revelations_2",
+                "sprite_inv": "s_item_documents_revelations_2",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "quest_documents_school": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Included an expenses list for teachers, paper bags, erasers, rulers, foods, drinks, cakes, parties, new transfer students, whips, aphrosidiac, etc...",
+                "name": "Documents found in the school",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_school",
+                "sprite_inv": "s_item_documents_school",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "quest_dogtag_spy": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Incase you've forgotten, it did not belong to a dog.",
+                "name": "Vlasov's Dogtag",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_dogtag_spy",
+                "sprite_inv": "s_item_dogtag_spy",
+                "stack_max": 40,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_dynamite": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Good ol' fashioned 3 dynamite sticks bundled together, can't have you tossing these around, cause that'll become your budget grenades and we don't want that now do we?",
+                "name": "Dynamite",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_dynamite",
+                "sprite_inv": "s_item_dynamite",
+                "stack_max": 10,
+                "value": 1000,
+                "weight": 2
+            }
+        },
+        "quest_eyes_spy": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "You know, kinda nasty. I regret gouging these out. Should have taken a picture or something instead.",
+                "name": "Eye balls (with organic strings)",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_eyes_spy",
+                "sprite_inv": "s_item_eyes_spy",
+                "stack_max": 40,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_find_usb_sawmill": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's encrypted. With password and all. Woulda love to see what's in it, maybe the new PlayGuy limited edition redeem code?",
+                "name": "USB drive found in the sawmill",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_usb_quest",
+                "sprite_inv": "s_item_usb_quest",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_motel_2_document": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's kinda stained red. I bet there's a list of tenants in here along with their respective super powers.",
+                "name": "Secret documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents_D",
+                "sprite_inv": "s_item_documents_D",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_psy_helmet_circuit": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's glowing pink so it's definitely strange! What kind of diabolical eletronic painted pink?!",
+                "name": "Strange circuit",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_psy_helmet_circuit",
+                "sprite_inv": "s_item_quest_psy_helmet_circuit",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_retrieve_document_village": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "I can't read these, whoever written these must'ave been the village's doctor!",
+                "name": "Secret documents",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_documents",
+                "sprite_inv": "s_item_documents",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_retrieve_equipment_1": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weight a ton, probably good stuff inside. Too bad quest items are permanently sealed.",
+                "name": "Equipment case",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_chest_equipment",
+                "sprite_inv": "s_item_quest_chest_equipment",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 8
+            }
+        },
+        "quest_retrieve_equipment_2": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weight a ton, probably good stuff inside. Too bad quest items are permanently sealed.",
+                "name": "Equipment case",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_chest_equipment",
+                "sprite_inv": "s_item_quest_chest_equipment",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 8
+            }
+        },
+        "quest_retrieve_equipment_3": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weight a ton, probably good stuff inside. Too bad quest items are permanently sealed.",
+                "name": "Equipment case",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_chest_equipment",
+                "sprite_inv": "s_item_quest_chest_equipment",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 8
+            }
+        },
+        "quest_retrieve_equipment_4": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weight a ton, probably good stuff inside. Too bad quest items are permanently sealed.",
+                "name": "Equipment case",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_chest_equipment",
+                "sprite_inv": "s_item_quest_chest_equipment",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 8
+            }
+        },
+        "quest_retrieve_equipment_5": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weight a ton, probably good stuff inside. Too bad quest items are permanently sealed.",
+                "name": "Equipment case",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_chest_equipment",
+                "sprite_inv": "s_item_quest_chest_equipment",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 8
+            }
+        },
+        "quest_retrieve_equipment_6": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weight a ton, probably good stuff inside. Too bad quest items are permanently sealed.",
+                "name": "Equipment case",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_chest_equipment",
+                "sprite_inv": "s_item_quest_chest_equipment",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 8
+            }
+        },
+        "quest_retrieve_equipment_cc": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weight a ton, probably good stuff inside. Too bad quest items are permanently sealed.",
+                "name": "Equipment case",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_chest_equipment",
+                "sprite_inv": "s_item_quest_chest_equipment",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 15
+            }
+        },
+        "quest_retrieve_equipment_ga": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Weight a ton, probably good stuff inside. Too bad quest items are permanently sealed.",
+                "name": "Equipment case",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_quest_chest_equipment",
+                "sprite_inv": "s_item_quest_chest_equipment",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 15
+            }
+        },
+        "quest_retrive_analyzer_anomaly_fire_big": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Analyzer found near a big fire anomaly",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_analyzer_anomaly_fire_medium": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Analyzer found near a medium fire anomaly",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_analyzer_anomaly_gas_big": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Analyzer found near a big chemical anomaly",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_analyzer_anomaly_gas_medium": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Analyzer found near a medium chemical anomaly",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_analyzer_forest": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "scientiest's analyzer found in the forest",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_analyzer_industrial_area": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "scientiest's analyzer found in the industrial area",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_analyzer_makeshift_camp": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "scientiest's analyzer found in the makeshift camp",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_analyzer_mall": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "scientiest's analyzer found in the mall",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_analyzer_swamp": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "scientiest's analyzer found in the swamp",
+                "name": "scientiest's analyzer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.3
+            }
+        },
+        "quest_retrive_backpack_forest": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's sooooo alluring and attractive, inviting me with that big, thich LOOT promt...",
+                "name": "Lost backpack found in the forest",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_backpack4",
+                "sprite_inv": "s_item_backpack4",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 3
+            }
+        },
+        "quest_retrive_backpack_industrial_area": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's sooooo alluring and attractive, inviting me with that big, thich LOOT promt...",
+                "name": "Lost backpack found in the industrial area",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_backpack4",
+                "sprite_inv": "s_item_backpack4",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 3
+            }
+        },
+        "quest_retrive_backpack_makeshift_camp": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's sooooo alluring and attractive, inviting me with that big, thich LOOT promt...",
+                "name": "Lost backpack found in the makeshift camp",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_backpack4",
+                "sprite_inv": "s_item_backpack4",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 3
+            }
+        },
+        "quest_retrive_backpack_swamp": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's sooooo alluring and attractive, inviting me with that big, thich LOOT promt...",
+                "name": "Lost backpack found in the swamp",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_backpack4",
+                "sprite_inv": "s_item_backpack4",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 3
+            }
+        },
+        "quest_retrive_document_forest": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's better not be a log of processed logs... Get it? Log of Logs? Heh... Ok that was pretty terrible...",
+                "name": "Lost document found in the forest",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_mail",
+                "sprite_inv": "s_item_mail",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_retrive_document_industrial_area": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's better not be a container for a list of containers... Get it? Container Containing Containers? OOH MAH GAWD NEIN!",
+                "name": "Lost document found in the industrial area",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_mail",
+                "sprite_inv": "s_item_mail",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_retrive_document_makeshift_camp": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's better not be a makeshift list of makeshift camps... Get it? Makeshift camp's makeshift list... I'll shut up now.",
+                "name": "Lost document found in the makeshift camp",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_mail",
+                "sprite_inv": "s_item_mail",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_retrive_document_swamp": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It's better not be a swamp of unsolvable mires... Get it? Cause it's a swamp document? Pretty sure I'm not cut out for puns.",
+                "name": "Lost document found in the swamp",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_mail",
+                "sprite_inv": "s_item_mail",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.1
+            }
+        },
+        "quest_transmitter": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Signally Transmitted Device... Damn this specific zone with no contrabands!",
+                "name": "Transmitter",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_transmitter",
+                "sprite_inv": "s_item_transmitter",
+                "stack_max": 10,
+                "value": 100,
+                "weight": 0.1
+            }
+        },
+        "rabbit_pelt": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Can be used as ear muffs, sock, chest warmer, ass padding or improvised toilet paper.",
+                "name": "Rabbit pelt",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_rabbit_pelt",
+                "sprite_inv": "s_item_rabbit_pelt",
+                "stack_max": 10,
+                "value": 120,
+                "weight": 0.1
+            }
+        },
+        "rags": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "I'll be calling it improvised bandages if these are tad bigger and longer.",
+                "name": "Rags",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_rags",
+                "sprite_inv": "s_item_rags",
+                "stack_max": 100,
+                "value": 80,
+                "weight": 0.005
+            }
+        },
+        "ram": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "RAM Bar",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_ram",
+                "sprite_inv": "s_item_ram",
+                "stack_max": 10,
+                "value": 5000,
+                "weight": 0.1
+            }
+        },
+        "raw_pelt": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Unidentified Looted Skin...",
+                "name": "Pelt",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_wolf_pelt",
+                "sprite_inv": "s_item_wolf_pelt",
+                "stack_max": 10,
+                "value": 300,
+                "weight": 0.25
+            }
+        },
+        "relay": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Relay",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_relay",
+                "sprite_inv": "s_item_relay",
+                "stack_max": 10,
+                "value": 220,
+                "weight": 0.1
+            }
+        },
+        "repair_power_grid": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Find a BIG power pole or pylon, no fusebox. Sometime map generation might screw you over by blocking your path, just extract and start another run.",
+                "name": "Power grid REPAIR KIT",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_repair_radio_tower",
+                "sprite_inv": "s_item_repair_radio_tower",
+                "stack_max": 10,
+                "value": 1000,
+                "weight": 2.5
+            }
+        },
+        "repair_radio_tower": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Tower located OUTSIDE of the lab and it's a pylon looking thingy. Look for something like a fusebox underneath.",
+                "name": "Radio tower REPAIR KIT",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_repair_radio_tower",
+                "sprite_inv": "s_item_repair_radio_tower",
+                "stack_max": 10,
+                "value": 1000,
+                "weight": 2.5
+            }
+        },
+        "ring_grigory": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Smells like zombified Grigoriy.",
+                "name": "Grigoriy's ring",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_ring_grigory",
+                "sprite_inv": "s_item_ring_grigory",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            }
+        },
+        "rope": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Used to bind various things. Depending on binding style it might need a professional skill set.",
+                "name": "Rope",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_rope",
+                "sprite_inv": "s_item_rope",
+                "stack_max": 10,
+                "value": 600,
+                "weight": 0.3
+            }
+        },
+        "roubles": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "50 roubles note. Despite how it looks, papers are heavy and they eat spaces m'kay?",
+                "name": "Rouble Banknote",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_roubles",
+                "sprite_inv": "s_item_roubles",
+                "stack_max": 9990,
+                "value": 1,
+                "weight": 0.001
+            }
+        },
+        "salt": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Salt",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_salt",
+                "sprite_inv": "s_item_salt",
+                "stack_max": 100,
+                "value": 15,
+                "weight": 0.01
+            }
+        },
+        "scatola_nera": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Black Box",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_scatola_nera",
+                "sprite_inv": "s_item_scatola_nera",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 5
+            }
+        },
+        "scientific_analyzer": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "It'll double the value after it've collected some data .",
+                "name": "Scientific analyzer",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_analyzer",
+                "sprite_inv": "s_item_analyzer",
+                "stack_max": 10,
+                "value": 2500,
+                "weight": 0.25
+            }
+        },
+        "scissors_surgery": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Surgical scissors",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_scissors_surgery",
+                "sprite_inv": "s_item_scissors_surgery",
+                "stack_max": 40,
+                "value": 500,
+                "weight": 0.01
+            }
+        },
+        "scrap_ammo": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "scrap ammo",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_scrap_ammo",
+                "sprite_inv": "s_item_scrap_ammo",
+                "stack_max": 1000,
+                "value": 10,
+                "weight": 0.005
+            }
+        },
+        "scrap_armor": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "scrap composites",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_scrap_metal",
+                "sprite_inv": "s_item_scrap_metal",
+                "stack_max": 400,
+                "value": 15,
+                "weight": 0.05
+            }
+        },
+        "scrap_food": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "scrap foods",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_scrap_food",
+                "sprite_inv": "s_item_scrap_food",
+                "stack_max": 200,
+                "value": 10,
+                "weight": 0.01
+            }
+        },
+        "scrap_material": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "scrap materials",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_scrap_armor",
+                "sprite_inv": "s_item_scrap_armor",
+                "stack_max": 500,
+                "value": 10,
+                "weight": 0.02
+            }
+        },
+        "scrap_med": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "scrap medicines",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_scrap_med",
+                "sprite_inv": "s_item_scrap_med",
+                "stack_max": 200,
+                "value": 10,
+                "weight": 0.01
+            }
+        },
+        "scrap_metal": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "scrap metal UNUSED",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_scrap_metal",
+                "sprite_inv": "s_item_scrap_metal",
+                "stack_max": 500,
+                "value": 10,
+                "weight": 0.05
+            }
+        },
+        "scrap_weapon": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "scrap gun parts",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_scrap_weapon",
+                "sprite_inv": "s_item_scrap_weapon",
+                "stack_max": 500,
+                "value": 10,
+                "weight": 0.1
+            }
+        },
+        "screw_nut": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Screw nut",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_screw_nut",
+                "sprite_inv": "s_item_screw_nut",
+                "stack_max": 150,
+                "value": 25,
+                "weight": 0.003
+            }
+        },
+        "screwdriver": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "screwdriver",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_screwdriver",
+                "sprite_inv": "s_item_screwdriver",
+                "stack_max": 10,
+                "value": 100,
+                "weight": 0.02
+            }
+        },
+        "shampoo": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "shampoo",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_shampoo",
+                "sprite_inv": "s_item_shampoo",
+                "stack_max": 10,
+                "value": 1250,
+                "weight": 0.4
+            }
+        },
+        "smartphone": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Smartphone",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_smartphone",
+                "sprite_inv": "s_item_smartphone",
+                "stack_max": 10,
+                "value": 7000,
+                "weight": 0.15
+            }
+        },
+        "soap": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Soap",
+                "quest_item": false,
+                "scrap": "med",
+                "sprite_ingame": "s_item_soap",
+                "sprite_inv": "s_item_soap",
+                "stack_max": 10,
+                "value": 550,
+                "weight": 0.2
+            }
+        },
+        "spark_plug": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "spark plug",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_spark_plug",
+                "sprite_inv": "s_item_spark_plug",
+                "stack_max": 10,
+                "value": 500,
+                "weight": 0.1
+            }
+        },
+        "spider_eye": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "spider eye",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_spider_eye",
+                "sprite_inv": "s_item_spider_eye",
+                "stack_max": 10,
+                "value": 2500,
+                "weight": 0.1
+            }
+        },
+        "spider_web": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Spider Web",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_spider_web",
+                "sprite_inv": "s_item_spider_web",
+                "stack_max": 10,
+                "value": 1500,
+                "weight": 0.05
+            }
+        },
+        "spoon": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Seriously why is this thing so big? Are these designed by Crimson Corp for BIG?",
+                "name": "Kitchen spoon",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_spoon",
+                "sprite_inv": "s_item_spoon",
+                "stack_max": 50,
+                "value": 50,
+                "weight": 0.05
+            }
+        },
+        "spray_bug": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Bug spray",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_spray_bug",
+                "sprite_inv": "s_item_spray_bug",
+                "stack_max": 10,
+                "value": 400,
+                "weight": 0.08
+            }
+        },
+        "ssd": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "SSD drive",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_ssd",
+                "sprite_inv": "s_item_ssd",
+                "stack_max": 10,
+                "value": 6500,
+                "weight": 0.1
+            }
+        },
+        "tea_bag": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Tea bag",
+                "quest_item": false,
+                "scrap": "food",
+                "sprite_ingame": "s_item_tea_bag",
+                "sprite_inv": "s_item_tea_bag",
+                "stack_max": 10,
+                "value": 300,
+                "weight": 0.01
+            }
+        },
+        "toilet_paper": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "BEST SELLER OF THE CENTURY! Sold like hot-cakes upon when any form of disaster hit, plague or earthquake or whatever else! GET YOUR NOW!",
+                "name": "Toilet paper roll",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_toilet_paper",
+                "sprite_inv": "s_item_toilet_paper",
+                "stack_max": 10,
+                "value": 1000,
+                "weight": 0.05
+            }
+        },
+        "toilet_paper_quest": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "This item features StatTrak\u2122 technology, which tracks certain statistics when equipped by its owner.",
+                "name": "StatTrak\u2122 HiSpeed AssWiper",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_tp_quest",
+                "sprite_inv": "s_item_tp_quest",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.5
+            }
+        },
+        "usb": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "You could stack more, but no one want defective USB, so I'm putting pads in between.",
+                "name": "USB",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_usb",
+                "sprite_inv": "s_item_usb",
+                "stack_max": 10,
+                "value": 1500,
+                "weight": 0.01
+            }
+        },
+        "wheel": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Seriously, why do people buy these? I haven't seen any car around here.",
+                "name": "Wheel",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_wheel",
+                "sprite_inv": "s_item_wheel",
+                "stack_max": 10,
+                "value": 3500,
+                "weight": 3
+            }
+        },
+        "wires": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "Multi-purposes wiring, quite durable. Make for good garrote if this game ever have proper stealth and melee mechanic.",
+                "name": "Wires",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_wires",
+                "sprite_inv": "s_item_wires",
+                "stack_max": 20,
+                "value": 600,
+                "weight": 0.01
+            }
+        },
+        "wolf_pelt": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "If you're expecting the same treatment as rabbit pelt, don't. It's too coarse.",
+                "name": "Wolf pelt",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_wolf_pelt",
+                "sprite_inv": "s_item_wolf_pelt",
+                "stack_max": 10,
+                "value": 500,
+                "weight": 0.2
+            }
+        },
+        "wrench": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Wrench",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_wrench",
+                "sprite_inv": "s_item_wrench",
+                "stack_max": 10,
+                "value": 80,
+                "weight": 0.5
+            }
+        },
+        "wristwatch": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Wristwatch",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_wristwatch",
+                "sprite_inv": "s_item_wristwatch",
+                "stack_max": 10,
+                "value": 3500,
+                "weight": 0.2
+            }
+        },
+        "wristwatch_gold": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Gold Wristwatch",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_wristwatch_gold",
+                "sprite_inv": "s_item_wristwatch_gold",
+                "stack_max": 10,
+                "value": 6800,
+                "weight": 0.5
+            }
+        },
+        "zippo": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Zippo lighter",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_zippo",
+                "sprite_inv": "s_item_zippo",
+                "stack_max": 10,
+                "value": 350,
+                "weight": 0.1
+            }
+        },
+        "zippo_gold": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "Golden zippo",
+                "quest_item": false,
+                "scrap": "material",
+                "sprite_ingame": "s_item_zippo_gold",
+                "sprite_inv": "s_item_zippo_gold",
+                "stack_max": 10,
+                "value": 4200,
+                "weight": 0.3
+            }
+        },
+        "zombie_skin": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "barter",
+                "description": "",
+                "name": "zombie skin",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_zombie_skin",
+                "sprite_inv": "s_item_zombie_skin",
+                "stack_max": 10,
+                "value": 560,
+                "weight": 0.1
+            }
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "item",
+    "version": 0
+}

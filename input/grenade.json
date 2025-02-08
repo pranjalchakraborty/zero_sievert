@@ -1,0 +1,205 @@
+{
+    "data": {
+        "grenade_christmas": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "grenade",
+                "description": "Blast festive music at your enemies' faces!",
+                "name": "Christmas BoomBox",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_grenade_christmas_game",
+                "sprite_inv": "s_item_grenade_christmas",
+                "stack_max": 10,
+                "value": 1000,
+                "weight": 0.25
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "grenade": {
+                "animation": "s_arms_grenade_christmas",
+                "damage_max": 480,
+                "damage_min": 210,
+                "detonation_duration": 0,
+                "detonation_type": "GRENADE_detonation_explosion",
+                "fuse_time": 210,
+                "radius_effect": 25,
+                "radius_max_damage": 10,
+                "radius_min_damage": 25,
+                "throw_max": 210,
+                "throw_min": 48,
+                "throw_type": "GRENADE_throw_no_bounce"
+            }
+        },
+        "grenade_f1": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "grenade",
+                "description": "Popular frag grenade distributed world wide with 3 seconds fuse, produces fragmentations cappable of piercing class 6 armour at long range. BIG EXPLOSION ZONE! HUGE KILLING AREA!",
+                "name": "F-1",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_grenade_f1_game",
+                "sprite_inv": "s_item_grenade_f1",
+                "stack_max": 10,
+                "value": 8000,
+                "weight": 0.6
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "grenade": {
+                "animation": "s_arms_grenade_f1",
+                "damage_max": 225,
+                "damage_min": 75,
+                "detonation_duration": 0,
+                "detonation_type": "GRENADE_detonation_explosion",
+                "fuse_time": 120,
+                "radius_effect": 100,
+                "radius_max_damage": 75,
+                "radius_min_damage": 100,
+                "throw_max": 210,
+                "throw_min": 30,
+                "throw_type": "GRENADE_throw_bounce"
+            }
+        },
+        "grenade_flash": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "grenade",
+                "description": "FlashBang produces deafening noise and blinding light, disorientate its victim for a few seconds, creating opportunities. INEFFECTIVE VS THOSE TURNED AROUND! Explosion might triggers death through cardiac arrest or shock.",
+                "name": "M-84",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_grenade_flash_game",
+                "sprite_inv": "s_item_grenade_flash",
+                "stack_max": 10,
+                "value": 7000,
+                "weight": 0.6
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "grenade": {
+                "animation": "s_arms_grenade_flash",
+                "damage_max": 250,
+                "damage_min": 25,
+                "detonation_duration": 0,
+                "detonation_type": "GRENADE_detonation_flash",
+                "fuse_time": 75,
+                "radius_effect": 150,
+                "radius_max_damage": 25,
+                "radius_min_damage": 150,
+                "throw_max": 200,
+                "throw_min": 25,
+                "throw_type": "GRENADE_throw_bounce"
+            }
+        },
+        "grenade_mine_pmn": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "grenade",
+                "description": "Anti-Personel landmine packing double the amount of explosive needed to kill a grunt. Very potent for defensive purposes and anti-rush. REMEMBER WHERE YOU PLANTED YOUR MINES!",
+                "name": "PMN-1",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_grenade_mine_pmn_game",
+                "sprite_inv": "s_item_grenade_mine_pmn",
+                "stack_max": 10,
+                "value": 4000,
+                "weight": 1
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "grenade": {
+                "animation": "s_arms_grenade_mine_pmn",
+                "can_be_sold": true,
+                "damage_max": 300,
+                "damage_min": 200,
+                "detonation_duration": 0,
+                "detonation_type": "GRENADE_detonation_explosion",
+                "fuse_time": 210,
+                "quest_item": false,
+                "radius_effect": 75,
+                "radius_max_damage": 50,
+                "radius_min_damage": 75,
+                "throw_max": 0,
+                "throw_min": 0,
+                "throw_type": "GRENADE_throw_no_move"
+            }
+        },
+        "grenade_rgd5": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "grenade",
+                "description": "Old but common Soviet made frag grenade with 3 seconds fuse, produces fragmentation cappable of piercing class 5 armours at mid range. BIG EXPLOSION ZONE! BIGGER FRAGMENTATION ZONE!",
+                "name": "RGD-5",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_grenade_rgd5_game",
+                "sprite_inv": "s_item_grenade_rgd5",
+                "stack_max": 10,
+                "value": 4000,
+                "weight": 0.6
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "grenade": {
+                "animation": "s_arms_grenade_rgd",
+                "damage_max": 150,
+                "damage_min": 50,
+                "detonation_duration": 0,
+                "detonation_type": "GRENADE_detonation_explosion",
+                "fuse_time": 120,
+                "radius_effect": 75,
+                "radius_max_damage": 50,
+                "radius_min_damage": 75,
+                "throw_max": 180,
+                "throw_min": 30,
+                "throw_type": "GRENADE_throw_bounce"
+            }
+        },
+        "grenade_rgn": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "grenade",
+                "description": "High Explosive Impact grenade, nasty within its radius and basically ignore armour. Totally harmless outside of it. ENSURE CLEAR LOBBING PATH BEFORE TOSSING THIS THING!",
+                "name": "H.E RGN",
+                "quest_item": false,
+                "scrap": "ammo",
+                "sprite_ingame": "s_item_grenade_rgn_game",
+                "sprite_inv": "s_item_grenade_rgn",
+                "stack_max": 10,
+                "value": 20000,
+                "weight": 0.6
+            },
+            "consumable": {
+                "sound": "snd_medikit_1"
+            },
+            "grenade": {
+                "animation": "s_arms_grenade_rgn",
+                "damage_max": 300,
+                "damage_min": 150,
+                "detonation_duration": 0,
+                "detonation_type": "GRENADE_detonation_explosion",
+                "fuse_time": 150,
+                "radius_effect": 50,
+                "radius_max_damage": 25,
+                "radius_min_damage": 50,
+                "throw_max": 150,
+                "throw_min": 75,
+                "throw_type": "GRENADE_throw_no_bounce"
+            }
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "item",
+    "version": 0
+}

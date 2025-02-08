@@ -1,0 +1,317 @@
+{
+    "data": {
+        "key_city_police_station_armory": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Single use key used to open the locked armory in the Zakov's police station",
+                "name": "Zakov's police station armory key",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_city_police_station_armory",
+                "sprite_inv": "s_item_key_city_police_station_armory",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": true
+            }
+        },
+        "key_gears": {
+            "basic": {
+                "can_be_sold": false,
+                "categoria": "key",
+                "description": "",
+                "name": "Mr Junk's key",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_gears",
+                "sprite_inv": "s_item_key_gears",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_laboratory_doc_room": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Single use key used to enter the main room of the laboratory",
+                "name": "Laboratory main room key",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_laboratory_doc_room",
+                "sprite_inv": "s_item_key_laboratory_doc_room",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": true
+            }
+        },
+        "key_laboratory_elevator": {
+            "basic": {
+                "can_be_sold": false,
+                "categoria": "key",
+                "description": "Key used to access the elevator of the laboratory",
+                "name": "Laboratory elevator key",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_laboratory_elevator",
+                "sprite_inv": "s_item_key_laboratory_elevator",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_laboratory_makeshift_camp": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to enter the laboratory in the makeshift camp",
+                "name": "Laboratory entrance key",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_laboratory_makeshift_camp",
+                "sprite_inv": "s_item_key_laboratory_makeshift_camp",
+                "stack_max": 10,
+                "value": 5000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_laboratory_supply_room": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Single use key used to enter the supply room of the laboratory",
+                "name": "Laboratory supply key",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_laboratory_loot",
+                "sprite_inv": "s_item_key_laboratory_loot",
+                "stack_max": 10,
+                "value": 5000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": true
+            }
+        },
+        "key_mall_extract": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to access the secret extraction point in the mall basement",
+                "name": "Key to the extraction point in the mall basement",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_mall_extract",
+                "sprite_inv": "s_item_key_mall_extract",
+                "stack_max": 10,
+                "value": 7000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_mall_guns_store": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Single use key used to access the locked room in the gun store in the mall",
+                "name": "Key to the gun store in the mall",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_mall_guns_store",
+                "sprite_inv": "s_item_key_mall_guns_store",
+                "stack_max": 10,
+                "value": 10000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": true
+            }
+        },
+        "key_mall_office": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to access the office room in the mall basement",
+                "name": "Key to the office room in the mall basement",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_mall_office",
+                "sprite_inv": "s_item_key_mall_office",
+                "stack_max": 10,
+                "value": 4000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_mall_svaroski": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to access the locked room in svaruski store in the mall",
+                "name": "Key to the Svaruski shop in the mall",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_mall_svaroski",
+                "sprite_inv": "s_item_key_mall_svaroski",
+                "stack_max": 10,
+                "value": 10000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_mall_tech_store": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to access the locked room in the tech store in the mall",
+                "name": "Key to the Tech store in the mall",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_mall_tech_store",
+                "sprite_inv": "s_item_key_mall_tech_store",
+                "stack_max": 10,
+                "value": 6000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_mall_turbine": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to access the turbine room in the mall basement",
+                "name": "Key to the turbine room in the mall basement",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_mall_turbine",
+                "sprite_inv": "s_item_key_mall_turbine",
+                "stack_max": 10,
+                "value": 3500,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_oil_blue": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to access the turbine room of the oil factory",
+                "name": "Oil factory personnel key card",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_oil_blue",
+                "sprite_inv": "s_item_key_oil_blue",
+                "stack_max": 10,
+                "value": 10000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_oil_green": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to access 1st storage room of oil factory",
+                "name": "Key to 1st storage room of oil factory",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_oil_green",
+                "sprite_inv": "s_item_key_oil_green",
+                "stack_max": 10,
+                "value": 10000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_oil_violet": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Key used to access 2nd storage room of oil factory",
+                "name": "Key to 2nd storage room of oil factory",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_oil_violet",
+                "sprite_inv": "s_item_key_oil_violet",
+                "stack_max": 10,
+                "value": 15000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_sewer": {
+            "basic": {
+                "can_be_sold": false,
+                "categoria": "key",
+                "description": "The guy who saved me from that strange crystal left me this key. Maybe I should investigate more",
+                "name": "Key to a locked door in the sewer",
+                "quest_item": true,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_sewer",
+                "sprite_inv": "s_item_key_sewer",
+                "stack_max": 10,
+                "value": 0,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": false
+            }
+        },
+        "key_stazione_polizia_villaggio": {
+            "basic": {
+                "can_be_sold": true,
+                "categoria": "key",
+                "description": "Single use key used to open the locked room in the police station located in the village",
+                "name": "Police station key",
+                "quest_item": false,
+                "scrap": "none",
+                "sprite_ingame": "s_item_key_stazione_polizia_villaggio",
+                "sprite_inv": "s_item_key_stazione_polizia_villaggio",
+                "stack_max": 10,
+                "value": 5000,
+                "weight": 0.05
+            },
+            "key": {
+                "single_use": true
+            }
+        }
+    },
+    "metadata": {
+        "author": "Luca",
+        "description": "Base gamedata for ZERO Sievert",
+        "project": "ZERO Sievert"
+    },
+    "usage": "item",
+    "version": 0
+}
